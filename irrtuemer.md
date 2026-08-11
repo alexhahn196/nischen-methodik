@@ -85,7 +85,71 @@ kein Beleg dafür, dass er morgen läuft. Deshalb Kriterium 5 (Haltbarkeit).
 
 ---
 
-## 7. Übersetzungsrechte prüfen, nicht nur den Originaltext
+## 7. Das Katalogfeld `isMonetizationEnabled` ist veraltet — live prüfen
+
+Das Monetarisierungsfeld im NexLev-Katalog steht systematisch zu oft auf
+`false`. Kriterium 8 wird dadurch zu pessimistisch beantwortet.
+
+> **Beleg (11.08.2026):** Der Katalog meldete *Story Classics*, *The Sleepy
+> Historian*, *Moon Mind Temple*, *Sublime AudioBooks* und *AudioBooksCollection*
+> als **nicht monetarisiert**. Die Live-API meldete alle fünf als
+> **monetarisiert**.
+
+**Regel:** Die Monetarisierungsquote nie aus dem Katalogfeld ableiten. Immer
+`check_channel_monetization` (mit `bypassCache`) oder
+`get_batch_channel_metrics_v2` gegen die gefundenen Kanäle laufen lassen.
+
+Umgekehrt bleibt der Befund bei echten Nicht-Monetarisierten belastbar: *Hush
+Little Lamb*, *Sleepy People*, *Mind Palace* und *Whispered Sleep Sagas* (Harry
+Potter) sind auch live nicht monetarisiert.
+
+---
+
+## 8. „Freies Material" ist nicht „freier Text"
+
+Ein Kanal, der über ein gemeinfreies Thema spricht, rezitiert deshalb noch
+lange keinen gemeinfreien Text. Der Unterschied entscheidet über die
+Rechtefrage und über die Frage, ob ein Skript geschrieben werden muss.
+
+> **Beleg:** *Sleepy Monk* galt als Beleg für „kein geschriebenes Skript, weil
+> der Text aus einer freien Quelle kommt". Seine Titel benennen kein Werk —
+> *„The Best Buddhist Teachings for Sleep"*, *„No-Mind: Zen Stories"*. Das
+> Skript ist geschrieben, nur eben von einem Modell. Von sechs geprüften
+> Unterrichtungen rezitierte **eine einzige** tatsächlich gemeinfreie Werke.
+
+**Regel:** Klassifikationsregel vor dem Ansehen der Titel festlegen (siehe #5),
+dann anwenden: Nur wer ein **konkret benanntes Werk** vorliest, arbeitet mit
+vorhandenem Text. Generische Themen-Titel bedeuten geschriebenes Skript.
+
+**Zweite Falle derselben Art:** Fremdes IP ist auch kein freier Text.
+Warhammer 40K, Game of Thrones, Harry Potter und Twilight tragen in dieser
+Nische die höchsten Umsätze — als geduldete Verletzung, jederzeit per Claim
+abschaltbar.
+
+---
+
+## 9. Kurze Werke tragen keinen Katalog
+
+Vor der Textauswahl den **Umfang messen**, nicht annehmen. Bei 150 Wörtern je
+Minute Sprechtempo ergibt sich die Audiolänge direkt aus der Wortzahl.
+
+> **Beleg (gemessen auf Project Gutenberg):** Dhammapada 15.243 Wörter ≈ 1,7 h.
+> Tao Te King 13.729 Wörter ≈ 1,5 h. Beide sind nach **zwei** 3-Stunden-Videos
+> aufgebraucht.
+> Dagegen: *The Adventures of Sherlock Holmes* 107.518 Wörter ≈ 12 h,
+> *Grimms' Fairy Tales* 104.152 Wörter, *Arabian Nights* 114.644 Wörter.
+
+**Regel:** `curl` auf `gutenberg.org/cache/epub/<id>/pg<id>.txt`, dann `wc -w`.
+Dabei die Datei-ID am `Title:`-Feld gegenprüfen — Gutenberg-IDs aus dem
+Gedächtnis sind unzuverlässig (#56812 ist nicht Seneca, sondern Omans
+*Peninsular War*).
+
+**Erreichbarkeit aus dem Container (11.08.2026):** gutenberg.org **200**,
+en.wikisource.org **200**, sacred-texts.com **403**.
+
+---
+
+## 10. Übersetzungsrechte prüfen, nicht nur den Originaltext
 
 Ein gemeinfreier Originaltext bedeutet **nicht**, dass die gängige Übersetzung
 frei ist. Die Übersetzung ist ein eigenes, urheberrechtlich geschütztes Werk.
