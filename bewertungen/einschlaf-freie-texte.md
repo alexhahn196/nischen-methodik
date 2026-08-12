@@ -13,20 +13,34 @@ Project Gutenberg (Wortzahlen selbst gemessen).
 Neu gerechnet nach `kriterien.md` (v2: 3 Tore, Kernzahlen, Rangplatz nach
 $/Arbeitsstunde), nur mit den unten dokumentierten Daten:
 
-| Unterrichtung | Tor 1 Rechte | Tor 2 Katalog | Tor 3 Machbarkeit | Nachfrage (≥3 mon. Kanäle ≥1.000 $) | Z1 $/h¹ |
+| Unterrichtung | Tor 1 Rechte | Tor 2 Katalog | Tor 3 Zeitseite¹ | Nachfrage (≥3 mon. Kanäle ≥1.000 $) | Z1 $/h² |
 |---|---|---|---|---|---|
-| **Geschichte/Wissenschaft** | bestanden (eigenes Skript) | bestanden² | bestanden (3,1/Wo × ~1 h ≈ 3 h/Wo) | **erfüllt** (11.494 / 4.598 / 3.248 / 2.884 $; Anker ≥ 12 Mon.: History Before Sleep) | **853** |
-| Gemeinfreie Literatur | bestanden (Gutenberg, gemessen) | **bestanden** (Story Classics 65 Wo Pause) | bestanden (< 1 h/Wo) | **1 von 3 — nicht erfüllt** (nur Gates 2.899 $) | 837 |
-| Mythos/Lore | **gescheitert** (Fremd-IP: Warhammer, GoT, HP) | bestanden (formatweit) | bestanden | 2 von 3 | 426 |
-| Östliche Weisheit | **gescheitert für diese Nischendefinition** (kein rezitierter Text)³ | bestanden (Sleepy Monk 14,7 Wo) | **bestanden** (2,9/Wo × 0,75 h ≈ 2,2 h/Wo — der v1-K6-K.-o. entfällt) | 2 von 3 (Sleepy Monk, Midnight Monk) | 277 |
-| Philosophie/Stoa | gescheitert (Zusammenfassungen, kein Text) | bestanden (Sleepy Philosophy 38,6 Wo) | bestanden | 2 von 3 | 221 |
+| **Geschichte/Wissenschaft** | bestanden (eigenes Skript) | bestanden³ | **ab 1,9 h/Woche** (Median 2,55/Wo × 0,75 h) | **erfüllt** (11.494 / 4.598 / 3.248 / 2.884 $; Anker ≥ 12 Mon.: History Before Sleep) | **1.138** |
+| Gemeinfreie Literatur | bestanden (Gutenberg, gemessen) | **bestanden** (Story Classics 65 Wo Pause) | **ab 0,6 h/Woche** (0,80/Wo × 0,75 h) | **1 von 3 — nicht erfüllt** (nur Gates 2.899 $) | 1.116 |
+| Mythos/Lore | **gescheitert** (Fremd-IP: Warhammer, GoT, HP) | bestanden (formatweit) | **ab 1,0 h/Woche** (Median 1,35/Wo × 0,75 h) | 2 von 3 | 431 |
+| Östliche Weisheit | **gescheitert für diese Nischendefinition** (kein rezitierter Text)⁴ | bestanden (Sleepy Monk 14,7 Wo) | **ab 2,2 h/Woche** (2,91/Wo × 0,75 h — der v1-K6-K.-o. entfällt) | 2 von 3 (Sleepy Monk, Midnight Monk) | 277 |
+| Philosophie/Stoa | gescheitert (Zusammenfassungen, kein Text) | bestanden (Sleepy Philosophy 38,6 Wo) | **ab 2,6 h/Woche** (3,44/Wo × 0,75 h) | 2 von 3 | 295 |
 | Natur/Reise | — | — | — | 0 von 3 | — |
 
-¹ Stunden je Video geschätzt (0,75–1,0 h) — Z1 damit [geschätzt], Rangfolge
-robuster als Beträge. ² Tor 2 Geschichte: The Sleepy Chronicles 19 Wochen
-Pause, Views +2 %, Umsatz 602 → 753 $, plus formatweiter Befund über 6
-Pausen-Kanäle. ³ Als eigenständige KI-Skript-Nische wäre Tor 1 bestanden —
-das ist dann aber nicht mehr die hier geprüfte Nische „gemeinfreie Texte".
+¹ **Korrigiert am 12.08.2026** (irrtuemer #12): Tor 3 stand hier als
+„bestanden", obwohl die verfügbaren Wochenstunden nie erhoben wurden — eine
+Ungleichung ohne rechte Seite. Ergebnis jetzt als Schwelle. Zwei der
+Median-Kadenzen waren zudem falsch gerechnet (Geschichte 3,11 → **2,55**,
+Mythos/Lore 1,79 → **1,35**; bei geradem n wurde der obere der beiden
+mittleren Werte genommen). **Creditseite von Tor 3: für alle Unterrichtungen
+nicht abgeschlossen** — Budget steht (50–200 $/Monat), Credits je Video sind
+nicht erhoben. Herleitung: [`zeitmodell.md`](../zeitmodell.md).
+² Z1 **neu gerechnet** mit einheitlich 0,75 h je Video (Zeitmodell, Format
+Loop-Langform) statt der zuvor je Kanal wechselnden 0,75/1,0 h. Die
+Unterrichtungs-Rangfolge bleibt, aber **Philosophie/Stoa steigt über Östliche
+Weisheit** (295 gegen 277) — unter den alten, gemischten Stundenwerten stand
+es umgekehrt (221 gegen 277). Innerhalb Mythos/Lore wechselt der beste Kanal
+von Midnight Lorekeeper (424) zu Dreams of Olympus (431). Stunden bleiben
+[gesetzt].
+³ Tor 2 Geschichte: The Sleepy Chronicles 19 Wochen Pause, Views +2 %, Umsatz
+602 → 753 $, plus formatweiter Befund über 6 Pausen-Kanäle. ⁴ Als
+eigenständige KI-Skript-Nische wäre Tor 1 bestanden — das ist dann aber nicht
+mehr die hier geprüfte Nische „gemeinfreie Texte".
 
 **Was sich gegenüber v1 ändert:** Die beiden v1-K.-o.-Urteile über Kriterium
 6 (Kadenz) fallen weg — **Geschichte/Wissenschaft steigt von „K.-o. bei
@@ -34,20 +48,33 @@ das ist dann aber nicht mehr die hier geprüfte Nische „gemeinfreie Texte".
 UND den Nachfrage-Beleg; die östliche Weisheit verliert ihr Doppel-K.-o.
 (Kriterium 1 + 6) und scheitert jetzt an dem, woran sie wirklich krankt: Sie
 gehört nicht zur geprüften Nischendefinition, und ihr Stundenertrag ist gelb.
-Gemeinfreie Literatur bleibt stark (Tore 3/3, 837 $/h), scheitert aber
+Gemeinfreie Literatur bleibt stark (1.116 $/h), scheitert aber
 weiter an der Nachfragebreite — unter v1 via Outlier-Schwelle, unter v2 via
 Umsatzschwelle: **derselbe Befund, stabil über beide Fassungen.**
+
+**Was sich am 12.08.2026 nachträglich ändert (irrtuemer #12):** Kein „3/3"
+mehr. Tor 3 war hier als bestanden geführt, ohne dass seine rechte Seite je
+einen Wert hatte; es steht jetzt als Schwelle. Der Vorsprung von
+Geschichte/Wissenschaft vor Gemeinfreier Literatur beträgt **2 %** und hängt
+allein daran, dass beide denselben gesetzten Stundenwert bekommen haben —
+kostet ein Geschichte-Video 2 % mehr Menschenarbeit als ein Hörbuch-Video,
+tauschen Platz 1 und 2. Die beiden Spitzenplätze sind durch die Daten
+**nicht getrennt** ([`zeitmodell.md`](../zeitmodell.md), Teil 1).
 
 **Haltbarkeit nach v2-Maß:** für alle Unterrichtungen **nicht prüfbar** —
 Quartals-Mediane wurden nicht erhoben; der v1-Befund „Gipfel im 1.–2.
 Lebensjahr" beruhte auf der Einzelvideo-Operationalisierung, die die
 Methodikprüfung verworfen hat. Prüfauftrag: Basislinien-Datei anlegen.
 
-**Sichtbarkeitsgrenze:** Z1 geschätzt (Stunden), Z2/Z5 Schnappschuss aus
-Modellwerten, Z3 gemessen (Top-3: Gates 25 % getragen, Elliot 38 %), Z4
-gemessen (live), Tor-2-Belege gemessen (Live-Vergleich). Retention, CTR,
-Impressionen, echte Umsätze: unsichtbar. Der gesamte v1-Bericht unten bleibt
-als Datendokument unverändert stehen.
+**Sichtbarkeitsgrenze:** Z1 gesetzt (Stunden je Video aus dem Zeitmodell,
+nicht gemessen), Z2/Z5 Schnappschuss aus Modellwerten, Z3 gemessen (Top-3:
+Gates 25 % getragen, Elliot 38 %), Z4 gemessen (live), Tor-2-Belege gemessen
+(Live-Vergleich), Tor 3 Zeitseite abgeleitet (gemessene Kadenz × gesetzte
+Stunden), **Tor 3 Creditseite nicht erhoben**. Retention, CTR, Impressionen,
+echte Umsätze: unsichtbar. Der gesamte v1-Bericht unten bleibt als
+Datendokument unverändert stehen — seine $/h-Tabelle ist in
+[`zeitmodell.md`](../zeitmodell.md), Teil 1, zeilenweise auf die tatsächlich
+verwendeten Stundenwerte zurückgerechnet.
 
 ---
 

@@ -49,19 +49,44 @@ Verdient ein Kanal weiter, wenn er nicht hochlädt?
 
 ### Tor 3 — Machbarkeit relativ zur eigenen Pipeline *(ersetzt K6-K.-o.)*
 
-Nicht mehr „über 2 Uploads/Woche = rot". Stattdessen:
+Nicht mehr „über 2 Uploads/Woche = rot". Stattdessen zwei Seiten:
 
 ```
-Median-Kadenz der Erfolgskanäle × Menschenstunden je Video
-    ≤ verfügbare Wochenstunden?
+Zeitseite:    Median-Kadenz der Erfolgskanäle × Menschenstunden je Video
+                  ≤ verfügbare Wochenstunden?
+Creditseite:  Credits je Video × Videos je Monat  ≤  Credit-Budget je Monat?
 ```
 
-Dazu wie bisher: Kann das Bild loopen, oder braucht jede Sekunde neues
-Material? Und neu: Credits je Video × Kadenz gegen das Credit-Budget.
 Eine Nische scheitert hier nur, wenn die eigene Kapazität die belegte
 Erfolgskadenz nicht hergibt — nicht, weil eine universelle Zahl überschritten
 ist. *(Herkunft der alten Schwelle „2/Woche": Setzung, nie aus Daten
 abgeleitet — in den Gründungsdaten lagen alle Abstürzer darunter.)*
+
+**Drei Pflichtangaben auf der Zeitseite** — fehlt eine, ist das Tor **nicht
+geprüft**, egal wie klein die linke Seite aussieht (irrtuemer #12):
+
+| Größe | Woher | Fehlt sie, dann |
+|---|---|---|
+| Median-Kadenz der Erfolgskanäle | gemessen, je Nische. Bei **geradem n** der Mittelwert der beiden mittleren Werte — zwei dokumentierte „Mediane" waren keine (`zeitmodell.md`, Teil 3) | nicht prüfbar |
+| Menschenstunden je Video | `zeitmodell.md` — immer die **eigene** Pipeline, nie eine Schätzung fremder Produktion. Wert **und** Zerlegung in der Bewertung ausschreiben | nicht prüfbar |
+| verfügbare Wochenstunden | Betreiberangabe | Ergebnis als **Schwelle**, nicht als „bestanden" |
+
+**Ausgabeform.** Die verfügbaren Wochenstunden sind ausdrücklich offen
+gelassen (Betreiberentscheidung, 12.08.2026). Solange sie es sind, lautet das
+Torergebnis nie „bestanden", sondern **„bestanden ab X h/Woche"** — X =
+Kapazitätsbedarf nach `zeitmodell.md`. Ein blankes „bestanden" ohne rechte
+Seite ist die Rückkehr zu genau der universellen Schwelle, die dieses Tor
+abgeschafft hat.
+
+**Creditseite.** Credit-Budget: **50–200 $/Monat** (Betreiberangabe,
+12.08.2026). Der erlaubte Credit-Einsatz je Video folgt daraus je Nische
+(Budget ÷ Videos je Monat, Tabelle in `zeitmodell.md`); die **tatsächlichen**
+Credits je Video sind für keine Nische erhoben — die Creditseite ist derzeit
+überall **nicht abgeschlossen**. Dazu wie bisher die Produktionsfrage: Kann
+das Bild loopen, oder braucht jede Sekunde neues Material? Sie ist der
+eigentliche Kostentreiber beider Seiten — die zeitteuerste geprüfte Nische ist
+die mit der **niedrigsten** Kadenz (History-Explainer, 3,0 h/Woche bei
+0,74 Uploads/Woche).
 
 **Klarstellung Kadenz (12.08.2026).** Die Regel „über 2 Uploads/Woche =
 K.-o." fällt als **Nischen**-Ausschlusskriterium weg. Beleg: Der
@@ -83,7 +108,7 @@ wiederholt irrtuemer.md #11.
 
 | # | Kernzahl | Regel | Herkunft der Schwellen |
 |---|---|---|---|
-| Z1 | **Ertrag je Arbeitsstunde** | `Monatsumsatz / (h je Video × Videos je Monat)`. Rangliste über alle geprüften Nischen; > 300 $/h grün, 100–300 gelb, < 100 rot | Bänder: Setzung (kriterien.md v1) |
+| Z1 | **Ertrag je Arbeitsstunde** | `Monatsumsatz / (h je Video × Videos je Monat)`. `h je Video` **immer aus `zeitmodell.md`, einheitlich je Format und im Bericht ausgeschrieben** — nie stillschweigend je Kanal verschieden gewählt. Rangliste über alle geprüften Nischen; > 300 $/h grün, 100–300 gelb, < 100 rot | Bänder: Setzung (kriterien.md v1); Stundenwerte: `zeitmodell.md` |
 | Z2 | **RPM, gerechnet** | IMMER `Umsatz / Views × 1000`, NIE das rpm-Feld. Diagnosegröße, kein Urteil: erklärt, *warum* Z1 ist, wie es ist | Regel: 3× reproduziert |
 | Z3 | **Top-3-Anteil** | ab 20 Videos: Anteil der drei größten Videos an den Gesamtviews. < 35 % getragen, > 50 % Einzeltreffer | Schwellen: geeicht an G2 (n = 6), Richtung im Rückwärtstest bestätigt (n = 12, Spearman −0,46) |
 | Z4 | **Monetarisierungsquote, live** | nur `check_channel_monetization` (bypassCache). Katalog-„nein" = **unbekannt**, zählt weder als ja noch als nein. Modellumsatz nicht monetarisierter Kanäle ist kontrafaktisch | Teil 0 der Prüfung: 7 von 11 Katalog-„nein" falsch |

@@ -195,3 +195,45 @@ wurde**. Eine Regel aus n Kanälen *einer* Nische ist eine Betreiberregel
 für diese Nische (für BibelTube gilt die Kadenzregel deshalb weiter). Zum
 Bewertungskriterium über Nischen hinweg wird sie erst, wenn sie an fremden
 Nischen bestanden hat — die Kadenzregel hat diesen Test nicht bestanden.
+
+---
+
+## 12. Eine Ungleichung mit unbekannter rechter Seite ist kein Tor
+
+Tor 3 lautet `Kadenz × Menschenstunden je Video ≤ verfügbare Wochenstunden`.
+In sechs Torurteilen wurde **„bestanden"** vergeben, ohne dass die rechte
+Seite je einen Wert hatte: „verfügbare Wochenstunden" kommt im gesamten Repo
+**genau einmal** vor — in der Formel selbst.
+
+Was tatsächlich geprüft wurde, war nicht die Ungleichung, sondern der
+Eindruck, die linke Seite sei klein. Damit war stillschweigend wieder eine
+**universelle Schwelle** im Einsatz — genau die, die Tor 3 laut eigener
+Begründung abgeschafft hat (#11). Ein K.-o.-Kriterium durch ein Tor zu
+ersetzen, dessen Vergleichsgröße nie erhoben wird, ändert nur den Namen.
+
+Dieselbe Prüfung fehlte auf der zweiten Hälfte: `Credits je Video × Kadenz
+gegen das Credit-Budget` wurde in keiner einzigen Bewertung gerechnet.
+
+> **Beleg (12.08.2026):** Die linke Seite war ebenfalls unbelegt. Der Faktor
+> „Menschenstunden je Video" stand in keiner Bewertung als Zahl; rückgerechnet
+> waren **vier verschiedene Werte** im Umlauf (0,33 / 0,75 / 1,00 / ~4,06 h),
+> die dokumentierte Zuweisungsregel („0,75 h KI-Skript, 1,0 h Hörbuch")
+> beschrieb **4 von 13** Rechnungen richtig, und innerhalb *einer*
+> Unterrichtung bekamen strukturgleiche Kanäle verschiedene Werte. Folgen:
+> eine Ampel kippt (Sleepy Time Historian 131 gelb → 98 rot), Rangplätze
+> tauschen, und die Plätze 1 und 2 der Gesamtrangliste liegen **1,9 %**
+> auseinander — ein Rangtausch ab 2 % Formatunterschied.
+> Vollständig in [`zeitmodell.md`](zeitmodell.md).
+
+**Regel, dreiteilig:**
+1. Ein Tor, das zwei Größen vergleicht, ist erst geprüft, wenn **beide** einen
+   ausgewiesenen Wert haben. Sonst lautet das Ergebnis „nicht prüfbar" oder —
+   wenn nur die eigene Seite fehlt — **„bestanden ab X"**, nie „bestanden".
+2. Jede Eingangsgröße einer Rechnung wird **ausgeschrieben**, nicht nur als
+   „geschätzt" gekennzeichnet. Eine Zahl, die niemand nennt, kann niemand
+   prüfen — und sie wird dann pro Zeile verschieden gewählt, ohne dass es
+   auffällt.
+3. Fragt ein Kriterium nach der **eigenen** Pipeline, ist eine Schätzung
+   fremder Pipelines keine Antwort darauf. Stunden je Video kommen aus der
+   eigenen Produktion (`zeitmodell.md`), nicht aus einer Vermutung über den
+   Konkurrenten.

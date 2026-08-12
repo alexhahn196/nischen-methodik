@@ -13,7 +13,7 @@ Live-Abfragen der Methodikprüfung).** *(v1-Note, historisch: 7/10.)*
 |---|---|---|
 | 1 Rechtegrundlage | **bestanden** | eigene Skripte, keine Fremdrechte |
 | 2 Katalogwirkung | **nicht prüfbar** | Kein Pausenkanal dieser Nische gemessen. Indizien in beide Richtungen: quack doc verdient **11.714 $/Monat** (live 12.08.), obwohl der Neuvideo-Median um Faktor 12 fiel — der Katalog trägt den Umsatz; zugleich sind 4 von 8 Kanälen ohne Erholung abgestürzt. **Prüfauftrag Nr. 1 für die nächste Runde.** |
-| 3 Machbarkeit (eigene Pipeline) | **bestanden** | Erfolgskadenz niedrig (G2-Median 0,4/Wo, Ink Explainer 0,74/Wo); Einschränkung: das Bild loopt nicht, jedes Video braucht neues Material |
+| 3 Machbarkeit (eigene Pipeline) | Zeitseite: **bestanden ab 3,0 h/Woche** · Creditseite: **nicht abgeschlossen** | 0,74/Wo × **~4,06 h je Video** = **3,00 h/Woche** — der **höchste** Kapazitätsbedarf aller geprüften Nischen, obwohl die Kadenz die **niedrigste** ist. Ursache: Das Bild loopt nicht, jedes Video braucht neues Material. Erlaubte Credits je Video 15,60–62,42 $ (Budget 50–200 $/Mo ÷ 3,20 Videos/Mo); tatsächliche Credits **nicht erhoben** — bei einem Format ohne Loop ist das die Zahl, an der diese Nische auf der Creditseite scheitern kann |
 
 **Nachfrage-Beleg: erfüllt** — als einzige der vier Alt-Nischen ohne
 Einschränkung: Ink Explainer 9.560 $, Historically 22.173 $ (live 12.08.),
@@ -25,7 +25,7 @@ Historie.
 
 | # | Wert | Herkunft |
 |---|---|---|
-| Z1 Ertrag je Arbeitsstunde | Ink Explainer **~735 $/h** | v1-Wert; Stunden je Video geschätzt |
+| Z1 Ertrag je Arbeitsstunde | Ink Explainer **~735 $/h** bei **~4,06 h je Video** — der Stundenwert stand nirgends und ist aus diesem Z1 zurückgerechnet (9.560 $ ÷ 735 $/h ÷ 3,20 Videos/Monat), nicht unabhängig erhoben | v1-Wert; Stunden je Video rückgerechnet, nicht gemessen |
 | Z2 RPM gerechnet | quack doc **4,74** · Historically **4,87** (Long) · History Mapped Out **5,86** (live 12.08.); Ink Explainer: **nicht erhoben** (nur rpm-Feld 2,85–3,96 dokumentiert — nach irrtuemer #1 unbrauchbar) | gerechnet aus Live-Modellwerten |
 | Z3 Top-3-Anteil | **gemessen** (g2-haltbarkeit): Historically 31 %, quack doc 23 %, History Mapped Out 18 % — getragen; First Humans 52 %, Folks of Yore 87 %, Professor Historian 87 % — Einzeltreffer | gemessen |
 | Z4 Monetarisierungsquote | 19 von 21 | Batch-basiert, nicht durchgängig live-einzeln geprüft |
@@ -57,9 +57,10 @@ Katalogtragfähigkeit, ist aber ein einzelner Fall.
 |---|---|
 | Z3, Haltbarkeit | **Zeitreihe** (g2-videos.tsv — beste Datenlage aller vier Nischen) |
 | Z2, Z5 | Schnappschuss/Modellwerte |
-| Z1 | Stunden geschätzt |
+| Z1 | Stunden je Video **rückgerechnet aus Z1 selbst** — zirkulär, keine unabhängige Größe |
 | Z4 | Batch, nicht live-einzeln |
-| Tor 2 | nicht erhoben |
+| Tor 3 Zeitseite | abgeleitet, rechte Seite bewusst offen → Schwellenform |
+| Tor 2, Tor 3 Creditseite | nicht erhoben |
 
 Von außen unsichtbar: Retention, CTR, Impressionen, echte Umsätze. Warum
 quack doc und History Mapped Out fielen, ist aus Metadaten nicht erkennbar

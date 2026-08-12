@@ -14,7 +14,7 @@ die 7/10 war präziser, als es die Datenlage je war.
 |---|---|---|
 | 1 Rechtegrundlage | **bestanden** | eigener Originaltext je Video (2.500 Wörter), keine Fremdrechte |
 | 2 Katalogwirkung | **nicht prüfbar** | kein Pausenkanal erhoben |
-| 3 Machbarkeit (eigene Pipeline) | **nicht prüfbar** | Menschenstunden je Video und exakte Erfolgskadenz nicht erhoben; qualitativ das höchste Arbeitsvolumen der vier Nischen (täglicher Eigentext von 2.500 Wörtern) |
+| 3 Machbarkeit (eigene Pipeline) | **nicht prüfbar** — jetzt aber gezielt: nur die Kadenz fehlt | Menschenstunden je Video liegen seit dem Zeitmodell vor: **1,0 h** (Format Kurzform-Eigentext: 20 min Anker + 40 min für 2.500 Wörter eigenen Text). Die **Median-Kadenz der Erfolgskanäle ist nicht erhoben** — nur qualitativ „hoch". Bei täglichem Upload wären es **7,0 h/Woche**, das höchste Arbeitsvolumen der vier Nischen; belegt ist diese Kadenz nicht. Creditseite: nicht abgeschlossen (Videos je Monat unbekannt) |
 
 **Nachfrage-Beleg: teilweise — nicht abschließend.** Drei Kanäle waren unter
 6 Monaten vierstellig [Modellwerte]. Ob sie **live monetarisiert** sind und ob
@@ -24,7 +24,7 @@ ein Kanal mit ≥ 12 Monaten Historie existiert: **nicht erhoben**.
 
 | # | Wert | Herkunft |
 |---|---|---|
-| Z1 Ertrag je Arbeitsstunde | **nicht erhoben** (Stunden je Video fehlen) | — |
+| Z1 Ertrag je Arbeitsstunde | **nicht erhoben** — Stunden je Video liegen jetzt vor (1,0 h, `zeitmodell.md`), es fehlen **Kadenz und Umsatz je Kanal** | — |
 | Z2 RPM gerechnet | **5,3–7,4 $** — der beste gemessene Korridor der vier Nischen | gerechnet (v1) |
 | Z3 Top-3-Anteil | **nicht erhoben** | — |
 | Z4 Monetarisierungsquote | 8 von 15 — **Katalogbasis, nach irrtuemer #7 unsicher**; live nicht geprüft | Katalog |
