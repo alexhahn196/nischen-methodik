@@ -103,6 +103,15 @@ Umgekehrt bleibt der Befund bei echten Nicht-Monetarisierten belastbar: *Hush
 Little Lamb*, *Sleepy People*, *Mind Palace* und *Whispered Sleep Sagas* (Harry
 Potter) sind auch live nicht monetarisiert.
 
+> **Nachtrag 12.08.2026 (Methodikprüfung, Teil 0):** Das Feld ist nicht
+> systematisch invertiert, sondern in beide Richtungen unzuverlässig. Über
+> beide Prüftage wurden 11 Katalog-„nein"-Kanäle live geprüft: **7 falsch**
+> (u. a. Rest In Faith, Saints for Sleep, Moon Mind Temple, The Sleepy
+> Historian), **4 richtig** (Hush Little Lamb, Selah, Rest in Jesus, Just
+> Free Audiobooks). Regel geschärft: Ein Katalog-„nein" heißt **„Umsatz
+> unbekannt"** — es zählt weder als ja noch als nein, und die 0-$-Zeilen des
+> Katalogs sind keine Umsatzmessung.
+
 ---
 
 ## 8. „Freies Material" ist nicht „freier Text"

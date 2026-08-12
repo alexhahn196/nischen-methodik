@@ -9,6 +9,8 @@ Systematische Prüfung von YouTube-Nischen nach festen, gemessenen Kriterien.
 | [`kriterien.md`](kriterien.md) | Die 9 Kriterien. K.-o. nur bei rot in 1, 4 oder 6. |
 | [`irrtuemer.md`](irrtuemer.md) | Messfehler mit Beleg, die sich nicht wiederholen dürfen. |
 | [`bewertungen/`](bewertungen/) | Eine Datei je geprüfter Nische. |
+| [`pruefung-methodik.md`](pruefung-methodik.md) | **Kritische Selbstprüfung (12.08.2026)** — Rückwärtstest an 15 Kanälen: die Messregeln halten, zwei K.-o.-Schwellen und die 1-10-Note nicht. |
+| [`kriterien-v2.md`](kriterien-v2.md) | Vorschlag v2 (Tore + Kernzahlen + Rangliste statt Note) — **Entwurf, nicht in Kraft**; nächste Prüfung doppelt fahren. |
 
 **Vor jeder Prüfung beide Grundlagendateien lesen.** Sie sind das Gedächtnis
 dieses Repos — spätere Sitzungen lesen sie, statt sie neu zu erfinden.
