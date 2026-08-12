@@ -303,7 +303,8 @@ Befunde; die Note transportiert die Information nicht, sie vernichtet sie.
 Die K.-o.-Regel und die Rangliste nach $/Arbeitsstunde haben in den
 bisherigen Prüfungen die gesamte Entscheidungsarbeit geleistet — die Note hing
 dekorativ daneben. **Empfehlung: Note abschaffen; Tore + Rangliste + benannte
-Restschwäche sind das ehrlichere Format** (Details in `kriterien-v2.md`).
+Restschwäche sind das ehrlichere Format** (Details in der v2-Fassung von
+`kriterien.md`, seit 12.08.2026 aktiv).
 
 ---
 
@@ -369,8 +370,12 @@ unbekannt"); v2 macht es zur Pflicht mit festem Raster.
 
 ## Vorschlag kriterien.md v2
 
-Liegt separat in [`kriterien-v2.md`](kriterien-v2.md) — `kriterien.md` bleibt
-unverändert, bis der Vorschlag geprüft ist. Begründung je Änderung:
+> **Nachtrag 12.08.2026:** Der Vorschlag wurde übernommen. Die v2-Fassung ist
+> jetzt [`kriterien.md`](kriterien.md); die abgelöste 9-Kriterien-Fassung
+> liegt unverändert in [`kriterien-v1.md`](kriterien-v1.md) und wird bei der
+> nächsten Prüfung parallel mitgefahren (Kalibrierregel im README).
+
+Begründung je Änderung:
 
 | # | Änderung | Begründung (Beleg) |
 |---|---|---|

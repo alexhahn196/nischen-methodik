@@ -1,9 +1,57 @@
-# Langform-Einschlafinhalte mit gemeinfreien Texten — 6/10
+# Langform-Einschlafinhalte mit gemeinfreien Texten
 
 **Geprüft am 11.08.2026.** 0 Credits, keine Videosichtung, keine Bildgenerierung.
 Datenquellen: NexLev-Katalog (Snapshot, Datum unbekannt), NexLev Live-Abfragen
 (`get_geography_revenue`, `get_batch_channel_metrics_v2`, 11.08.2026),
 Project Gutenberg (Wortzahlen selbst gemessen).
+*(v1-Note, historisch: 6/10 — Noten sind mit kriterien.md v2 abgeschafft.)*
+
+---
+
+## Neuordnung nach v2 (12.08.2026) — die interne Reihenfolge dreht sich
+
+Neu gerechnet nach `kriterien.md` (v2: 3 Tore, Kernzahlen, Rangplatz nach
+$/Arbeitsstunde), nur mit den unten dokumentierten Daten:
+
+| Unterrichtung | Tor 1 Rechte | Tor 2 Katalog | Tor 3 Machbarkeit | Nachfrage (≥3 mon. Kanäle ≥1.000 $) | Z1 $/h¹ |
+|---|---|---|---|---|---|
+| **Geschichte/Wissenschaft** | bestanden (eigenes Skript) | bestanden² | bestanden (3,1/Wo × ~1 h ≈ 3 h/Wo) | **erfüllt** (11.494 / 4.598 / 3.248 / 2.884 $; Anker ≥ 12 Mon.: History Before Sleep) | **853** |
+| Gemeinfreie Literatur | bestanden (Gutenberg, gemessen) | **bestanden** (Story Classics 65 Wo Pause) | bestanden (< 1 h/Wo) | **1 von 3 — nicht erfüllt** (nur Gates 2.899 $) | 837 |
+| Mythos/Lore | **gescheitert** (Fremd-IP: Warhammer, GoT, HP) | bestanden (formatweit) | bestanden | 2 von 3 | 426 |
+| Östliche Weisheit | **gescheitert für diese Nischendefinition** (kein rezitierter Text)³ | bestanden (Sleepy Monk 14,7 Wo) | **bestanden** (2,9/Wo × 0,75 h ≈ 2,2 h/Wo — der v1-K6-K.-o. entfällt) | 2 von 3 (Sleepy Monk, Midnight Monk) | 277 |
+| Philosophie/Stoa | gescheitert (Zusammenfassungen, kein Text) | bestanden (Sleepy Philosophy 38,6 Wo) | bestanden | 2 von 3 | 221 |
+| Natur/Reise | — | — | — | 0 von 3 | — |
+
+¹ Stunden je Video geschätzt (0,75–1,0 h) — Z1 damit [geschätzt], Rangfolge
+robuster als Beträge. ² Tor 2 Geschichte: The Sleepy Chronicles 19 Wochen
+Pause, Views +2 %, Umsatz 602 → 753 $, plus formatweiter Befund über 6
+Pausen-Kanäle. ³ Als eigenständige KI-Skript-Nische wäre Tor 1 bestanden —
+das ist dann aber nicht mehr die hier geprüfte Nische „gemeinfreie Texte".
+
+**Was sich gegenüber v1 ändert:** Die beiden v1-K.-o.-Urteile über Kriterium
+6 (Kadenz) fallen weg — **Geschichte/Wissenschaft steigt von „K.-o. bei
+853 $/h" auf Platz 1** der Unterrichtungen und erfüllt als einzige alle Tore
+UND den Nachfrage-Beleg; die östliche Weisheit verliert ihr Doppel-K.-o.
+(Kriterium 1 + 6) und scheitert jetzt an dem, woran sie wirklich krankt: Sie
+gehört nicht zur geprüften Nischendefinition, und ihr Stundenertrag ist gelb.
+Gemeinfreie Literatur bleibt stark (Tore 3/3, 837 $/h), scheitert aber
+weiter an der Nachfragebreite — unter v1 via Outlier-Schwelle, unter v2 via
+Umsatzschwelle: **derselbe Befund, stabil über beide Fassungen.**
+
+**Haltbarkeit nach v2-Maß:** für alle Unterrichtungen **nicht prüfbar** —
+Quartals-Mediane wurden nicht erhoben; der v1-Befund „Gipfel im 1.–2.
+Lebensjahr" beruhte auf der Einzelvideo-Operationalisierung, die die
+Methodikprüfung verworfen hat. Prüfauftrag: Basislinien-Datei anlegen.
+
+**Sichtbarkeitsgrenze:** Z1 geschätzt (Stunden), Z2/Z5 Schnappschuss aus
+Modellwerten, Z3 gemessen (Top-3: Gates 25 % getragen, Elliot 38 %), Z4
+gemessen (live), Tor-2-Belege gemessen (Live-Vergleich). Retention, CTR,
+Impressionen, echte Umsätze: unsichtbar. Der gesamte v1-Bericht unten bleibt
+als Datendokument unverändert stehen.
+
+---
+
+## Der v1-Bericht vom 11.08.2026 (Datendokument, unverändert)
 
 **Keine Unterrichtung erreicht 8 von 10.** Beste: *Gemeinfreie Literatur* mit
 **6/10**. Ihre Schwäche ist der RPM — 2,77–3,50 $ gerechnet, also ein Drittel

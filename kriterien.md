@@ -1,145 +1,155 @@
-# Kriterien — die 9 Prüfpunkte jeder Nischenprüfung
+# Kriterien (v2) — die aktive Methodik
 
-Diese Liste ist verbindlich. Jede Nischenprüfung in diesem Repo arbeitet sie
-vollständig ab, in dieser Reihenfolge, mit gemessenen Zahlen.
-Was nicht gemessen wurde, wird als **geschätzt** oder **unbekannt** markiert —
-nie als Befund verkauft.
+> Status: **in Kraft seit 12.08.2026**, hervorgegangen aus der
+> Methodikprüfung (`pruefung-methodik.md`, dort die Begründung je Änderung).
+> Die abgelöste Fassung liegt unverändert in `kriterien-v1.md` und wird bei
+> der nächsten Nischenprüfung **parallel mitgefahren**, um v2 zu kalibrieren —
+> Abweichungen zwischen beiden Urteilen werden dokumentiert.
 
----
-
-## 1. Nachfrage
-
-Mindestens **3 Kanäle mit outlierScore >= 2**.
-
-Ein einzelner starker Kanal ist kein Nachweis, dass die Nische trägt — er ist
-ein Nachweis, dass dieser eine Kanal trägt. Drei unabhängige Kanäle oberhalb
-der Schwelle zeigen, dass die Nachfrage nicht an einer Person hängt.
-
----
-
-## 2. RPM
-
-**IMMER Umsatz geteilt durch Views rechnen. NIE das `rpm`-Feld nehmen.**
-
-Im `rpm`-Feld steht der Werbe-RPM auf *monetarisierten Wiedergaben*. Das ist
-nicht der Betrag, den der Kanal je 1.000 Gesamtviews verdient — der Faktor
-liegt bei **5 bis 7 zu hoch**.
+Die wichtigste Änderung ist keine inhaltliche, sondern eine strukturelle:
+**Es gibt keine Note 1–10 mehr.** Vier Prüfungen ergaben 6/7/7/7 — eine
+Skala, die nicht trennt, und eine Zahl, die entgegengesetzte Befunde auf
+denselben Wert abbildet. Das Ergebnis einer Prüfung ist stattdessen:
 
 ```
-RPM_real = Monatsumsatz / (Views pro Monat / 1000)
+ERGEBNIS = drei Tore (bestanden / gescheitert / nicht prüfbar)
+         + fünf Kernzahlen (gemessen, mit Sichtbarkeitsgrenze)
+         + Rangplatz nach Ertrag je Arbeitsstunde
+         + die eine benannte Restschwäche
 ```
 
-Belegfall siehe `irrtuemer.md`: The Sleep Bible meldet 26,53 $, real sind es
-3,90 $.
+Empfehlung nur, wenn alle drei Tore bestanden sind UND der Rangplatz sie
+trägt. „Nicht prüfbar" ist ein zulässiges Torergebnis und heißt: warten oder
+Basislinie anlegen — es heißt **nicht** rot.
 
 ---
 
-## 3. Ertrag je Video und Monat
+## Die drei Tore (K.-o.)
+
+### Tor 1 — Rechtegrundlage *(neu)*
+
+Woraus besteht das Material, und darf man es monetarisiert nutzen?
+
+- Originaltext gemeinfrei? **Konkrete Übersetzung** gemeinfrei?
+- Fremd-IP (Franchises, fremde Aufnahmen, Vorlesungen) = gescheitert, auch
+  wenn Konkurrenzkanäle damit verdienen — geduldete Verletzung ist keine
+  Grundlage.
+- „Freies Material" ist nicht „freier Text" (irrtuemer #8): Nur ein konkret
+  benanntes, abrufbares Werk zählt; Fundort mit Link und gemessenem Umfang.
+
+### Tor 2 — Katalogwirkung *(aus K4, geschärft)*
+
+Verdient ein Kanal weiter, wenn er nicht hochlädt?
+
+- Mindestens ein Kanal der Nische mit ≥ 6 Wochen Uploadpause: Views/Monat
+  **und** Modellumsatz während der Pause flach oder steigend.
+- Neu: zusätzlich prüfen, ob die Katalog-Views den Umsatz tragen, wenn
+  Neuvideo-Mediane fallen (quack-doc-Muster). Katalogwirkung ist die
+  ökonomische Kernfrage dieses Geschäftsmodells — deshalb Tor, nicht Punkt.
+
+### Tor 3 — Machbarkeit relativ zur eigenen Pipeline *(ersetzt K6-K.-o.)*
+
+Nicht mehr „über 2 Uploads/Woche = rot". Stattdessen:
 
 ```
-Ertrag je Video = Monatsumsatz / Videoanzahl im Katalog
+Median-Kadenz der Erfolgskanäle × Menschenstunden je Video
+    ≤ verfügbare Wochenstunden?
 ```
 
-Diese Zahl entscheidet, ob ein Katalog überhaupt lohnt. Ein Kanal mit
-2.000 $/Monat auf 25 Videos (80 $/Video) und einer mit 2.000 $/Monat auf
-2 Videos (1.000 $/Video) sind wirtschaftlich verschiedene Geschäfte.
+Dazu wie bisher: Kann das Bild loopen, oder braucht jede Sekunde neues
+Material? Und neu: Credits je Video × Kadenz gegen das Credit-Budget.
+Eine Nische scheitert hier nur, wenn die eigene Kapazität die belegte
+Erfolgskadenz nicht hergibt — nicht, weil eine universelle Zahl überschritten
+ist. *(Herkunft der alten Schwelle „2/Woche": Setzung, nie aus Daten
+abgeleitet — in den Gründungsdaten lagen alle Abstürzer darunter.)*
+
+**Klarstellung Kadenz (12.08.2026).** Die Regel „über 2 Uploads/Woche =
+K.-o." fällt als **Nischen**-Ausschlusskriterium weg. Beleg: Der
+Rückwärtstest hätte Sleepy Monk (4,8/Wo) und SleepNomad (2,3/Wo) verworfen —
+heute 2.618 und 2.480 $/Monat; Median der verworfenen Kanäle 2.549 $ gegen
+1.355 $ bei den durchgelassenen; Korrelation Kadenz/Umsatz +0,45.
+
+**Aber:** Für den Kanal **BibelTube gilt die Kadenzregel weiter.** Sie stammt
+dort aus 10 Kanälen **derselben** Nische (Gewinner 1,3–1,5/Wo, alle 8
+Verlierer 2,0–13,5/Wo) und ist eine **Nischenregel**, kein allgemeines
+Bewertungskriterium. Der Unterschied: Als Betreiberentscheidung innerhalb
+einer bekannten Nische ist sie belegt — als Filter über fremde Nischen ist
+sie widerlegt. Wer eine Nischenregel zum allgemeinen Kriterium befördert,
+wiederholt irrtuemer.md #11.
 
 ---
 
-## 4. KATALOGWIRKUNG *(K.-o.-Kriterium)*
+## Die fünf Kernzahlen (Pflichtmessungen, kein Punktesystem)
 
-**Verdient ein Kanal weiter, wenn er nicht hochlädt?**
+| # | Kernzahl | Regel | Herkunft der Schwellen |
+|---|---|---|---|
+| Z1 | **Ertrag je Arbeitsstunde** | `Monatsumsatz / (h je Video × Videos je Monat)`. Rangliste über alle geprüften Nischen; > 300 $/h grün, 100–300 gelb, < 100 rot | Bänder: Setzung (kriterien.md v1) |
+| Z2 | **RPM, gerechnet** | IMMER `Umsatz / Views × 1000`, NIE das rpm-Feld. Diagnosegröße, kein Urteil: erklärt, *warum* Z1 ist, wie es ist | Regel: 3× reproduziert |
+| Z3 | **Top-3-Anteil** | ab 20 Videos: Anteil der drei größten Videos an den Gesamtviews. < 35 % getragen, > 50 % Einzeltreffer | Schwellen: geeicht an G2 (n = 6), Richtung im Rückwärtstest bestätigt (n = 12, Spearman −0,46) |
+| Z4 | **Monetarisierungsquote, live** | nur `check_channel_monetization` (bypassCache). Katalog-„nein" = **unbekannt**, zählt weder als ja noch als nein. Modellumsatz nicht monetarisierter Kanäle ist kontrafaktisch | Teil 0 der Prüfung: 7 von 11 Katalog-„nein" falsch |
+| Z5 | **Videolänge & Watchtime-Produktion** | Ø Länge und `Länge × Kadenz` (Stunden je Woche) je Erfolgskanal. Lange Videos bei niedriger Kadenz können Drittel-RPM überkompensieren | Gates-Befund, Sleepy-Monk-Lauf |
 
-Nachweis an **mindestens einem Kanal mit >= 6 Wochen Uploadpause**:
-steigen Abos und Views trotz Pause weiter, halten sie, oder fallen sie?
+*(v1-K3 „Ertrag je Video" entfällt — in Z1 enthalten, Spearman 0,71.
+v1-K9 Geografie wird Fußnote von Z2: sie erklärt den RPM, sonst nichts.)*
 
-Ohne diesen Nachweis ist die Nische ein Job, kein Katalog. Rot hier ist ein
-K.-o.
+## Nachfrage-Beleg (ersetzt K1)
 
----
+Mindestens **3 unabhängige, live monetarisierte Kanäle mit ≥ 1.000 $/Monat
+Modellumsatz**, davon mindestens einer mit ≥ 12 Monaten sichtbarer
+Uploadhistorie. Der Outlier-Score ist Suchwerkzeug, kein Beleg — er adelt
+Einzeltreffer (Lorevia 13,83 → 14 $/Monat) und hängt an NexLevs Kuration.
+„Unabhängig" heißt: nicht erkennbar derselbe Betreiber.
 
-## 5. HALTBARKEIT
+## Haltbarkeit (ersetzt K5) — nur mit Zeitreihe
 
-**Liegt der Views-Gipfel etablierter Kanäle im laufenden Jahr oder früher?**
+- Bewertbar erst ab **18 Monaten sichtbarer Historie** eines Kanals; darunter
+  ausdrücklich **„nicht prüfbar"** — niemals automatisch rot.
+- Maß: **Quartals-Mediane der Views neuer Videos** (wie g2-haltbarkeit),
+  nicht das Datum des meistgesehenen Einzelvideos. Ein Kanal gilt als
+  haltbar, wenn das aktuelle Halbjahres-Niveau ≥ 50 % seines besten
+  Halbjahres liegt — Schwelle: Setzung, an Historically/quack doc/HMO geeicht.
+- Immer gegen Tor 2 lesen: fallende Neuvideo-Mediane bei tragendem Katalog
+  sind ein anderes Urteil als fallende Katalog-Views.
 
-- Gipfel im laufenden Jahr → grün
-- Gipfel im **1.–2. Lebensjahr** des Kanals → **rot**
+## Pflichtabschnitt „Sichtbarkeitsgrenze"
 
-Ein Gipfel im ersten oder zweiten Lebensjahr bedeutet: Der Kanal wurde von
-einer Welle getragen, nicht von der Nische. Prüfung braucht mindestens einen
-Kanal mit **12+ Monaten Verlauf**.
+**Was diese Methodik beurteilen kann — und was nicht:**
 
----
+1. **Nischenökonomie** (RPM gerechnet, Katalogwirkung, Monetarisierung,
+   Rechte, Länge × Kadenz): von außen messbar. Hier hat das Verfahren
+   belegte Diskriminierungskraft.
+2. **Kanalüberleben**: nur **früh erkennbar** (Top-3-Anteil ab 20 Videos),
+   nicht vorhersagbar — Abstürze haben keine sichtbaren Ursachen in den
+   Metadaten.
+3. **Video-Erfolg**: von außen **gar nicht** beurteilbar. Belege: vier
+   Erhebungen ohne ein einziges trennendes Oberflächenmerkmal (Titel,
+   Thumbnail, Tempo, Quellenarbeit, Themenwahl — 429 Videos, blind
+   klassifiziert, 0 von 7 Merkmalen); die Engagement-Stellvertreter sind
+   geprüft und **gescheitert** — Axen hatte eine bessere Like-Rate (2,92 %
+   gegen 2,00 %) und Kommentarrate (2,08 gegen 0,91 je 1.000 Views) als Ink
+   Explainer und stürzte trotzdem ab.
 
-## 6. Kadenz-Machbarkeit *(K.-o.-Kriterium)*
+**Jede Bewertung muss diese Grenze mitnennen.** Konkret endet jede Bewertung
+mit einer Tabelle: je Kernzahl **Zeitreihe / Schnappschuss / Modellwert**,
+plus die Liste dessen, was von außen prinzipiell unsichtbar ist (Retention,
+CTR, Impressionen, Traffic-Quellen, echte Umsätze). Dazu wird je Prüfung eine
+**datierte Basislinien-Datei** committet (Kanal, Videoliste, Views, Datum —
+Muster: `regeln/daten/g2-videos.tsv` im explainer-Repo), damit die nächste
+Prüfung eine echte Zeitreihe hat und das Verfahren erstmals kalibrierbar wird.
 
-**Median Uploads/Woche der Erfolgskanäle. Über 2 = rot.**
+## Schwellenherkunft-Pflicht
 
-Zusätzlich die Produktionsfrage: **Kann das Bild loopen, oder braucht jede
-Sekunde neues Material?** Ein 3-Stunden-Video aus 4 geloopten Clips und ein
-10-Minuten-Video mit 40 Schnitten sind nicht derselbe Aufwand, egal was die
-Kadenz sagt.
-
----
-
-## 7. ERTRAG JE ARBEITSSTUNDE
-
-**Nicht "wenig Aufwand" — Ertrag je Stunde Menschenarbeit.**
-
-```
-Arbeitsstunden/Monat = Stunden Menschenarbeit je Video × Videos je Monat
-Ertrag je Arbeitsstunde = Monatsumsatz / Arbeitsstunden pro Monat
-```
-
-| Bereich | Bewertung |
-|---|---|
-| über 300 $/h | grün |
-| 100–300 $/h | gelb |
-| unter 100 $/h | rot |
-
-Eine Nische mit 3 h/Woche und 8.000 $/Monat schlägt eine mit 0 h und 5.000 $.
-**Aufwand allein ist KEIN Ausschlussgrund.** Nur der Quotient zählt.
-
----
-
-## 8. Monetarisierungsquote
-
-Anteil der gefundenen Kanäle, die tatsächlich monetarisiert sind.
-
-Eine Nische, deren Gewinnerkanäle keine Werbung schalten, beweist Nachfrage,
-aber nicht Umsatz. Immer je Kanal einzeln prüfen, nie hochrechnen.
-
----
-
-## 9. Geografie
-
-Tier-1-Anteil (US/CA/UK/AU/DE …) an den Views.
-
-Er erklärt den RPM. Ein niedriger RPM bei hohem Tier-1-Anteil hat eine andere
-Ursache als einer bei 80 % Tier-3 — und nur die erste Ursache lässt sich
-beheben.
+Jede Schwelle in diesem Dokument trägt ihre Herkunft (gemessen an n = X, oder
+Setzung). Eine Schwelle ohne Herkunftsangabe ist ungültig. Wer eine Schwelle
+an Daten eicht, darf sie nicht an denselben Daten als bestätigt ausweisen.
 
 ---
 
-## K.-o.-Regel
+## Parallelfahrt (Kalibrierregel)
 
-**K.-o. nur bei rot in 1, 4 oder 6.**
-
-Alles andere ist ein Abschlag in der Note, kein Ausschluss. Insbesondere ist
-ein hoher Aufwand (Kriterium 7) kein K.-o., solange der Stundenertrag stimmt.
-
----
-
-## Notenskala
-
-| Note | Bedeutung |
-|---|---|
-| 9–10 | starten, ohne weitere Prüfung |
-| 8 | starten, mit benannter Restschwäche |
-| 7 | trägt, aber ein Kernkriterium ist rot oder unbelegt |
-| 5–6 | Einzelfälle funktionieren, die Nische nicht |
-| 1–4 | widerlegt |
-
-**Schwelle für eine Empfehlung: 8 von 10.**
-Erreicht keine Unterrichtung diese Schwelle, wird das deutlich gesagt und die
-beste mit ihrer Schwäche benannt. Nicht schönrechnen.
+Diese Fassung ist aktiv, aber noch unkalibriert. Deshalb wird die **nächste
+Nischenprüfung doppelt gefahren**: v2-Ausgabe (Tore + Kernzahlen + Rangplatz)
+und daneben die v1-Note nach `kriterien-v1.md`. Abweichungen zwischen beiden
+Urteilen werden im Prüfbericht dokumentiert. Erst wenn die Parallelfahrt
+keine Widersprüche mehr aufdeckt, entfällt v1 ganz. Die Schwellen dieser
+Fassung bleiben Setzungen, bis sie an neuen Daten geprüft sind.

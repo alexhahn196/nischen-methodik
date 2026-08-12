@@ -172,3 +172,26 @@ frei ist. Die Übersetzung ist ein eigenes, urheberrechtlich geschütztes Werk.
 
 Und den Fundort belegen (Project Gutenberg, sacred-texts, Wikisource) — mit
 Link und Umfang.
+
+---
+
+## 11. Eine Nischenregel ist kein allgemeines Bewertungskriterium
+
+Die Kadenzregel („über 2 Uploads/Woche = rot") stammt aus **10 Kanälen
+derselben Nische** (BibelTube-Umfeld: Gewinner 1,3–1,5/Wo, alle 8 Verlierer
+2,0–13,5/Wo). Dort trennt sie sauber. Als **allgemeines** K.-o.-Kriterium
+über fremde Nischen übernommen, trennte sie nicht mehr — sie sortierte
+Gewinner aus.
+
+> **Beleg (Rückwärtstest, 12.08.2026):** Das K.-o. hätte Sleepy Monk
+> (4,8/Wo) und SleepNomad (2,3/Wo) verworfen — heute 2.618 und
+> 2.480 $/Monat. Median der verworfenen Kanäle **2.549 $** gegen **1.355 $**
+> bei den durchgelassenen; Korrelation Kadenz/Umsatz **+0,45**. In den
+> Gründungsdaten der Regel selbst lag zudem kein einziger Absturzkanal über
+> 2/Woche — die Schwelle hatte dort nie etwas getrennt.
+
+**Regel:** Vor der Übernahme einer Schwelle prüfen, **woran sie geeicht
+wurde**. Eine Regel aus n Kanälen *einer* Nische ist eine Betreiberregel
+für diese Nische (für BibelTube gilt die Kadenzregel deshalb weiter). Zum
+Bewertungskriterium über Nischen hinweg wird sie erst, wenn sie an fremden
+Nischen bestanden hat — die Kadenzregel hat diesen Test nicht bestanden.

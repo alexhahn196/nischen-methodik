@@ -2,73 +2,90 @@
 
 Systematische Prüfung von YouTube-Nischen nach festen, gemessenen Kriterien.
 
-## Grundlagen
+## Welche Fassung gilt
+
+**Aktiv ist [`kriterien.md`](kriterien.md) (v2, seit 12.08.2026):** drei Tore
+(Rechte, Katalogwirkung, Machbarkeit) + fünf Kernzahlen + Rangplatz nach
+Ertrag je Arbeitsstunde — **keine Note 1–10 mehr.**
+
+**Warum die Umstellung:** Die Selbstprüfung
+([`pruefung-methodik.md`](pruefung-methodik.md), 12.08.2026) hat die
+v1-Architektur an den eigenen Daten widerlegt: Die Note trennte nicht
+(6/7/7/7 bei vier Prüfungen), der Kadenz-K.-o. hätte im Rückwärtstest die
+Gewinner aussortiert (Median verworfen 2.549 $ gegen 1.355 $ durchgelassen),
+das Haltbarkeitskriterium war bei jungen Nischen automatisch rot und
+markierte den einzigen nachweislich haltbaren Kanal als rot. Die
+**Messregeln** von v1 (RPM rechnen, live prüfen, Katalogwirkung,
+gemessen/geschätzt trennen) haben die Prüfung dagegen bestanden und leben in
+v2 weiter.
+
+**Regel der Parallelfahrt:** [`kriterien-v1.md`](kriterien-v1.md) bleibt
+unverändert erhalten. Die **nächste Nischenprüfung wird doppelt gefahren** —
+v2-Ausgabe und v1-Note nebeneinander, Abweichungen werden dokumentiert. Erst
+wenn die Parallelfahrt keine Widersprüche mehr aufdeckt, entfällt v1.
 
 | Datei | Inhalt |
 |---|---|
-| [`kriterien.md`](kriterien.md) | Die 9 Kriterien. K.-o. nur bei rot in 1, 4 oder 6. |
-| [`irrtuemer.md`](irrtuemer.md) | Messfehler mit Beleg, die sich nicht wiederholen dürfen. |
-| [`bewertungen/`](bewertungen/) | Eine Datei je geprüfter Nische. |
-| [`pruefung-methodik.md`](pruefung-methodik.md) | **Kritische Selbstprüfung (12.08.2026)** — Rückwärtstest an 15 Kanälen: die Messregeln halten, zwei K.-o.-Schwellen und die 1-10-Note nicht. |
-| [`kriterien-v2.md`](kriterien-v2.md) | Vorschlag v2 (Tore + Kernzahlen + Rangliste statt Note) — **Entwurf, nicht in Kraft**; nächste Prüfung doppelt fahren. |
+| [`kriterien.md`](kriterien.md) | **Aktive Methodik (v2):** 3 Tore + 5 Kernzahlen + Rangliste. |
+| [`kriterien-v1.md`](kriterien-v1.md) | Abgelöste 9-Kriterien-Fassung — nur noch zur Kalibrierung (Parallelfahrt). |
+| [`irrtuemer.md`](irrtuemer.md) | Elf Messfehler mit Beleg, die sich nicht wiederholen dürfen. |
+| [`pruefung-methodik.md`](pruefung-methodik.md) | Die Selbstprüfung, aus der v2 hervorging (Rückwärtstest an 15 Kanälen). |
+| [`bewertungen/`](bewertungen/) | Eine Datei je geprüfter Nische, neu geordnet nach v2. |
 
-**Vor jeder Prüfung beide Grundlagendateien lesen.** Sie sind das Gedächtnis
-dieses Repos — spätere Sitzungen lesen sie, statt sie neu zu erfinden.
+**Vor jeder Prüfung `kriterien.md` und `irrtuemer.md` lesen.** Sie sind das
+Gedächtnis dieses Repos — spätere Sitzungen lesen sie, statt sie neu zu
+erfinden.
 
 ## Die drei Kernfragen
 
 1. **Verdient der Kanal weiter, wenn er nicht hochlädt?** (Katalogwirkung)
-2. **Verdient er in einem Jahr noch?** (Haltbarkeit)
-3. **Was bleibt je Stunde Menschenarbeit übrig?** (nicht: "wie wenig Aufwand")
+2. **Verdient er in einem Jahr noch?** (Haltbarkeit — nur mit Zeitreihe prüfbar)
+3. **Was bleibt je Stunde Menschenarbeit übrig?** (nicht: „wie wenig Aufwand")
 
-## Geprüfte Nischen
+## Rangliste der geprüften Nischen (v2, Stand 12.08.2026)
 
-| Nische | Note | Hauptschwäche |
-|---|---|---|
-| [Bibel-Schlaf](bewertungen/bibel-schlaf.md) | 7/10 | Gewinnerkanäle nicht monetarisiert, ~84 $/Video/Monat |
-| [History-Explainer](bewertungen/history-explainer.md) | 7/10 | Keine Katalogwirkung, Gipfel bei 5/6 im 1.–2. Jahr |
-| [Morgengebet](bewertungen/morgengebet.md) | 7/10 | 2.500 Wörter Originaltext je Video, hohe Kadenz nötig |
-| [Einschlafinhalte mit freien Texten](bewertungen/einschlaf-freie-texte.md) | 6/10 | Tragende Annahme widerlegt — die Gewinner rezitieren keine freien Texte |
+Neu gerechnet nach v2 mit den vorhandenen Daten — keine neue Recherche.
+Sortiert nach Ertrag je Arbeitsstunde (Z1); wo Z1 fehlt, nach Tor-Profil.
+**Stunden je Video sind überall geschätzt** — die Rangfolge ist robuster als
+die Beträge.
 
-## Rangliste nach Ertrag je Arbeitsstunde
+| Rang | Nische (beste Unterrichtung) | Tore | Nachfrage-Beleg | Z1 $/h | Restschwäche |
+|---|---|---|---|---|---|
+| 1 | [Einschlaf-Langform](bewertungen/einschlaf-freie-texte.md) → **Geschichte/Wissenschaft zum Einschlafen** | 3/3 | **erfüllt** | **853** | Haltbarkeit nicht prüfbar (keine Zeitreihe); streng genommen eine Nachbarnische der ursprünglich geprüften Definition |
+| 2 | [Einschlaf-Langform](bewertungen/einschlaf-freie-texte.md) → Gemeinfreie Literatur | 3/3 | 1/3 — nicht erfüllt | 837 | Nachfragebreite: ein einziger Kanal über 1.000 $ |
+| 3 | [History-Explainer](bewertungen/history-explainer.md) | 2/3 (Tor 2 nicht prüfbar) | erfüllt | ~735 | Katalogwirkung ungeprüft; Neuvideo-Mediane fallen bei 2 von 3 alten Kanälen |
+| 4 | [Bibel-Schlaf](bewertungen/bibel-schlaf.md) | **3/3** | 2/3 — nicht erfüllt | nicht erhoben | Umsatz unbelegt — die Gewinner sind absichtlich werbefrei (Ministry-Modell) |
+| 5 | [Morgengebet](bewertungen/morgengebet.md) | 1/3 (Tor 2 und 3 nicht prüfbar) | teilweise | nicht erhoben | fast alles nicht erhoben — nach v2-Maßstab ein Prüfauftrag, keine abgeschlossene Prüfung |
 
-Alle Unterrichtungen der geprüften Nischen, sortiert nach Kriterium 7.
-Umsatz und Kadenz gemessen, Stunden je Video geschätzt — Details in der
-jeweiligen Bewertung.
+**Keine Nische erfüllt derzeit alle v2-Bedingungen für eine Startempfehlung
+sauber.** Am nächsten dran ist Platz 1 (alle Tore + Nachfrage), dort fehlt
+die Haltbarkeits-Zeitreihe. Der billigste nächste Schritt ist keine neue
+Nischensuche, sondern **Basislinien-Dateien für die Plätze 1, 2 und 4
+anlegen** und in einem Quartal nachmessen.
 
-| # | Unterrichtung | Leitkanal | $/h | $/Monat | Kadenz | Note |
-|---|---|---|---|---|---|---|
-| 1 | Geschichte/Wissenschaft zum Einschlafen | Bedtime & Historian | **853** | 11.494 | 3,11/Wo | 5/10 |
-| 2 | **Gemeinfreie Literatur (Hörbuch)** | Gates of Imagination | **837** | 2.899 | **0,80/Wo** | **6/10** |
-| 3 | Mythos und Lore | Midnight Lorekeeper | 426 | 2.467 | 1,79/Wo | 5/10 |
-| 4 | Östliche Weisheit (Zen/Tao) | Sleepy Monk | 277 | 2.618 | 2,91/Wo | 4/10 |
-| 5 | Philosophie und Stoa | SleepNomad | 221 | 2.480 | 2,59/Wo | 3/10 |
-| — | Natur und Reise | *keine 3 Belegkanäle* | — | — | — | ohne Note |
+### Abweichung von der alten Reihenfolge
 
-Zum Vergleich aus früheren Prüfungen: Ink Explainer (History-Explainer)
-~735 $/h.
+Unter v1 lagen Bibel-Schlaf, History-Explainer und Morgengebet gleichauf
+(je 7/10) vor Einschlaf-Langform (6/10). **v2 dreht das Bild:**
 
-**Platz 1 ist keine Empfehlung:** Geschichte/Wissenschaft ist K.-o. auf
-Kriterium 6 (Median 3,11 Uploads/Woche) und arbeitet ohne vorhandenen Text.
-Platz 2 ist die einzige Unterrichtung, in der **Katalogwirkung und hoher
-Stundenertrag zusammen** belegt sind.
-
-## Der offene Widerspruch — Stand nach vier Prüfungen
-
-Katalogwirkung und hoher Stundenertrag traten in den ersten drei Nischen nie
-zusammen auf: Bibel-Schlaf hat den Katalog ohne Umsatz, History-Explainer den
-Umsatz ohne Katalog.
-
-**Gemeinfreie Literatur löst ihn zum ersten Mal auf** — 837 $/h bei belegter
-Katalogwirkung über 65 Wochen (Story Classics). Der Preis dafür ist die
-Nachfragebreite: nur ein Kanal über Outlier 2 und der niedrigste gemessene RPM
-der gesamten Reihe (2,77–3,50 $).
-
-Zusätzlich belegt: **Katalogwirkung ist in Langform-Einschlafinhalten
-formatweit vorhanden**, gemessen an sechs Kanälen mit 15–78 Wochen
-Uploadpause — Views flach bis +16 %, kein einziger Einbruch.
+- **Einschlaf-Langform steigt von Platz 4 auf Platz 1/2** — und intern dreht
+  sich die Reihenfolge: Geschichte/Wissenschaft war unter v1 per Kadenz-K.-o.
+  disqualifiziert (bei 853 $/h!), die östliche Weisheit verliert ihr
+  Doppel-K.-o. aus Kriterium 1 + 6 und scheitert jetzt an dem, woran sie
+  wirklich krankt (Nischendefinition, gelber Stundenertrag).
+- **History-Explainer** verliert nicht wegen der Kadenz (die lag mit
+  0,4–1,0/Wo ohnehin unter jeder Schwelle), sondern weil v2 die ungeprüfte
+  Katalogwirkung als offenes Tor ausweist, statt sie in einer 7 zu verstecken.
+- **Morgengebet fällt ans Ende:** v2 macht sichtbar, dass die 7/10 auf zwei
+  Zahlen stand und fast alles andere nie erhoben wurde.
+- **v2 trennt die vier Nischen** (Tore 3/3 bis 1/3, Nachfrage erfüllt bis
+  teilweise, Z1 853 bis nicht erhoben) — die Ununterscheidbarkeit der
+  v1-Noten lag an der Skala, nicht an den Nischen.
 
 ## Kennzeichnung
 
-Jede Zahl wird als **gemessen**, **geschätzt** oder **unbekannt** markiert.
-Nicht schönrechnen: Erreicht keine Unterrichtung 8/10, wird das deutlich gesagt.
+Jede Zahl wird als **gemessen**, **abgeleitet**, **geschätzt** oder
+**unbekannt** markiert; fehlende Kernzahlen heißen **„nicht erhoben"**, nie
+geschätzt. Jede Bewertung endet mit ihrer **Sichtbarkeitsgrenze**
+(kriterien.md): Diese Methodik beurteilt Nischenökonomie — Kanalüberleben
+erkennt sie nur früh (Top-3-Anteil), Video-Erfolg gar nicht.
