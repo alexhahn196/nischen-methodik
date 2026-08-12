@@ -31,6 +31,8 @@ wenn die Parallelfahrt keine Widersprüche mehr aufdeckt, entfällt v1.
 | [`irrtuemer.md`](irrtuemer.md) | Elf Messfehler mit Beleg, die sich nicht wiederholen dürfen. |
 | [`pruefung-methodik.md`](pruefung-methodik.md) | Die Selbstprüfung, aus der v2 hervorging (Rückwärtstest an 15 Kanälen). |
 | [`bewertungen/`](bewertungen/) | Eine Datei je geprüfter Nische, neu geordnet nach v2. |
+| [`bewertungen/themenvorrat-v1.md`](bewertungen/themenvorrat-v1.md) | **Themenrangliste** für einen englischen History-Explainer: 87 Kandidaten blind aufgebaut, vorregistriert, 37 gemessen, 14 bestanden. Enthält den Instrumentenbefund, warum Trefferzahlen aus der Titelsuche keine Themenzählung sind. |
+| [`bewertungen/daten/`](bewertungen/daten/) | Datierte Basislinien-Dateien für Zeitreihen. |
 
 **Vor jeder Prüfung `kriterien.md` und `irrtuemer.md` lesen.** Sie sind das
 Gedächtnis dieses Repos — spätere Sitzungen lesen sie, statt sie neu zu

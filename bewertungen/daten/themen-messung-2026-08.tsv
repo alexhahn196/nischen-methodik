@@ -1,0 +1,46 @@
+> Basislinie Themenmessung. Erhoben 2026-08-12 mit NexLev search_videos.
+> Filter: isExactMatch=true, minView=100000, minLength=480, englishOnly=true,
+> minSubCount=5000, maxSubCount=2000000, startDate=2023-01-01, sortBy=viewCount desc.
+> N1_roh = total der API. N1_ber = nach Titelbereinigung (Fremdkontext/Spielfilm/nicht-englischer Titel raus).
+> N2 = Median der bereinigten Treffer. Wenn N1_roh > fenster, ist N2 der Median der staerksten
+> <fenster> Treffer und damit eine OBERGRENZE des wahren Medians -> Spalte n2_ueberschaetzt=ja.
+> N3 = unterschiedliche Kanaele unter den bereinigten Treffern. N4 = juengster bereinigter Treffer.
+> "nicht erhoben" = in diesem Lauf nicht gemessen, keine Aussage.
+thema	id	epoche	region	typ	kernbegriff	N1_roh	N1_ber	N2_median	N3_kanaele	N4_datum	N4_views	fenster	n2_ueberschaetzt	status	messdatum
+Battle of Waterloo	N02	19. Jh.	Europa	Einzelereignis	Waterloo	29	3	600711	3	2025-05-17	756161	6	ja	bestanden	2026-08-12
+Genghis Khan	M04	Mittelalter	Asien	Person	Genghis Khan	60	6	575725	6	2025-11-26	552307	8	ja	bestanden	2026-08-12
+Fall of Constantinople	M01	Mittelalter	Naher Osten	Einzelereignis	Fall of Constantinople	4	4	559308	4	2026-05-08	293000	10	nein	bestanden	2026-08-12
+Donner Party	N05	19. Jh.	Amerika	Einzelereignis	Donner Party	6	4	495875	4	2025-08-21	143172	6	nein	bestanden	2026-08-12
+Reconquista	M13	Mittelalter	Europa	Epochenueberblick	Reconquista	11	5	329288	4	2025-12-26	140379	10	ja	bestanden	2026-08-12
+Siege of Vienna 1683	F04	Fruehe Neuzeit	Europa	Einzelereignis	Siege of Vienna	3	3	301438	3	2026-07-10	192000	8	nein	bestanden	2026-08-12
+Terracotta Army	A14	Antike	Asien	Person	Terracotta Army	8	8	285811	7	2025-09-26	100779	15	nein	bestanden	2026-08-12
+Al Capone	Z13	20. Jh.	Amerika	Person	Al Capone	15	3	281872	3	2026-01-27	281381	5	ja	bestanden	2026-08-12
+Battle of Agincourt	M12	Mittelalter	Europa	Einzelereignis	Agincourt	7	6	277369	6	2025-11-27	872761	10	nein	bestanden	2026-08-12
+Black Death	M03	Mittelalter	Europa	Einzelereignis	Black Death	23	7	262432	7	2026-01-27	246767	8	ja	bestanden	2026-08-12
+Fall of Tenochtitlan	F02	Fruehe Neuzeit	Amerika	Einzelereignis	Tenochtitlan	3	3	198000	3	2026-04-29	198000	8	nein	bestanden	2026-08-12
+Siege of Syracuse	A01	Antike	Europa	Einzelereignis	Siege of Syracuse	4	3	193907	3	2026-07-28	152000	15	nein	bestanden	2026-08-12
+Joan of Arc	M11	Mittelalter	Europa	Person	Joan of Arc	9	3	188751	3	2025-06-26	158590	8	ja	bestanden	2026-08-12
+Franklin Expedition	N03	19. Jh.	Europa	Einzelereignis	Franklin Expedition	3	3	116292	3	2025-09-16	102933	6	nein	bestanden	2026-08-12
+Fourth Crusade	M02	Mittelalter	Europa	Einzelereignis	Fourth Crusade	3	2	213146	2	2024-10-16	213146	10	nein	N3-Tor verfehlt	2026-08-12
+Christmas Truce 1914	Z03	20. Jh.	Europa	Einzelereignis	Christmas Truce	5	2	113188	2	2025-12-27	113188	6	nein	N3-Tor verfehlt	2026-08-12
+Wilhelm Gustloff	Z10	20. Jh.	Europa	Einzelereignis	Wilhelm Gustloff	3	2	113460	2	2026-07-27	276000	6	nein	N3-Tor verfehlt	2026-08-12
+Boudica	A17	Antike	Europa	Einzelereignis	Boudica	3	2	288284	2	2025-01-31	288284	15	nein	N3-Tor verfehlt	2026-08-12
+Mansa Musa	M08	Mittelalter	Afrika	Person	Mansa Musa	4	2	142000	2	2026-07-20	179000	15	nein	N3-Tor verfehlt	2026-08-12
+Crips and Bloods	Z16	20. Jh.	Amerika	Institution/Reich	Crips	82	2	1309446	2	2025-04-30	2033808	5	ja	Fenster zu klein	2026-08-12
+Battle of Stalingrad	Z09	20. Jh.	Europa	Einzelereignis	Stalingrad	80	1	5526196	1	2025-02-26	5526196	5	ja	Fenster zu klein	2026-08-12
+Spartacus	A16	Antike	Europa	Einzelereignis	Spartacus	58	1	582988	1	2025-10-26	582988	15	ja	N1-Tor verfehlt	2026-08-12
+Siege of Masada	A18	Antike	Naher Osten	Einzelereignis	Masada	3	1	101740	1	2025-08-02	101740	15	nein	N1-Tor verfehlt	2026-08-12
+Peasants Revolt 1381	M17	Mittelalter	Europa	Einzelereignis	Peasants Revolt	1	1	389912	1	2024-12-11	389912	10	nein	N1-Tor verfehlt	2026-08-12
+Spanish Armada	F01	Fruehe Neuzeit	Europa	Einzelereignis	Spanish Armada	2	0	nicht belegt	0	-	-	8	nein	nicht belegt	2026-08-12
+Battle of Gaugamela	A13	Antike	Naher Osten	Einzelereignis	Gaugamela	1	0	nicht belegt	0	-	-	15	nein	nicht belegt	2026-08-12
+Antonine Plague	A08	Antike	Europa	Einzelereignis	Antonine Plague	0	0	nicht messbar	0	-	-	15	nein	null Treffer	2026-08-12
+Kingdom of Kush	A15	Antike	Afrika	Institution/Reich	Kingdom of Kush	0	0	nicht messbar	0	-	-	15	nein	null Treffer	2026-08-12
+House of Wisdom	M16	Mittelalter	Naher Osten	Institution/Reich	House of Wisdom	0	0	nicht messbar	0	-	-	15	nein	null Treffer	2026-08-12
+Siege of Baghdad 1258	M05	Mittelalter	Naher Osten	Einzelereignis	Siege of Baghdad	0	0	nicht messbar	0	-	-	10	nein	null Treffer	2026-08-12
+Tulsa Race Massacre	Z14	20. Jh.	Amerika	Einzelereignis	Tulsa Race Massacre	0	0	nicht messbar	0	-	-	6	nein	null Treffer	2026-08-12
+Destruction of Carthage	A03	Antike	Afrika	Einzelereignis	Carthage	19	nicht erhoben	nicht erhoben	nicht erhoben	-	-	2	-	nur Spitze gesichtet	2026-08-12
+Pompeii	A04	Antike	Europa	Einzelereignis	Pompeii	47	nicht erhoben	nicht erhoben	nicht erhoben	-	-	2	-	nur Spitze gesichtet	2026-08-12
+Library of Alexandria	A05	Antike	Afrika	Institution/Reich	Library of Alexandria	4	nicht erhoben	nicht erhoben	nicht erhoben	-	-	2	-	nur Spitze gesichtet	2026-08-12
+Battle of Thermopylae	A07	Antike	Europa	Einzelereignis	Thermopylae	17	nicht erhoben	nicht erhoben	nicht erhoben	-	-	2	-	nur Spitze gesichtet	2026-08-12
+Bronze Age Collapse	A12	Antike	Naher Osten	Epochenueberblick	Bronze Age Collapse	5	nicht erhoben	nicht erhoben	nicht erhoben	-	-	2	-	nur Spitze gesichtet	2026-08-12
+Battle of Cannae	A02	Antike	Europa	Einzelereignis	Cannae	3	nicht erhoben	nicht erhoben	nicht erhoben	-	-	1	-	Blindheit verletzt, ausgeschlossen	2026-08-12
