@@ -1,0 +1,189 @@
+{
+ "_nLpB_Ao7zw": {
+  "channel": "Sleep On Physics",
+  "held": 238,
+  "pct_static": 0.8,
+  "pct_slight": 9.2,
+  "pct_clear": 89.9,
+  "pct_any_motion": 99.2,
+  "median_pd": 10.71,
+  "contrast": 23.5,
+  "motion_index": 0.4557
+ },
+ "tvB659d_oik": {
+  "channel": "Sleep On Physics",
+  "held": 231,
+  "pct_static": 0.4,
+  "pct_slight": 0.0,
+  "pct_clear": 99.6,
+  "pct_any_motion": 99.6,
+  "median_pd": 22.02,
+  "contrast": 42.9,
+  "motion_index": 0.5133
+ },
+ "YBNfHLlrJkg": {
+  "channel": "Sleep On Physics",
+  "held": 461,
+  "pct_static": 0.0,
+  "pct_slight": 5.6,
+  "pct_clear": 94.4,
+  "pct_any_motion": 100.0,
+  "median_pd": 11.88,
+  "contrast": 34.4,
+  "motion_index": 0.3453
+ },
+ "BLPBP5BaU-0": {
+  "channel": "Sleep On Physics",
+  "held": 434,
+  "pct_static": 0.0,
+  "pct_slight": 6.5,
+  "pct_clear": 93.5,
+  "pct_any_motion": 100.0,
+  "median_pd": 18.45,
+  "contrast": 35.6,
+  "motion_index": 0.519
+ },
+ "Nq-wJpo8Hk4": {
+  "channel": "Calm Science",
+  "held": 425,
+  "pct_static": 0.2,
+  "pct_slight": 5.6,
+  "pct_clear": 94.1,
+  "pct_any_motion": 99.8,
+  "median_pd": 14.91,
+  "contrast": 34.3,
+  "motion_index": 0.4344
+ },
+ "LxDfEBostXk": {
+  "channel": "Calm Science",
+  "held": 445,
+  "pct_static": 0.7,
+  "pct_slight": 6.7,
+  "pct_clear": 92.6,
+  "pct_any_motion": 99.3,
+  "median_pd": 14.84,
+  "contrast": 33.0,
+  "motion_index": 0.4495
+ },
+ "-n6HdllViRU": {
+  "channel": "Calm Science",
+  "held": 415,
+  "pct_static": 0.2,
+  "pct_slight": 6.7,
+  "pct_clear": 93.0,
+  "pct_any_motion": 99.8,
+  "median_pd": 14.65,
+  "contrast": 35.0,
+  "motion_index": 0.4184
+ },
+ "lqZntA10Q5g": {
+  "channel": "Calm Science",
+  "held": 443,
+  "pct_static": 0.2,
+  "pct_slight": 6.3,
+  "pct_clear": 93.5,
+  "pct_any_motion": 99.8,
+  "median_pd": 15.63,
+  "contrast": 34.9,
+  "motion_index": 0.4473
+ },
+ "Ty6ZMyFagsU": {
+  "channel": "Calm Space",
+  "held": 424,
+  "pct_static": 0.5,
+  "pct_slight": 5.7,
+  "pct_clear": 93.9,
+  "pct_any_motion": 99.5,
+  "median_pd": 15.39,
+  "contrast": 33.4,
+  "motion_index": 0.4612
+ },
+ "Lgu_Oq8_J5I": {
+  "channel": "Calm Space",
+  "held": 407,
+  "pct_static": 0.2,
+  "pct_slight": 3.9,
+  "pct_clear": 95.8,
+  "pct_any_motion": 99.8,
+  "median_pd": 15.52,
+  "contrast": 33.0,
+  "motion_index": 0.4709
+ },
+ "o2eIwICmo7w": {
+  "channel": "Calm Space",
+  "held": 407,
+  "pct_static": 0.2,
+  "pct_slight": 7.1,
+  "pct_clear": 92.6,
+  "pct_any_motion": 99.8,
+  "median_pd": 14.86,
+  "contrast": 34.2,
+  "motion_index": 0.4351
+ },
+ "xg8ieJQIB70": {
+  "channel": "Sleepy Science Channel",
+  "held": 384,
+  "pct_static": 3.9,
+  "pct_slight": 60.4,
+  "pct_clear": 35.7,
+  "pct_any_motion": 96.1,
+  "median_pd": 2.72,
+  "contrast": 15.0,
+  "motion_index": 0.1809
+ },
+ "A0vVW7PWnm4": {
+  "channel": "Sleepy Science Channel",
+  "held": 444,
+  "pct_static": 0.2,
+  "pct_slight": 22.1,
+  "pct_clear": 77.7,
+  "pct_any_motion": 99.8,
+  "median_pd": 5.53,
+  "contrast": 13.4,
+  "motion_index": 0.4134
+ },
+ "BA59TWIMNG4": {
+  "channel": "Sleepy Science Channel",
+  "held": 454,
+  "pct_static": 0.0,
+  "pct_slight": 72.5,
+  "pct_clear": 27.5,
+  "pct_any_motion": 100.0,
+  "median_pd": 2.49,
+  "contrast": 8.0,
+  "motion_index": 0.3109
+ },
+ "gmq4gqCytlY": {
+  "channel": "Cosmo Explains",
+  "held": 287,
+  "pct_static": 0.0,
+  "pct_slight": 0.0,
+  "pct_clear": 100.0,
+  "pct_any_motion": 100.0,
+  "median_pd": 17.77,
+  "contrast": 37.2,
+  "motion_index": 0.4776
+ },
+ "WHh8Q-gNZAk": {
+  "channel": "Cosmo Explains",
+  "held": 346,
+  "pct_static": 0.3,
+  "pct_slight": 0.0,
+  "pct_clear": 99.7,
+  "pct_any_motion": 99.7,
+  "median_pd": 19.24,
+  "contrast": 46.0,
+  "motion_index": 0.4182
+ },
+ "xXuMfbr0V9o": {
+  "channel": "Cosmo Explains",
+  "held": 384,
+  "pct_static": 0.0,
+  "pct_slight": 0.0,
+  "pct_clear": 100.0,
+  "pct_any_motion": 100.0,
+  "median_pd": 21.58,
+  "contrast": 43.3,
+  "motion_index": 0.498
+ }
+}

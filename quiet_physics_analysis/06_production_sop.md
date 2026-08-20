@@ -20,7 +20,7 @@ Budget ceiling **$50/video**, target **$20–40**. Sorted by what the evidence a
 | 6 | **Flesch–Kincaid grade 9.0–9.5** | All 5 channels land in a 0.4-grade band | HIGH |
 | 7 | **300–390 placed visual assets, ~20 s each in the body** | Category 296–499, mean ~350; s/asset 17.7–21.8 | HIGH |
 | 8 | **No shot longer than 45 s** | 0 % of shots exceed 60 s on both priority channels | HIGH |
-| 9 | **Every image carries a 3–5 % Ken Burns move** | Gemini-measured; ~100 % of body shots have motion | HIGH |
+| 9 | **Every image carries a 3–5 % Ken Burns move** | **Measured on 6,629 held image-pairs across all 17 videos: 98.6–99.9 % of held images move; only 0.1–1.4 % are fully static** | HIGH |
 | 10 | **One 1.0–1.5 s cross dissolve, used everywhere** | Gemini-measured; no other transition observed | HIGH |
 | 11 | **Frame is dark — mean luminance 25–40/255, 60–80 % of pixels below 32** | Measured across all 5 channels | HIGH |
 | 12 | **Zero on-screen text in the body** — no captions, no titles, no equations, no labels, no diagrams | 4 of 5 channels; the exception is the worst performer | HIGH |
@@ -36,7 +36,7 @@ Budget ceiling **$50/video**, target **$20–40**. Sorted by what the evidence a
 | Item | Evidence | Why it's optional |
 |---|---|---|
 | **Topic-matched imagery** | Only Sleepy Science does it; two viewers on Sleep On Physics asked for it unprompted | The channel with decoupled wallpaper got 79,844 views in 7 days anyway. **This is your best differentiation lever precisely because it is optional** — see §3 |
-| Ambient drone bed | 4 of 5 channels have one; prominence ranges from 12 % to 75 % `[Music]` coverage | Calm Science runs it nearly inaudibly and performs fine |
+| Ambient drone bed | 4 of 5 channels have one; prominence ranges from 12 % to 75 % `[Music]` coverage | Calm Science runs it nearly inaudibly, carries the **highest RPM in the sample ($22.04)**, and performs fine |
 | Progressive darkening over 2 h | Sleepy Science only: brightness −36 %, edge density −85 % | The 328k-sub leader does it; nobody else does. Cheap to add |
 | 2.39:1 letterbox | Calm Science + Calm Space (same operator) | Free, but it makes you look like their third channel |
 | Subscribe overlay graphic at ~1:05 | Sleep On Physics only | Marginal; the spoken CTA is the part that matters |
@@ -168,7 +168,7 @@ Keep the blue-violet base and use amber sparingly as an accent only (a hot core,
 | **Words per minute** | **125** (120–132) | **MEASURED** |
 | **Pacing curve** | Flat. Optionally 8 % faster for minutes 0–15, then settle | **MEASURED** (Calm Science does this) |
 | **Start** | First word within 1.0 s of frame one | **MEASURED**, 17/17 |
-| **Gender** | **No evidence-based recommendation.** Verify by listening to competitors before committing | NOT MEASURED |
+| **Gender** | **Weak lean: male.** Listeners address the narrator as "sir" / "Mr" on two different channels, unprompted, in ~77 top comments. Verify by listening before committing | Viewer perception, not acoustics — **MEDIUM** |
 | **Apparent age** | **No evidence-based recommendation** | NOT MEASURED |
 | **Accent** | Neutral international English — a *market* judgement (English-language faceless channel), not a measurement | NOT MEASURED |
 | **Pitch / variation** | **No evidence-based recommendation** | NOT MEASURED |
@@ -194,7 +194,7 @@ Keep the blue-violet base and use amber sparingly as an accent only (a hot core,
 | **Saturation** | **0.42–0.48** — muted, closer to Calm Science than Sleep On Physics | Measured 0.370–0.570 |
 | **Contrast** | σ **32–40** | Measured 28.6–44.5 |
 | **Palette** | Base deep blue-violet (**B−R ≈ +4 to +6**) · accent thin cyan (#3FD8E8-ish) · **amber sparingly**, as a hot core only | Four channels are blue-biased; amber is Sleepy Science's territory |
-| **Movement** | Ken Burns on **100 %** of shots | Measured |
+| **Movement** | Ken Burns on **100 %** of shots. Consider the market leader's gentler setting: Sleepy Science's contrast-normalised motion index is **0.302** vs 0.437–0.465 for everyone else — ~35 % less movement | Measured on 6,629 held pairs |
 | **Zoom** | **3–5 % over the shot** (≈0.2 %/s), direction alternating 50/50 | Gemini-measured |
 | **Pan** | **~35 % of shots**, diagonal, always combined with zoom | Observed, MEDIUM confidence |
 | **Parallax** | **None** | Not observed anywhere |

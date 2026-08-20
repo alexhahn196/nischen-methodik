@@ -100,24 +100,36 @@ Three measured facts cut the generation bill:
 
 ## 4. Camera movement on still images (Step 6)
 
-**What is measured:** on pairs of consecutive samples that the detector classified as the *same* asset (i.e. 10 s apart, same picture), the residual pixel change after testing three zoom hypotheses (1.00×, 0.92×, 0.85×) tells us whether motion is present and roughly how strong.
+**Now measured across all 17 videos** (previously only 2 had direct observations). Method: take every pair of consecutive storyboard samples 10 s apart that the detector classified as the **same asset**, and measure how much the picture changed. A truly static image would show ~zero change; a moving one shows a clear delta. Because pixel change scales with image contrast, the cross-channel index divides by each video's mean frame contrast.
 
-**What Gemini directly reported** (2 Sleep On Physics videos, the only direct observations):
+| Channel | Held pairs measured | **% of held images showing motion** | % fully static | Median pixel change | Contrast-normalised motion index |
+|---|---|---|---|---|---|
+| Sleep On Physics | 1,364 | **99.7 %** | 0.3 % | 15.77 | **0.458** |
+| Calm Science | 1,728 | **99.7 %** | 0.3 % | 15.01 | **0.437** |
+| Calm Space | 1,238 | **99.7 %** | 0.3 % | 15.26 | **0.456** |
+| **Sleepy Science** | 1,282 | **98.6 %** | 1.4 % | **3.58** | **0.302** |
+| Cosmo Explains | 1,017 | **99.9 %** | 0.1 % | 19.53 | 0.465 |
+
+**Result 1 — motion is universal.** Between **98.6 % and 99.9 %** of held images carry measurable movement. Fully static images are **0.1–1.4 %** of the total. *No channel in this category ever parks a still image without motion.* Confidence: **HIGH** (measured on 6,629 held pairs across all 17 videos).
+
+**Result 2 — the market leader moves ~35 % less than everyone else.** Sleepy Science's motion index is **0.302** against a 0.437–0.465 band for the other four. This is not a contrast artefact: their frames *are* lower-contrast (σ 12.1 vs 29–42), which is exactly why the index normalises for it, and the gap survives normalisation. **The largest channel in the sample uses the gentlest camera moves.** Confidence: **MEDIUM-HIGH** (the index is a proxy for geometric motion, not a direct measurement of zoom percentage).
+
+**What Gemini directly reported** (2 Sleep On Physics videos — the only direct observations of zoom *magnitude*):
 - `tvB659d_oik`: *"slow zoom or pan, ~3 % magnitude, perceptible"*
 - `_nLpB_Ao7zw`: *"one AI-generated space still + a 3–5 % Ken Burns zoom + a 1–1.5 s crossfade"*
 
 | Movement type | Prevalence | Evidence |
 |---|---|---|
-| **Slow zoom in / out (Ken Burns)** | **Dominant — effectively every shot** | Gemini direct (2 videos); consistent with residual-motion signature on held pairs across all 17 |
-| Horizontal / vertical pan | Present, often combined with zoom | Gemini direct; visible in contact sheets (`YBNfHLlrJkg` 30:26–31:15 shows a slow diagonal drift on one image over 50 s) |
-| Completely static | Rare in the body; used for the black open/close and the CTA card | Contact sheets |
+| **Slow zoom in / out (Ken Burns)** | **Dominant — 98.6–99.9 % of held images carry motion** | Measured on 6,629 held pairs, all 17 videos |
+| Horizontal / vertical pan | Present, usually combined with zoom | Gemini direct; visible in contact sheets (`YBNfHLlrJkg` 30:26–31:15 drifts diagonally on one image over 50 s) |
+| **Completely static** | **0.1–1.4 %** — used for the black open/close and the CTA card | Measured |
 | Parallax / multi-plane | **Not observed** | — |
 | Particle / dust / star overlay | **Persistent** on Sleep On Physics; apparent elsewhere | Gemini direct; teal bokeh circles visible at `YBNfHLlrJkg` 31:05 |
 | Animated camera / 3D moves | Only in the intro CGI segments | Contact sheets |
 | Looped background video | Only Cosmo Explains (the fixed room) | Contact sheets |
 
 **Numbers to build against:**
-- **~100 % of body shots carry motion.** No channel leaves images fully static.
+- **98.6–99.9 % of body shots carry motion** (measured, 6,629 held pairs). Fully static images: 0.1–1.4 %.
 - **Zoom magnitude: 3–5 % over the shot** (measured by Gemini on 2 videos; consistent with the residual signature elsewhere). Over a 20 s shot that is **0.15–0.25 % per second** — deliberately just at the edge of perception.
 - **Direction alternates** between zoom-in and zoom-out; pans are usually diagonal and slow.
 

@@ -20,9 +20,11 @@ Covers brief steps 20 and 30.
 
 3. **Its cadence matches yours and nobody else's.** Calm Science ships **2.89 uploads/week**. Every other channel in the sample runs 5.0–6.8. Your 3/week plan is only proven viable by this one channel.
 
-4. **It is the cheapest strong performer to reproduce.** 331 assets/120 min (the lowest in the sample), 21.8 s per asset, near-inaudible music (12.1 % `[Music]` coverage), zero text, zero diagrams, one crossfade, opens on black. Everything about it is template-shaped.
+4. **It monetises best in the sample.** NexLev puts Calm Science's channel RPM at **$22.04** — the highest of the five, above both much larger space channels (cohort median $18.59). Physics out-earns space per view on two independent measurements. All five channels are confirmed monetized and faceless at 0.98–0.99 confidence.
 
-5. **It is a physics channel, so its script metrics transfer directly.** 21.3 jargon terms per 1,000 words at grade 9.1 — as opposed to Calm Space's 3.4 and Sleepy Science's 2.4, which are storytelling, not explanation.
+5. **It is the cheapest strong performer to reproduce.** 331 assets/120 min (the lowest in the sample), 21.8 s per asset, near-inaudible music (12.1 % `[Music]` coverage), zero text, zero diagrams, one crossfade, opens on black. Everything about it is template-shaped.
+
+6. **It is a physics channel, so its script metrics transfer directly.** 21.3 jargon terms per 1,000 words at grade 9.1 — as opposed to Calm Space's 3.4 and Sleepy Science's 2.4, which are storytelling, not explanation.
 
 **The one thing not to copy from it:** its 2.39:1 letterbox and its "Tonight, we're going to…" opener are its operator's fingerprints, shared with Calm Space. Using them makes you look like their third channel.
 
@@ -51,7 +53,7 @@ Covers brief steps 20 and 30.
 **Sleepy Science Channel** for *composition* — one dominant object, deep negative space (edge density 0.024 vs 0.070–0.107 elsewhere), near-black frames (80.8 % dark pixels), topic-matched subjects. **But not its palette** (warm amber is its fingerprint) and **not its flat cut curve**. Take the palette from Calm Science/Calm Space (blue-violet, B−R ≈ +5.6/+6.1, saturation 0.43). **Confidence: HIGH** for the measurements; **MEDIUM** that composition is what drives its lead.
 
 ### 4. Which channel should influence our audio?
-**Calm Science.** Its bed is nearly inaudible (12.1 % `[Music]` caption coverage) and it performs on par with Sleep On Physics. That means the cheap, low-risk audio build is also the competitive one: one unchanging ambient drone, entering around 60–90 s, ~20 dB under narration, zero SFX. **Confidence: MEDIUM** — this rests on caption-annotation proxies and viewer comments, not on listening. ⚠️ **Verify by ear before locking your mix.**
+**Calm Science.** Its bed is nearly inaudible (12.1 % `[Music]` caption coverage) and it performs on par with Sleep On Physics. That means the cheap, low-risk audio build is also the competitive one: one unchanging ambient drone, entering around 60–90 s, ~20 dB under narration, zero SFX. **Confidence: MEDIUM** — this rests on caption-annotation proxies and viewer comments, not on listening. It is reinforced by Calm Science carrying the **highest RPM in the sample ($22.04)** while running the quietest bed. ⚠️ **Verify by ear before locking your mix.**
 
 ### 5. How should our videos look?
 **Near-black 16:9 full-bleed frames** (mean luminance 28–36/255, 65–75 % of pixels below 32), **one dominant object per frame with deep negative space**, **deep blue-violet base with thin cyan measurement geometry and sparing amber accents**, saturation 0.42–0.48, **zero on-screen text**, **zero diagrams**, **zero chapters**, no faces. Every image holds ~20 seconds under a **3–5 % Ken Burns move**, joined by a **1.2 s cross dissolve**, with a persistent low-opacity particle overlay and vignette. **No letterbox.** The first three minutes are hand-cut with hard cuts at ~7 s; from minute 10 onward it is one unchanged template for 110 minutes, fading to black over the final 3–5 s. **Confidence: HIGH.**
@@ -67,7 +69,7 @@ The rest comes from within-episode recycling (which competitors demonstrably do)
 
 ### 8. What voice style should we use?
 **125 words per minute (band 120–132), flat across the whole video — no progressive slowdown. First word within 1 second of frame one. Narration wall-to-wall for ~100 % of the runtime. Documentary register, not bedtime: never say "sleep"; one "tonight" at most.** All measured.
-**On gender, apparent age, accent, pitch and pause length I have no evidence and give no recommendation.** Media streams were auth-gated and I never heard these videos; the multimodal tool that can hear was rate-limited before the audio pass. **Spend 20 minutes listening to three competitors yourself before choosing a voice** — see `04_audio_voice_analysis.md` §4.3 for exactly what to listen for. **Confidence: HIGH on pacing, NONE on timbre.**
+**On gender there is one weak signal: listeners address the narrator as "sir" and "Mr" on two different channels, unprompted, across ~77 top comments — a lean toward male, from perception rather than acoustics (MEDIUM confidence). On apparent age, accent, pitch and pause length I have no evidence and give no recommendation.** Media streams were auth-gated and I never heard these videos; the multimodal tool that can hear was rate-limited before the audio pass. **Spend 20 minutes listening to three competitors yourself before choosing a voice** — see `04_audio_voice_analysis.md` §4.3 for exactly what to listen for. **Confidence: HIGH on pacing, MEDIUM on gender, NONE on timbre.**
 
 ### 9. Do we need music?
 **A bed is advisable but must be quiet — and it is not proven necessary.** Four of five channels have one; prominence spans the entire possible range (Sleepy Science 74.7 % `[Music]` coverage, Calm Science 12.1 %, Cosmo Explains 0 %) and both extremes of the *successful* channels work. Use one unchanging ambient drone, entering at ~60–90 s (leave the hook dry), ~20 dB under narration, thinning after minute 110. **No sound effects.** **Confidence: MEDIUM** — indirect evidence only.
@@ -91,9 +93,14 @@ At 13 episodes/month that is **~$500/month all-in**. Against a measured RPM of *
 
 > ## **Make the pictures show the thing being discussed.**
 
-Four of five channels — including **both** of your priority references — run **generic nebula wallpaper that is completely decoupled from the script**. A Sleep On Physics episode about light speed shows purple nebulae for 121 of 124 minutes. A Calm Science episode called *"The True Scale of a Single Atom"* shows only galaxies. Two viewers said so unprompted in the top comments of a video that got 79,844 views in seven days:
-> *"This documentary is excellent, but it would be even stronger with animations that visually explain the concepts being discussed."*
-> *"Great script. I wish you would have had a video to go along with the script."*
+Four of five channels — including **both** of your priority references — run **generic nebula wallpaper that is completely decoupled from the script**. A Sleep On Physics episode about light speed shows purple nebulae for 121 of 124 minutes. A Calm Science episode called *"The True Scale of a Single Atom"* shows only galaxies. A Calm Space episode about Voyager shows generic nebulae.
+
+**Three viewers said so unprompted, on two different channels:**
+> *"This documentary is excellent, but it would be even stronger with animations that visually explain the concepts being discussed."* — Sleep On Physics
+> *"Great script. I wish you would have had a video to go along with the script."* — Sleep On Physics
+> *"Wish the visuals would have went with the audio description"* — **Calm Space**
+
+That it recurs across separate channels and separate audiences makes it a category-level complaint, not one viewer's quirk. And in ~77 top comments swept across three channels, **visuals were the single most-complained-about element — while the voice drew zero complaints of any kind.**
 
 Your **cutaway / cross-section / thin-cyan-measurement-geometry** identity delivers exactly this, is present on **none** of the five channels, and **costs the same as generating nebulae — it is a prompt-library decision, not a budget decision.**
 
@@ -135,7 +142,7 @@ The brief asked to be told this plainly. Five places:
 
 Stated plainly, because these are real gaps in this analysis and not things to paper over:
 
-1. **Everything about the sound of these videos.** Media streams were authentication-gated and I did not circumvent that. Voice gender, apparent age, accent, pitch, pitch variation, pause length, LUFS, RMS and dynamic range are **unmeasured**. Human-vs-TTS is **undetermined for all five channels**. ~20 minutes of your own listening closes this gap entirely.
+1. **Everything about the sound of these videos.** Media streams were authentication-gated and I did not circumvent that; the multimodal tool that can hear was re-probed on 2026-08-20 and returned `RATE LIMIT EXCEEDED` again. Apparent age, accent, pitch, pitch variation, pause length, LUFS, RMS and dynamic range are **unmeasured**. Human-vs-TTS is **undetermined for all five channels**. The single exception is narrator gender, where viewer comments on two channels lean male (MEDIUM confidence, perception not acoustics). ~20 minutes of your own listening closes this gap entirely.
 2. **Whether the imagery is AI-generated, licensed stock, or processed astrophotography.** Gemini flagged AI generation on two Sleep On Physics videos; for the other 15 it is my visual judgement. What is certain — and what matters for cost — is that it is **2D stills with slow motion applied**.
 3. **Any causal claim about performance.** With 3–4 videos per channel and 5 channels, correlations between production choices and views are **not statistically meaningful**. Where I say "the channel that does X performs worst", that is one channel differing on five axes at once.
 4. **Audience retention.** No retention data exists for competitor channels. Nothing in this analysis infers it. §15's "retention proxies" are structural devices measurable in the artefacts, nothing more.

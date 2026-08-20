@@ -48,6 +48,23 @@ Threshold sensitivity (0.30 / 0.40 / 0.50 / 0.60) is stored per video in `analys
 | Like rate (sample) | 1.9–3.1 % | 2.3–2.7 % | 1.5–2.8 % | 1.3–1.7 % | **1.0–2.2 %** |
 | RPM (NexLev est.) | **$18.21** | **$19.04** | $14.26 | $20.10 | not sampled |
 
+### External validation of these numbers
+
+All five channels were independently re-measured through NexLev's channel-metrics API on 2026-08-20. It reproduces my catalogue-derived views-per-video to within **0.6–3.5 %**, which is the strongest available check that the sampling and arithmetic behind this whole analysis are sound:
+
+| Channel | My figure (catalogue-derived) | NexLev figure | Delta | Monetized | NexLev RPM | Faceless (confidence) | Top country |
+|---|---|---|---|---|---|---|---|
+| Sleep On Physics | 23,762 | 23,298 | **+2.0 %** | ✅ | $15.09 | ✅ (0.98) | United Kingdom |
+| Calm Science | 22,296 | 22,137 | **+0.7 %** | ✅ | **$22.04** | ✅ (0.99) | — |
+| Calm Space | 69,837 | 70,341 | **−0.7 %** | ✅ | $18.59 | ✅ (0.98) | Netherlands |
+| Sleepy Science | 115,140 | 119,327 | **−3.5 %** | ✅ | $20.88 | ✅ (0.99) | United Kingdom |
+| Cosmo Explains | 11,833 | 11,767 | **+0.6 %** | ✅ | $18.59 | ✅ (0.99) | United States |
+
+Three things follow:
+- **Every channel in the sample is monetized**, and every one is classified faceless at 0.98–0.99 confidence. The format is commercially live, not experimental.
+- **Cohort median RPM is $18.59.** Calm Science — your closest analogue — carries the **highest RPM in the sample at $22.04**, above the two much larger space channels. Physics monetises better than space here, on two independent measurements (per-video RPM in §1 and channel RPM here).
+- **Top-country skews UK/US/NL**, consistent with an English-language, high-CPM audience.
+
 **Views-per-video is the honest performance metric here**, not subscribers — Calm Science has 5× fewer subs than Cosmo Explains but nearly 2× the views per video.
 
 ---

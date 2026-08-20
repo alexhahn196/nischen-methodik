@@ -104,19 +104,41 @@ YouTube's auto-captioner emits a `[Music]` token when it detects music that is a
 
 I have **no acoustic evidence about any narrator in this sample.** What follows are the only defensible statements.
 
-### 4.1 The audience does not perceive these voices as a problem
-I read the top 20 comments on `BLPBP5BaU-0` (Sleep On Physics, 129 comments) and `lqZntA10Q5g` (Calm Science, 122 comments) — 40 comments, the ones the algorithm surfaces first.
+### 4.0 A second attempt at direct measurement — still blocked
+The multimodal tool was re-probed on 2026-08-20 with a 21-item audio-only interrogation (gender, age, human-vs-TTS with specific audible cues, pitch, pitch variation, pause length and uniformity, pauses/min, loudness consistency, music level in dB below voice, SFX, artefacts) against `BLPBP5BaU-0` at 30:00–32:30. It returned `RATE LIMIT EXCEEDED — 15/15 calls in the last 24 hours` again. **The acoustic gap in this analysis is therefore permanent within this session** and is closed only by you listening (§4.3).
 
-**Zero comments mention the voice at all.** Not "AI voice", not "robotic", not "great narration", not "soothing voice". Nothing.
+### 4.1 What the audience says about the voice — the sweep, widened
+I read top-sorted comments on **four videos across three channels** (~77 comments): `BLPBP5BaU-0` (Sleep On Physics, 129 total), `lqZntA10Q5g` (Calm Science, 122), `BA59TWIMNG4` (Sleepy Science, 24), `o2eIwICmo7w` (Calm Space, 84).
 
-What viewers *did* volunteer:
+**Findings:**
+
+| Signal | Count in ~77 top comments |
+|---|---|
+| Complaints about AI / robotic / synthetic voice | **0** |
+| Complaints about narration quality of any kind | **0** |
+| Positive voice mentions | 1 — *"Your voice is very soothing"* (Sleepy Science) |
+| **Narrator addressed as male** | **2, on two different channels** |
+| Complaints that visuals don't match the script | **3, on two different channels** |
+| Complaints about repetition | 1 |
+| Complaints about length | 1 (*"It shouldn't take 2 fkng hours to explain this"*, 7 likes) |
+
+**On perceived gender — the only voice-character evidence in this entire analysis:**
+> *"Thank you Mr sleepy science"* — Sleepy Science Channel
+> *"Hello from Casa Grande Arizona. Thank you sir."* — Calm Space
+
+Viewers on two independent channels address the narrator as male, unprompted. **This is perceived gender reported by listeners, not an acoustic measurement** — but it is real evidence, and it is the only evidence about voice character I was able to obtain. **Confidence: MEDIUM.** It says nothing about Sleep On Physics or Calm Science specifically, and nothing about whether any of these voices are human or synthetic.
+
+**Across ~77 comments spanning three channels, not one person raised the voice as a problem.** What viewers *did* volunteer:
 > *"This documentary is excellent, but it would be even stronger with animations that visually explain the concepts being discussed."*
 > *"Great script. I wish you would have had a video to go along with the script."*
 > *"great content but after hearing the same thing three times I couldn't take it any more"*
 > *"Taught Electronics for 20 plus years, basically as a water (liquid) analogy. Guess I owe a lot of students both an apology and perhaps a refund 😉"*
 > *"Fascinating. I barely slept."*
+> *"Wish the visuals would have went with the audio description"* — Calm Space, a **third** complaint about visual/script decoupling, on a different channel
+> *"Seems like some people don't get that other people just want to use this to fall asleep easier. Takes about 3 minutes for me."* — Calm Space
+> *"Thank you Mr sleepy science"* / *"Thank you sir"* — narrator addressed as male on two channels
 
-**Interpretation, MEDIUM confidence:** in a sample of 40 self-selected top comments, complaints about visuals and repetition appear and complaints about voice do not. That is weak evidence that whatever these channels use for narration clears the audience's bar. It is **not** evidence about whether the voices are human or synthetic — I genuinely do not know, for any of the five channels.
+**Interpretation, MEDIUM confidence:** across ~77 self-selected top comments on three channels, complaints about **visuals** (3), **repetition** (1) and **length** (1) all appear — and complaints about voice appear **zero** times. That is weak evidence that whatever these channels use for narration clears the audience's bar. It is **not** evidence about whether the voices are human or synthetic — I genuinely do not know, for any of the five channels.
 
 ### 4.2 Script register is documentary, not bedtime — MEASURED
 The scripts themselves tell you what the delivery has to support:
@@ -156,7 +178,8 @@ The brief asked for a recommendation like *"male voice, 45–60 apparent age, 11
 | **Music bed** | One unchanging ambient drone, mixed **low** — Calm Science-quiet, not Sleepy Science-loud | `[Music]` coverage 12.1 % vs 74.7 %; both profitable, quiet is cheaper and lower-risk | **MEDIUM** |
 | **Music entry** | **No music under the first ~60–140 s.** Let the hook run dry, bring the bed in after the CTA | Measured first-tag times; Gemini direct on `tvB659d_oik` | **MEDIUM** |
 | **Sound effects** | None | Gemini direct: "zero SFX" on 2 Sleep On Physics videos; no evidence of SFX elsewhere | **MEDIUM** |
-| Voice gender / age / accent | **No recommendation — verify by listening first** | Not measured | — |
+| Voice gender | **Weak lean: male.** Listeners address the narrator as "sir" / "Mr" on two channels, unprompted. Verify by listening before committing | Viewer comments, not acoustics | **MEDIUM** |
+| Voice apparent age / accent | **No recommendation — verify by listening first** | Not measured | — |
 | Pitch / pitch variation | **No recommendation — not measured** | Not measured | — |
 | Pause length | Likely < 1 s, inferred from WPM × sentence length | Inference only | **LOW** |
 | Target loudness | Industry default −14 LUFS integrated for YouTube; **not verified against these competitors** | Platform norm, not measurement | **LOW** |

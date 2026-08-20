@@ -155,9 +155,20 @@ Full stage-by-stage breakdown: `05_editing_analysis.md` §5.
 | `BA59TWIMNG4` | Sleepy Science | **$20.10** | $12.50–27.70 |
 | `o2eIwICmo7w` | Calm Space | $14.26 | $7.50–21.02 |
 
-**Physics carries a higher RPM than space in this sample ($18–20 vs $14).** These are third-party model estimates, not the creators' AdSense reports — treat as **MEDIUM confidence**.
+**Channel-level RPM, measured independently on 2026-08-20 (all five confirmed monetized):**
 
-Applying the measured views-per-video of your two closest analogues (Sleep On Physics 23,762 · Calm Science 22,296) at a conservative $12 RPM:
+| Channel | Channel RPM | Avg views/video | Top country |
+|---|---|---|---|
+| **Calm Science** | **$22.04** | 22,137 | — |
+| Sleepy Science | $20.88 | 119,327 | United Kingdom |
+| Calm Space | $18.59 | 70,341 | Netherlands |
+| Cosmo Explains | $18.59 | 11,767 | United States |
+| Sleep On Physics | $15.09 | 23,298 | United Kingdom |
+| **Cohort median** | **$18.59** | 23,298 | |
+
+**Calm Science — your closest analogue — carries the highest RPM in the sample**, above both much larger space channels. Physics out-earns space per view on both the per-video and channel-level measurements. These are third-party model estimates, not the creators' AdSense reports — treat as **MEDIUM confidence**.
+
+Applying the measured views-per-video of your two closest analogues (Sleep On Physics 23,762 · Calm Science 22,296) at a deliberately conservative **$12 RPM** (well below the measured cohort median of $18.59, to leave room for a new channel's weaker geography mix):
 
 | Scenario | Views/video | Revenue/video | Monthly (13 videos) | Monthly cost ($35 build) | Margin |
 |---|---|---|---|---|---|

@@ -13,7 +13,9 @@
     "10s sampling cannot resolve shots shorter than ~10s; the first 60s of the top 3 channels saturates the detector (>=6-7 changes/min) so opening cut rate is a LOWER BOUND.",
     "Multimodal video tool (Gemini) capped at 15 calls/24h; full shot-lists obtained for 2 Sleep On Physics videos only.",
     "No audience-retention data exists for competitor channels; none is inferred."
-   ]
+   ],
+   "external_validation": "NexLev batch channel metrics independently reproduce my catalogue-derived views-per-video to within 1-4% on all 5 channels, and confirm all 5 are monetized and classified faceless (confidence 0.98-0.99).",
+   "motion": "Motion prevalence measured on all 17 videos from same-asset consecutive sample pairs; previously only 2 videos had direct (Gemini) motion observations."
   }
  },
  "per_channel": {
@@ -115,7 +117,32 @@
     ]
    },
    "narration_start_s": 0.16,
-   "music_tag_coverage_pct": 67.68
+   "music_tag_coverage_pct": 67.68,
+   "motion": {
+    "pct_held_images_with_motion": 99.7,
+    "pct_held_images_fully_static": 0.3,
+    "median_pixel_change_on_held_pairs": 15.77,
+    "contrast_normalised_motion_index": 0.4583,
+    "note": "Measured on consecutive storyboard samples 10s apart that the detector classified as the SAME asset. Motion index normalises pixel change by mean frame contrast so channels with different contrast are comparable."
+   },
+   "external_metrics_nexlev": {
+    "channelId": "UCuKoEFuLJL1Q8HUqXC70RjQ",
+    "isMonetized": true,
+    "rpm": 15.09,
+    "avgViewsPerVideo": 23298,
+    "avgVideoLength": 123.0,
+    "category": "physics",
+    "format": "educational",
+    "isFaceless": true,
+    "hasShorts": false,
+    "countryTop": "United Kingdom",
+    "confidence": 0.98
+   },
+   "external_corroboration": {
+    "my_views_per_video": 23762,
+    "nexlev_avg_views_per_video": 23298,
+    "delta_pct": 2.0
+   }
   },
   "Calm Science": {
    "id": "UCUGv6JOgXVKbGYF57VYTagQ",
@@ -215,7 +242,32 @@
     ]
    },
    "narration_start_s": 0.43,
-   "music_tag_coverage_pct": 12.12
+   "music_tag_coverage_pct": 12.12,
+   "motion": {
+    "pct_held_images_with_motion": 99.7,
+    "pct_held_images_fully_static": 0.3,
+    "median_pixel_change_on_held_pairs": 15.01,
+    "contrast_normalised_motion_index": 0.4374,
+    "note": "Measured on consecutive storyboard samples 10s apart that the detector classified as the SAME asset. Motion index normalises pixel change by mean frame contrast so channels with different contrast are comparable."
+   },
+   "external_metrics_nexlev": {
+    "channelId": "UCUGv6JOgXVKbGYF57VYTagQ",
+    "isMonetized": true,
+    "rpm": 22.04,
+    "avgViewsPerVideo": 22137,
+    "avgVideoLength": 130.6,
+    "category": "science",
+    "format": "educational",
+    "isFaceless": true,
+    "hasShorts": false,
+    "countryTop": "",
+    "confidence": 0.99
+   },
+   "external_corroboration": {
+    "my_views_per_video": 22296,
+    "nexlev_avg_views_per_video": 22137,
+    "delta_pct": 0.7
+   }
   },
   "Calm Space": {
    "id": "UCXyJmt3PKv0fbsU9DtcreEw",
@@ -313,7 +365,32 @@
     ]
    },
    "narration_start_s": 0.59,
-   "music_tag_coverage_pct": 13.27
+   "music_tag_coverage_pct": 13.27,
+   "motion": {
+    "pct_held_images_with_motion": 99.7,
+    "pct_held_images_fully_static": 0.3,
+    "median_pixel_change_on_held_pairs": 15.26,
+    "contrast_normalised_motion_index": 0.4557,
+    "note": "Measured on consecutive storyboard samples 10s apart that the detector classified as the SAME asset. Motion index normalises pixel change by mean frame contrast so channels with different contrast are comparable."
+   },
+   "external_metrics_nexlev": {
+    "channelId": "UCXyJmt3PKv0fbsU9DtcreEw",
+    "isMonetized": true,
+    "rpm": 18.59,
+    "avgViewsPerVideo": 70341,
+    "avgVideoLength": 128.0,
+    "category": "space & exploration",
+    "format": "documentary",
+    "isFaceless": true,
+    "hasShorts": false,
+    "countryTop": "Netherlands",
+    "confidence": 0.98
+   },
+   "external_corroboration": {
+    "my_views_per_video": 69837,
+    "nexlev_avg_views_per_video": 70341,
+    "delta_pct": -0.7
+   }
   },
   "Sleepy Science Channel": {
    "id": "UCNZegH5HQPx_chNsPqJw1Rw",
@@ -411,7 +488,32 @@
     ]
    },
    "narration_start_s": 0.53,
-   "music_tag_coverage_pct": 74.73
+   "music_tag_coverage_pct": 74.73,
+   "motion": {
+    "pct_held_images_with_motion": 98.6,
+    "pct_held_images_fully_static": 1.4,
+    "median_pixel_change_on_held_pairs": 3.58,
+    "contrast_normalised_motion_index": 0.3017,
+    "note": "Measured on consecutive storyboard samples 10s apart that the detector classified as the SAME asset. Motion index normalises pixel change by mean frame contrast so channels with different contrast are comparable."
+   },
+   "external_metrics_nexlev": {
+    "channelId": "UCNZegH5HQPx_chNsPqJw1Rw",
+    "isMonetized": true,
+    "rpm": 20.88,
+    "avgViewsPerVideo": 119327,
+    "avgVideoLength": 139.8,
+    "category": "science",
+    "format": "educational",
+    "isFaceless": true,
+    "hasShorts": false,
+    "countryTop": "United Kingdom",
+    "confidence": 0.99
+   },
+   "external_corroboration": {
+    "my_views_per_video": 115140,
+    "nexlev_avg_views_per_video": 119327,
+    "delta_pct": -3.5
+   }
   },
   "Cosmo Explains": {
    "id": "UCIhxIGwGDetnoPGiHfXTsTg",
@@ -509,7 +611,32 @@
     ]
    },
    "narration_start_s": 0.11,
-   "music_tag_coverage_pct": 0.0
+   "music_tag_coverage_pct": 0.0,
+   "motion": {
+    "pct_held_images_with_motion": 99.9,
+    "pct_held_images_fully_static": 0.1,
+    "median_pixel_change_on_held_pairs": 19.53,
+    "contrast_normalised_motion_index": 0.4646,
+    "note": "Measured on consecutive storyboard samples 10s apart that the detector classified as the SAME asset. Motion index normalises pixel change by mean frame contrast so channels with different contrast are comparable."
+   },
+   "external_metrics_nexlev": {
+    "channelId": "UCIhxIGwGDetnoPGiHfXTsTg",
+    "isMonetized": true,
+    "rpm": 18.59,
+    "avgViewsPerVideo": 11767,
+    "avgVideoLength": 128.8,
+    "category": "science",
+    "format": "educational",
+    "isFaceless": true,
+    "hasShorts": false,
+    "countryTop": "United States",
+    "confidence": 0.99
+   },
+   "external_corroboration": {
+    "my_views_per_video": 11833,
+    "nexlev_avg_views_per_video": 11767,
+    "delta_pct": 0.6
+   }
   }
  },
  "per_video": {
@@ -659,6 +786,14 @@
      "median_masked_pixel_change": 10.71,
      "pct_held_pairs_essentially_static": 3.8,
      "median_zoom_normalized_residual": 0.3656
+    },
+    "motion_measured": {
+     "held_pairs": 238,
+     "pct_with_motion": 99.2,
+     "pct_fully_static": 0.8,
+     "median_pixel_change": 10.71,
+     "frame_contrast": 23.5,
+     "motion_index": 0.4557
     }
    },
    "script": {
@@ -884,6 +1019,14 @@
      "median_masked_pixel_change": 22.02,
      "pct_held_pairs_essentially_static": 0.4,
      "median_zoom_normalized_residual": 0.3179
+    },
+    "motion_measured": {
+     "held_pairs": 231,
+     "pct_with_motion": 99.6,
+     "pct_fully_static": 0.4,
+     "median_pixel_change": 22.02,
+     "frame_contrast": 42.9,
+     "motion_index": 0.5133
     }
    },
    "script": {
@@ -1111,6 +1254,14 @@
      "median_masked_pixel_change": 11.88,
      "pct_held_pairs_essentially_static": 4.6,
      "median_zoom_normalized_residual": 0.2466
+    },
+    "motion_measured": {
+     "held_pairs": 461,
+     "pct_with_motion": 100.0,
+     "pct_fully_static": 0.0,
+     "median_pixel_change": 11.88,
+     "frame_contrast": 34.4,
+     "motion_index": 0.3453
     }
    },
    "script": {
@@ -1339,6 +1490,14 @@
      "median_masked_pixel_change": 18.45,
      "pct_held_pairs_essentially_static": 3.5,
      "median_zoom_normalized_residual": 0.4006
+    },
+    "motion_measured": {
+     "held_pairs": 434,
+     "pct_with_motion": 100.0,
+     "pct_fully_static": 0.0,
+     "median_pixel_change": 18.45,
+     "frame_contrast": 35.6,
+     "motion_index": 0.519
     }
    },
    "script": {
@@ -1571,6 +1730,14 @@
      "median_masked_pixel_change": 14.91,
      "pct_held_pairs_essentially_static": 0.2,
      "median_zoom_normalized_residual": 0.3167
+    },
+    "motion_measured": {
+     "held_pairs": 425,
+     "pct_with_motion": 99.8,
+     "pct_fully_static": 0.2,
+     "median_pixel_change": 14.91,
+     "frame_contrast": 34.3,
+     "motion_index": 0.4344
     }
    },
    "script": {
@@ -1799,6 +1966,14 @@
      "median_masked_pixel_change": 14.84,
      "pct_held_pairs_essentially_static": 0.7,
      "median_zoom_normalized_residual": 0.3492
+    },
+    "motion_measured": {
+     "held_pairs": 445,
+     "pct_with_motion": 99.3,
+     "pct_fully_static": 0.7,
+     "median_pixel_change": 14.84,
+     "frame_contrast": 33.0,
+     "motion_index": 0.4495
     }
    },
    "script": {
@@ -2027,6 +2202,14 @@
      "median_masked_pixel_change": 14.65,
      "pct_held_pairs_essentially_static": 0.7,
      "median_zoom_normalized_residual": 0.3218
+    },
+    "motion_measured": {
+     "held_pairs": 415,
+     "pct_with_motion": 99.8,
+     "pct_fully_static": 0.2,
+     "median_pixel_change": 14.65,
+     "frame_contrast": 35.0,
+     "motion_index": 0.4184
     }
    },
    "script": {
@@ -2255,6 +2438,14 @@
      "median_masked_pixel_change": 15.63,
      "pct_held_pairs_essentially_static": 0.9,
      "median_zoom_normalized_residual": 0.3242
+    },
+    "motion_measured": {
+     "held_pairs": 443,
+     "pct_with_motion": 99.8,
+     "pct_fully_static": 0.2,
+     "median_pixel_change": 15.63,
+     "frame_contrast": 34.9,
+     "motion_index": 0.4473
     }
    },
    "script": {
@@ -2487,6 +2678,14 @@
      "median_masked_pixel_change": 15.39,
      "pct_held_pairs_essentially_static": 0.7,
      "median_zoom_normalized_residual": 0.3303
+    },
+    "motion_measured": {
+     "held_pairs": 424,
+     "pct_with_motion": 99.5,
+     "pct_fully_static": 0.5,
+     "median_pixel_change": 15.39,
+     "frame_contrast": 33.4,
+     "motion_index": 0.4612
     }
    },
    "script": {
@@ -2716,6 +2915,14 @@
      "median_masked_pixel_change": 15.52,
      "pct_held_pairs_essentially_static": 0.7,
      "median_zoom_normalized_residual": 0.3477
+    },
+    "motion_measured": {
+     "held_pairs": 407,
+     "pct_with_motion": 99.8,
+     "pct_fully_static": 0.2,
+     "median_pixel_change": 15.52,
+     "frame_contrast": 33.0,
+     "motion_index": 0.4709
     }
    },
    "script": {
@@ -2940,6 +3147,14 @@
      "median_masked_pixel_change": 14.86,
      "pct_held_pairs_essentially_static": 1.0,
      "median_zoom_normalized_residual": 0.3392
+    },
+    "motion_measured": {
+     "held_pairs": 407,
+     "pct_with_motion": 99.8,
+     "pct_fully_static": 0.2,
+     "median_pixel_change": 14.86,
+     "frame_contrast": 34.2,
+     "motion_index": 0.4351
     }
    },
    "script": {
@@ -3157,6 +3372,14 @@
      "median_masked_pixel_change": 2.72,
      "pct_held_pairs_essentially_static": 9.6,
      "median_zoom_normalized_residual": 0.0804
+    },
+    "motion_measured": {
+     "held_pairs": 384,
+     "pct_with_motion": 96.1,
+     "pct_fully_static": 3.9,
+     "median_pixel_change": 2.72,
+     "frame_contrast": 15.0,
+     "motion_index": 0.1809
     }
    },
    "script": {
@@ -3383,6 +3606,14 @@
      "median_masked_pixel_change": 5.53,
      "pct_held_pairs_essentially_static": 0.2,
      "median_zoom_normalized_residual": 0.1997
+    },
+    "motion_measured": {
+     "held_pairs": 444,
+     "pct_with_motion": 99.8,
+     "pct_fully_static": 0.2,
+     "median_pixel_change": 5.53,
+     "frame_contrast": 13.4,
+     "motion_index": 0.4134
     }
    },
    "script": {
@@ -3594,6 +3825,14 @@
      "median_masked_pixel_change": 2.49,
      "pct_held_pairs_essentially_static": 0.2,
      "median_zoom_normalized_residual": 0.1265
+    },
+    "motion_measured": {
+     "held_pairs": 454,
+     "pct_with_motion": 100.0,
+     "pct_fully_static": 0.0,
+     "median_pixel_change": 2.49,
+     "frame_contrast": 8.0,
+     "motion_index": 0.3109
     }
    },
    "script": {
@@ -3812,6 +4051,14 @@
      "median_masked_pixel_change": 17.77,
      "pct_held_pairs_essentially_static": 0.0,
      "median_zoom_normalized_residual": 0.2363
+    },
+    "motion_measured": {
+     "held_pairs": 287,
+     "pct_with_motion": 100.0,
+     "pct_fully_static": 0.0,
+     "median_pixel_change": 17.77,
+     "frame_contrast": 37.2,
+     "motion_index": 0.4776
     }
    },
    "script": {
@@ -4035,6 +4282,14 @@
      "median_masked_pixel_change": 19.24,
      "pct_held_pairs_essentially_static": 0.3,
      "median_zoom_normalized_residual": 0.2026
+    },
+    "motion_measured": {
+     "held_pairs": 346,
+     "pct_with_motion": 99.7,
+     "pct_fully_static": 0.3,
+     "median_pixel_change": 19.24,
+     "frame_contrast": 46.0,
+     "motion_index": 0.4182
     }
    },
    "script": {
@@ -4245,6 +4500,14 @@
      "median_masked_pixel_change": 21.58,
      "pct_held_pairs_essentially_static": 0.0,
      "median_zoom_normalized_residual": 0.2841
+    },
+    "motion_measured": {
+     "held_pairs": 384,
+     "pct_with_motion": 100.0,
+     "pct_fully_static": 0.0,
+     "median_pixel_change": 21.58,
+     "frame_contrast": 43.3,
+     "motion_index": 0.498
     }
    },
    "script": {
@@ -4309,5 +4572,36 @@
    },
    "rpm": null
   }
+ },
+ "comment_evidence": {
+  "method": "Top-sorted comments read on 4 videos across 3 channels (~77 comments total). Text tool, unlimited. Read for: voice perception, visual/script coupling, length, use-case.",
+  "videos_sampled": [
+   "BLPBP5BaU-0 (Sleep On Physics, 129 comments)",
+   "lqZntA10Q5g (Calm Science, 122 comments)",
+   "BA59TWIMNG4 (Sleepy Science, 24 comments)",
+   "o2eIwICmo7w (Calm Space, 84 comments)"
+  ],
+  "ai_voice_complaints": 0,
+  "voice_mentions_positive": [
+   "\"Your voice is very soothing\" (Sleepy Science)"
+  ],
+  "perceived_narrator_gender": {
+   "evidence": [
+    "\"Thank you Mr sleepy science\" (Sleepy Science Channel)",
+    "\"Hello from Casa Grande Arizona. Thank you sir.\" (Calm Space)"
+   ],
+   "reading": "Viewers on two different channels address the narrator as male. This is PERCEIVED gender reported by viewers, not an acoustic measurement.",
+   "confidence": "MEDIUM"
+  },
+  "visual_script_decoupling_complaints": [
+   "\"This documentary is excellent, but it would be even stronger with animations that visually explain the concepts being discussed.\" (Sleep On Physics, 2 likes)",
+   "\"Great script. I wish you would have had a video to go along with the script.\" (Sleep On Physics)",
+   "\"Wish the visuals would have went with the audio description\" (Calm Space, 1 like)"
+  ],
+  "repetition_complaint": "\"great content but after hearing the same thing three times I couldn't take it any more bummer it's really interesting\" (Sleep On Physics)",
+  "length_complaint": "\"It shouldn't take 2 fkng hours to explain this.\" (Calm Space, 7 likes \u2014 highest-liked negative comment found)",
+  "time_to_sleep": "\"Seems like some people don't get that other people just want to use this to fall asleep easier. Takes about 3 minutes for me.\" (Calm Space)",
+  "community_ritual": "Viewers post their location and local time (\"11:56 from Edmonton, Canada\"; \"9:22 pm August 13, 2026 Northern California\"; \"Hello from Casa Grande Arizona\"). Present on 2 of 3 channels sampled.",
+  "audience_character": "Comment sections contain physics corrections, working-professional anecdotes (\"Taught Electronics for 20 plus years\"), and topic requests. This is an awake, engaged, correcting audience as well as a sleeping one."
  }
 }

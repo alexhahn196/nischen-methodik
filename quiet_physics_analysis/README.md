@@ -2,7 +2,7 @@
 
 Reverse-engineering of how the strongest channels in the **quiet physics / cosmic physics** sleep-documentary niche actually construct their videos, so that a repeatable production SOP can be built for a target cost of **$20–50 per 2-hour episode**.
 
-**Analysed:** 5 channels · **17 videos** · ~2,200 minutes of runtime · ~13,600 sampled frames · ~280,000 transcript words
+**Analysed:** 5 channels · **17 videos** · ~2,200 minutes of runtime · ~13,600 sampled frames · 6,629 measured image-pairs · ~280,000 transcript words · ~77 viewer comments
 **Date:** 2026-08-20
 
 ---
@@ -37,12 +37,15 @@ Reverse-engineering of how the strongest channels in the **quiet physics / cosmi
 4. **Four of five channels show generic nebula wallpaper completely decoupled from the script** — and viewers of the leading physics channel complain about it in the top comments. This is the differentiation opening.
 5. **The $50 budget is 2–3× more than the format needs.** Marginal cost is $6–20 fully automated. **The binding constraint is human hours (~3.9 h/episode), not money.**
 
+**Bonus:** all five channels are confirmed monetized and faceless (0.98–0.99 confidence), cohort median RPM **$18.59** — and **Calm Science, the recommended primary reference, carries the highest RPM in the sample at $22.04**.
+
 ---
 
 ## Evidence standard
 
 - Every quantitative claim is measured from the artefacts, or explicitly labelled ESTIMATE / INFERRED / NOT MEASURED.
 - The scene-change detector was **calibrated against three independent ground truths** before use (see `02_channel_comparison.md` §0).
+- Catalogue-derived views-per-video were **independently corroborated to within 0.6–3.5 %** by a third-party metrics API on all five channels.
 - **No audio was ever heard.** Media streams are authentication-gated and that gate was not circumvented; every audio claim rests on caption-track annotations, caption-derived timing, or viewer comments, and is labelled accordingly.
 - **No audience-retention data exists** for competitor channels and none is inferred anywhere.
 - Confidence (HIGH / MEDIUM / LOW) is stated for every major conclusion, and `10_final_recommendation.md` Part 4 lists what could not be determined.

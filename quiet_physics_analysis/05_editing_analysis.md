@@ -227,6 +227,15 @@ Gemini's independent verdict on `tvB659d_oik` says the same thing in one sentenc
 | **Narration stops, music continues** | last 30 min of `xg8ieJQIB70` | Sleepy Science (1 old video) |
 | Chapter resets | **absent — 0 chapters in 17/17** | none |
 | Callbacks to earlier sections | present via spiral restatement | SOP, CS |
+| **Curiosity loops** (a question posed, then deliberately deferred and answered minutes later) | qualitative — the spiral opens each turn with an unresolved "but that isn't quite what happens" before delivering the deeper mechanism | SOP, CS |
+| Topic escalation (lab scale → cosmic scale) | qualitative, present in all sampled physics scripts | SOP, CS |
+
+### How much of this actually gets heard
+
+A Calm Space viewer, unprompted, in the top comments:
+> *"Seems like some people don't get that other people just want to use this to fall asleep easier. **Takes about 3 minutes for me.**"*
+
+Treat that as a single anecdote, not a statistic — but it is consistent with everything else measured here. A meaningful share of the audience is asleep inside the first few minutes, which is **exactly** why every strong channel spends 1.7× the editing effort on minutes 0–10 and then runs an unchanged template for the next 110. The video has to win in the first ten minutes or it does not win at all; after that it only has to avoid waking anyone.
 
 ### How the format stays interesting without waking the listener
 
