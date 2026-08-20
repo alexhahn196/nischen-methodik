@@ -1,0 +1,4313 @@
+{
+ "meta": {
+  "generated": "2026-08-20",
+  "n_channels": 5,
+  "n_videos": 17,
+  "method": {
+   "visual": "YouTube storyboard strip (format sb0, 320x180 tiles) fetched with yt-dlp; ~10.0s temporal sampling across the full runtime of every video; 1,502 sheets / ~13,600 frames analysed with OpenCV.",
+   "scene_detection": "Per-video temporal-variance mask isolates the changing image region (handles fixed-frame formats); HSV 12x6x6 histogram Bhattacharyya distance between consecutive samples; \"new asset\" at distance > 0.40.",
+   "calibration": "Threshold validated against 3 independent ground truths: multimodal shot list (13/13 exact), manual frame inspection of Sleep On Physics median (5/5), manual inspection of Cosmo Explains (10 vs ~11).",
+   "script": "YouTube auto-caption tracks via NexLev, de-overlapped into a timestamped word stream; 17 transcripts, 11,950-22,511 words each.",
+   "audio": "NO direct audio access (media streams auth-gated; not circumvented). Audio evidence is INDIRECT ONLY: caption [Music] annotation coverage, caption-derived WPM, viewer comments. Pitch/LUFS/TTS-vs-human NOT measured.",
+   "limits": [
+    "10s sampling cannot resolve shots shorter than ~10s; the first 60s of the top 3 channels saturates the detector (>=6-7 changes/min) so opening cut rate is a LOWER BOUND.",
+    "Multimodal video tool (Gemini) capped at 15 calls/24h; full shot-lists obtained for 2 Sleep On Physics videos only.",
+    "No audience-retention data exists for competitor channels; none is inferred."
+   ]
+  }
+ },
+ "per_channel": {
+  "Sleep On Physics": {
+   "id": "UCuKoEFuLJL1Q8HUqXC70RjQ",
+   "subs": 28100,
+   "longform": 123,
+   "total_views": 2922700,
+   "uploads_per_week": 6.1,
+   "handle": "@SleepOnPhysics",
+   "n_sampled": 4,
+   "views_per_longform_video": 23762,
+   "s_per_asset": {
+    "mean": 19.2,
+    "median": 19.05,
+    "min": 14.4,
+    "max": 24.3
+   },
+   "assets_per_120min": {
+    "mean": 394,
+    "min": 296,
+    "max": 499
+   },
+   "changes_per_min": 3.28,
+   "letterbox_pct": 0.0,
+   "brightness": 40.62,
+   "saturation": 0.57,
+   "contrast": 34.1,
+   "dark_pixels_pct": 61.8,
+   "near_black_pct": 40.9,
+   "colorfulness": 33.75,
+   "edge_density": 0.0872,
+   "rgb": {
+    "R": 35.4,
+    "G": 40.42,
+    "B": 58.18
+   },
+   "blue_minus_red": 22.75,
+   "time_bands": {
+    "00-10min": {
+     "changes_per_min": 5.55,
+     "brightness": 52.83,
+     "edge_density": 0.0861
+    },
+    "10-30min": {
+     "changes_per_min": 3.12,
+     "brightness": 38.78,
+     "edge_density": 0.0886
+    },
+    "30-60min": {
+     "changes_per_min": 3.11,
+     "brightness": 39.7,
+     "edge_density": 0.0876
+    },
+    "60-90min": {
+     "changes_per_min": 3.08,
+     "brightness": 39.62,
+     "edge_density": 0.0869
+    },
+    "90-120min": {
+     "changes_per_min": 3.09,
+     "brightness": 40.95,
+     "edge_density": 0.0856
+    }
+   },
+   "front_loading_pct": -44.3,
+   "wpm": {
+    "mean": 143.45,
+    "min": 135.9,
+    "max": 158.0
+   },
+   "words": {
+    "mean": 17623,
+    "min": 17145,
+    "max": 17845
+   },
+   "sentence_words": {
+    "mean": 14.07,
+    "median": 13.0
+   },
+   "flesch": 52.22,
+   "fk_grade": 9.42,
+   "questions_per_hour": 11.82,
+   "jargon_per_1000w": 26.3,
+   "analogy_per_hour": 17.92,
+   "you_per_1000w": 8.62,
+   "cta": {
+    "first_cta_s": [
+     61.6,
+     59.3,
+     62.9,
+     59.4
+    ],
+    "count": [
+     2,
+     3,
+     1,
+     2
+    ]
+   },
+   "narration_start_s": 0.16,
+   "music_tag_coverage_pct": 67.68
+  },
+  "Calm Science": {
+   "id": "UCUGv6JOgXVKbGYF57VYTagQ",
+   "subs": 5720,
+   "longform": 29,
+   "total_views": 646594,
+   "uploads_per_week": 2.89,
+   "handle": "@CalmScienceToSleep",
+   "n_sampled": 4,
+   "views_per_longform_video": 22296,
+   "s_per_asset": {
+    "mean": 21.75,
+    "median": 21.7,
+    "min": 21.2,
+    "max": 22.4
+   },
+   "assets_per_120min": {
+    "mean": 331,
+    "min": 322,
+    "max": 339
+   },
+   "changes_per_min": 2.76,
+   "letterbox_pct": 20.0,
+   "brightness": 32.83,
+   "saturation": 0.43,
+   "contrast": 34.3,
+   "dark_pixels_pct": 65.77,
+   "near_black_pct": 46.85,
+   "colorfulness": 25.02,
+   "edge_density": 0.0733,
+   "rgb": {
+    "R": 30.22,
+    "G": 32.52,
+    "B": 43.23
+   },
+   "blue_minus_red": 13.05,
+   "time_bands": {
+    "00-10min": {
+     "changes_per_min": 4.08,
+     "brightness": 32.53,
+     "edge_density": 0.0751
+    },
+    "10-30min": {
+     "changes_per_min": 2.94,
+     "brightness": 34.3,
+     "edge_density": 0.0785
+    },
+    "30-60min": {
+     "changes_per_min": 2.69,
+     "brightness": 32.12,
+     "edge_density": 0.0712
+    },
+    "60-90min": {
+     "changes_per_min": 2.38,
+     "brightness": 32.35,
+     "edge_density": 0.0667
+    },
+    "90-120min": {
+     "changes_per_min": 2.59,
+     "brightness": 34.6,
+     "edge_density": 0.0772
+    }
+   },
+   "front_loading_pct": -37.4,
+   "wpm": {
+    "mean": 120.35,
+    "min": 118.0,
+    "max": 121.8
+   },
+   "words": {
+    "mean": 15985,
+    "min": 15678,
+    "max": 16364
+   },
+   "sentence_words": {
+    "mean": 12.96,
+    "median": 11.5
+   },
+   "flesch": 52.48,
+   "fk_grade": 9.12,
+   "questions_per_hour": 8.3,
+   "jargon_per_1000w": 21.3,
+   "analogy_per_hour": 7.92,
+   "you_per_1000w": 7.63,
+   "cta": {
+    "first_cta_s": [
+     64.6,
+     64.4,
+     75.0,
+     55.3
+    ],
+    "count": [
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   "narration_start_s": 0.43,
+   "music_tag_coverage_pct": 12.12
+  },
+  "Calm Space": {
+   "id": "UCXyJmt3PKv0fbsU9DtcreEw",
+   "subs": 93900,
+   "longform": 185,
+   "total_views": 12919830,
+   "uploads_per_week": 5.79,
+   "handle": "@CalmSpaceToSleep",
+   "n_sampled": 3,
+   "views_per_longform_video": 69837,
+   "s_per_asset": {
+    "mean": 20.5,
+    "median": 20.6,
+    "min": 19.8,
+    "max": 21.1
+   },
+   "assets_per_120min": {
+    "mean": 351,
+    "min": 341,
+    "max": 363
+   },
+   "changes_per_min": 2.93,
+   "letterbox_pct": 20.0,
+   "brightness": 31.83,
+   "saturation": 0.44,
+   "contrast": 33.53,
+   "dark_pixels_pct": 66.67,
+   "near_black_pct": 48.07,
+   "colorfulness": 25.63,
+   "edge_density": 0.0695,
+   "rgb": {
+    "R": 29.1,
+    "G": 31.5,
+    "B": 43.27
+   },
+   "blue_minus_red": 14.13,
+   "time_bands": {
+    "00-10min": {
+     "changes_per_min": 4.53,
+     "brightness": 31.17,
+     "edge_density": 0.0711
+    },
+    "10-30min": {
+     "changes_per_min": 2.78,
+     "brightness": 30.53,
+     "edge_density": 0.0645
+    },
+    "30-60min": {
+     "changes_per_min": 2.74,
+     "brightness": 34.3,
+     "edge_density": 0.0729
+    },
+    "60-90min": {
+     "changes_per_min": 2.67,
+     "brightness": 30.6,
+     "edge_density": 0.0657
+    },
+    "90-120min": {
+     "changes_per_min": 2.77,
+     "brightness": 32.77,
+     "edge_density": 0.0716
+    }
+   },
+   "front_loading_pct": -39.8,
+   "wpm": {
+    "mean": 118.7,
+    "min": 112.9,
+    "max": 122.5
+   },
+   "words": {
+    "mean": 15883,
+    "min": 15433,
+    "max": 16170
+   },
+   "sentence_words": {
+    "mean": 12.44,
+    "median": 12.0
+   },
+   "flesch": 52.23,
+   "fk_grade": 9.0,
+   "questions_per_hour": 8.47,
+   "jargon_per_1000w": 3.4,
+   "analogy_per_hour": 7.2,
+   "you_per_1000w": 6.5,
+   "cta": {
+    "first_cta_s": [
+     66.6,
+     66.0,
+     47.1
+    ],
+    "count": [
+     1,
+     1,
+     2
+    ]
+   },
+   "narration_start_s": 0.59,
+   "music_tag_coverage_pct": 13.27
+  },
+  "Sleepy Science Channel": {
+   "id": "UCNZegH5HQPx_chNsPqJw1Rw",
+   "subs": 328000,
+   "longform": 290,
+   "total_views": 33390500,
+   "uploads_per_week": 4.96,
+   "handle": "@SleepyScienceChannel",
+   "n_sampled": 3,
+   "views_per_longform_video": 115140,
+   "s_per_asset": {
+    "mean": 20.63,
+    "median": 21.4,
+    "min": 18.4,
+    "max": 22.1
+   },
+   "assets_per_120min": {
+    "mean": 350,
+    "min": 325,
+    "max": 390
+   },
+   "changes_per_min": 2.92,
+   "letterbox_pct": 0.0,
+   "brightness": 23.97,
+   "saturation": 0.37,
+   "contrast": 12.13,
+   "dark_pixels_pct": 80.83,
+   "near_black_pct": 35.83,
+   "colorfulness": 12.53,
+   "edge_density": 0.0176,
+   "rgb": {
+    "R": 26.43,
+    "G": 23.0,
+    "B": 26.67
+   },
+   "blue_minus_red": 0.23,
+   "time_bands": {
+    "00-10min": {
+     "changes_per_min": 3.3,
+     "brightness": 29.17,
+     "edge_density": 0.0265
+    },
+    "10-30min": {
+     "changes_per_min": 3.22,
+     "brightness": 28.1,
+     "edge_density": 0.0272
+    },
+    "30-60min": {
+     "changes_per_min": 3.39,
+     "brightness": 26.33,
+     "edge_density": 0.023
+    },
+    "60-90min": {
+     "changes_per_min": 3.38,
+     "brightness": 25.33,
+     "edge_density": 0.0211
+    },
+    "90-120min": {
+     "changes_per_min": 2.28,
+     "brightness": 18.73,
+     "edge_density": 0.0045
+    }
+   },
+   "front_loading_pct": -8.6,
+   "wpm": {
+    "mean": 125.0,
+    "min": 99.6,
+    "max": 139.0
+   },
+   "words": {
+    "mean": 17728,
+    "min": 11950,
+    "max": 22511
+   },
+   "sentence_words": {
+    "mean": 14.14,
+    "median": 13.0
+   },
+   "flesch": 54.1,
+   "fk_grade": 9.2,
+   "questions_per_hour": 0.3,
+   "jargon_per_1000w": 2.4,
+   "analogy_per_hour": 13.7,
+   "you_per_1000w": 12.63,
+   "cta": {
+    "first_cta_s": [
+     87.2,
+     81.1,
+     66.6
+    ],
+    "count": [
+     1,
+     2,
+     2
+    ]
+   },
+   "narration_start_s": 0.53,
+   "music_tag_coverage_pct": 74.73
+  },
+  "Cosmo Explains": {
+   "id": "UCIhxIGwGDetnoPGiHfXTsTg",
+   "subs": 22800,
+   "longform": 134,
+   "total_views": 1585678,
+   "uploads_per_week": 6.77,
+   "handle": "@CosmoExplainsYT",
+   "n_sampled": 3,
+   "views_per_longform_video": 11833,
+   "s_per_asset": {
+    "mean": 17.73,
+    "median": 17.9,
+    "min": 16.0,
+    "max": 19.3
+   },
+   "assets_per_120min": {
+    "mean": 408,
+    "min": 374,
+    "max": 449
+   },
+   "changes_per_min": 3.4,
+   "letterbox_pct": 0.0,
+   "brightness": 38.0,
+   "saturation": 0.57,
+   "contrast": 42.17,
+   "dark_pixels_pct": 63.3,
+   "near_black_pct": 38.7,
+   "colorfulness": 26.73,
+   "edge_density": 0.1078,
+   "rgb": {
+    "R": 42.17,
+    "G": 36.87,
+    "B": 36.9
+   },
+   "blue_minus_red": -5.27,
+   "time_bands": {
+    "00-10min": {
+     "changes_per_min": 3.17,
+     "brightness": 37.93,
+     "edge_density": 0.1059
+    },
+    "10-30min": {
+     "changes_per_min": 3.35,
+     "brightness": 37.57,
+     "edge_density": 0.1069
+    },
+    "30-60min": {
+     "changes_per_min": 3.43,
+     "brightness": 38.43,
+     "edge_density": 0.1082
+    },
+    "60-90min": {
+     "changes_per_min": 3.44,
+     "brightness": 38.7,
+     "edge_density": 0.1097
+    },
+    "90-120min": {
+     "changes_per_min": 3.43,
+     "brightness": 37.8,
+     "edge_density": 0.1068
+    }
+   },
+   "front_loading_pct": 8.3,
+   "wpm": {
+    "mean": 130.13,
+    "min": 129.6,
+    "max": 130.6
+   },
+   "words": {
+    "mean": 16860,
+    "min": 16496,
+    "max": 17325
+   },
+   "sentence_words": {
+    "mean": 14.34,
+    "median": 12.0
+   },
+   "flesch": 55.87,
+   "fk_grade": 9.0,
+   "questions_per_hour": 10.53,
+   "jargon_per_1000w": 5.2,
+   "analogy_per_hour": 10.43,
+   "you_per_1000w": 12.87,
+   "cta": {
+    "first_cta_s": [
+     null,
+     null,
+     null
+    ],
+    "count": [
+     0,
+     0,
+     0
+    ]
+   },
+   "narration_start_s": 0.11,
+   "music_tag_coverage_pct": 0.0
+  }
+ },
+ "per_video": {
+  "_nLpB_Ao7zw": {
+   "channel": "Sleep On Physics",
+   "classification": "Breakout-AllTime",
+   "title": "What Is a Photon Actually Made Of\u2026 And Why Does It Never Stand Still?",
+   "url": "https://www.youtube.com/watch?v=_nLpB_Ao7zw",
+   "upload_date": "20260403",
+   "duration_s": 6511,
+   "duration_min": 108.5,
+   "views": 227546,
+   "likes": 6764,
+   "comments": 478,
+   "views_per_day": 1637.0,
+   "like_rate_pct": 2.97,
+   "visual": {
+    "total_visual_changes": 415,
+    "changes_per_min": 3.82,
+    "mean_s_per_asset": 15.7,
+    "assets_per_10min": 38.2,
+    "est_unique_assets_120min": 459,
+    "asset_duration": {
+     "median_s": 10.0,
+     "mean_s": 15.7,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 19.9,
+     "p90_s": 29.9,
+     "max_s": 49.8,
+     "pct_shots_over_30s": 1.2,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 437,
+      "changes_per_min": 4.03,
+      "s_per_asset": 14.9
+     },
+     "0.40": {
+      "changes": 415,
+      "changes_per_min": 3.82,
+      "s_per_asset": 15.7
+     },
+     "0.50": {
+      "changes": 405,
+      "changes_per_min": 3.73,
+      "s_per_asset": 16.1
+     },
+     "0.60": {
+      "changes": 392,
+      "changes_per_min": 3.61,
+      "s_per_asset": 16.6
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 52,
+      "changes_per_min": 5.2,
+      "s_per_asset": 11.5,
+      "brightness_0_255": 40.8,
+      "saturation": 0.523,
+      "contrast": 32.1,
+      "dark_pixels_pct": 61.4,
+      "near_black_pct": 39.5,
+      "colorfulness": 26.7,
+      "edge_density": 0.0761,
+      "warm_R_minus_B": -13.8
+     },
+     {
+      "band": "10-30min",
+      "changes": 74,
+      "changes_per_min": 3.7,
+      "s_per_asset": 16.2,
+      "brightness_0_255": 23.0,
+      "saturation": 0.528,
+      "contrast": 22.0,
+      "dark_pixels_pct": 78.1,
+      "near_black_pct": 56.7,
+      "colorfulness": 21.3,
+      "edge_density": 0.0551,
+      "warm_R_minus_B": -10.4
+     },
+     {
+      "band": "30-60min",
+      "changes": 111,
+      "changes_per_min": 3.7,
+      "s_per_asset": 16.2,
+      "brightness_0_255": 22.6,
+      "saturation": 0.545,
+      "contrast": 22.2,
+      "dark_pixels_pct": 79.1,
+      "near_black_pct": 58.1,
+      "colorfulness": 21.5,
+      "edge_density": 0.0564,
+      "warm_R_minus_B": -11.5
+     },
+     {
+      "band": "60-90min",
+      "changes": 110,
+      "changes_per_min": 3.67,
+      "s_per_asset": 16.4,
+      "brightness_0_255": 24.3,
+      "saturation": 0.541,
+      "contrast": 23.4,
+      "dark_pixels_pct": 76.3,
+      "near_black_pct": 54.8,
+      "colorfulness": 22.2,
+      "edge_density": 0.059,
+      "warm_R_minus_B": -10.7
+     },
+     {
+      "band": "90-120min",
+      "changes": 68,
+      "changes_per_min": 3.67,
+      "s_per_asset": 16.3,
+      "brightness_0_255": 25.7,
+      "saturation": 0.534,
+      "contrast": 22.9,
+      "dark_pixels_pct": 77.2,
+      "near_black_pct": 56.1,
+      "colorfulness": 21.6,
+      "edge_density": 0.0554,
+      "warm_R_minus_B": -10.6
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 25.3,
+     "brightness_median": 20.0,
+     "saturation_mean": 0.536,
+     "contrast_mean": 23.5,
+     "dark_pixels_pct_mean": 76.2,
+     "near_black_pct_mean": 54.9,
+     "colorfulness_mean": 22.1,
+     "edge_density_mean": 0.0585,
+     "R": 23.5,
+     "G": 24.9,
+     "B": 34.7,
+     "warm_R_minus_B": -11.1,
+     "blue_dominance_B_minus_R": 11.1
+    },
+    "motion": {
+     "held_pairs": 238,
+     "median_masked_pixel_change": 10.71,
+     "pct_held_pairs_essentially_static": 3.8,
+     "median_zoom_normalized_residual": 0.3656
+    }
+   },
+   "script": {
+    "n_words": 17145,
+    "wpm": 158.0,
+    "wpm_curve_per10min": [
+     156.8,
+     160.6,
+     158.8,
+     150.6,
+     160.1,
+     160.8,
+     161.6,
+     157.2,
+     158.4,
+     153.3,
+     136.3
+    ],
+    "narration_start_s": 0.32,
+    "narration_end_s": 6510.64,
+    "mean_sentence_words": 12.13,
+    "median_sentence_words": 11,
+    "p90_sentence_words": 21.0,
+    "n_sentences": 1424,
+    "flesch_reading_ease": 57.3,
+    "flesch_kincaid_grade": 8.2,
+    "type_token_ratio": 0.1222,
+    "unique_words": 2095,
+    "n_questions": 39,
+    "questions_per_hour": 21.6,
+    "cta_count": 2,
+    "first_cta_s": 61.6,
+    "last_cta_s": 6459.1,
+    "sleep_mentions": 5,
+    "you_per_1000w": 14.4,
+    "analogy_per_hour": 19.4,
+    "jargon_per_1000w": 41.8,
+    "attention_reset_pct": 16.8,
+    "first_sentence": "Tonight, we're going to confront a question that sounds almost childishly simple, >> [music] >> but has haunted physicists for over a century.",
+    "cta_text": "Before we go any further, if you find this kind of deep exploration fascinating, a quick like or subscribe really helps the channel grow.",
+    "top_repeated_6grams": [
+     [
+      "at exactly the speed of light",
+      9
+     ],
+     [
+      "a quantum excitation of the electromagnetic",
+      6
+     ],
+     [
+      "quantum excitation of the electromagnetic field",
+      6
+     ],
+     [
+      "exactly the speed of light not",
+      4
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 61.5,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "tvB659d_oik": {
+   "channel": "Sleep On Physics",
+   "classification": "Breakout-Modern",
+   "title": "Where Does Light Get Its Speed From?",
+   "url": "https://www.youtube.com/watch?v=tvB659d_oik",
+   "upload_date": "20260716",
+   "duration_s": 7434,
+   "duration_min": 123.9,
+   "views": 158383,
+   "likes": 3906,
+   "comments": 471,
+   "views_per_day": 4525.2,
+   "like_rate_pct": 2.47,
+   "visual": {
+    "total_visual_changes": 515,
+    "changes_per_min": 4.16,
+    "mean_s_per_asset": 14.4,
+    "assets_per_10min": 41.6,
+    "est_unique_assets_120min": 499,
+    "asset_duration": {
+     "median_s": 10.0,
+     "mean_s": 14.4,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 20.0,
+     "p90_s": 20.0,
+     "max_s": 29.9,
+     "pct_shots_over_30s": 0.0,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 536,
+      "changes_per_min": 4.33,
+      "s_per_asset": 13.9
+     },
+     "0.40": {
+      "changes": 515,
+      "changes_per_min": 4.16,
+      "s_per_asset": 14.4
+     },
+     "0.50": {
+      "changes": 496,
+      "changes_per_min": 4.0,
+      "s_per_asset": 15.0
+     },
+     "0.60": {
+      "changes": 487,
+      "changes_per_min": 3.93,
+      "s_per_asset": 15.3
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 53,
+      "changes_per_min": 5.3,
+      "s_per_asset": 11.3,
+      "brightness_0_255": 64.5,
+      "saturation": 0.486,
+      "contrast": 42.6,
+      "dark_pixels_pct": 37.2,
+      "near_black_pct": 19.8,
+      "colorfulness": 34.5,
+      "edge_density": 0.1165,
+      "warm_R_minus_B": -9.5
+     },
+     {
+      "band": "10-30min",
+      "changes": 79,
+      "changes_per_min": 3.95,
+      "s_per_asset": 15.2,
+      "brightness_0_255": 47.4,
+      "saturation": 0.576,
+      "contrast": 41.0,
+      "dark_pixels_pct": 54.4,
+      "near_black_pct": 36.8,
+      "colorfulness": 42.7,
+      "edge_density": 0.1183,
+      "warm_R_minus_B": -21.1
+     },
+     {
+      "band": "30-60min",
+      "changes": 123,
+      "changes_per_min": 4.1,
+      "s_per_asset": 14.6,
+      "brightness_0_255": 53.4,
+      "saturation": 0.548,
+      "contrast": 43.6,
+      "dark_pixels_pct": 49.1,
+      "near_black_pct": 31.2,
+      "colorfulness": 40.7,
+      "edge_density": 0.1159,
+      "warm_R_minus_B": -21.5
+     },
+     {
+      "band": "60-90min",
+      "changes": 123,
+      "changes_per_min": 4.1,
+      "s_per_asset": 14.6,
+      "brightness_0_255": 51.3,
+      "saturation": 0.568,
+      "contrast": 43.5,
+      "dark_pixels_pct": 51.3,
+      "near_black_pct": 34.2,
+      "colorfulness": 41.9,
+      "edge_density": 0.1143,
+      "warm_R_minus_B": -22.1
+     },
+     {
+      "band": "90-120min",
+      "changes": 121,
+      "changes_per_min": 4.03,
+      "s_per_asset": 14.9,
+      "brightness_0_255": 51.8,
+      "saturation": 0.561,
+      "contrast": 43.4,
+      "dark_pixels_pct": 51.0,
+      "near_black_pct": 33.3,
+      "colorfulness": 42.2,
+      "edge_density": 0.1204,
+      "warm_R_minus_B": -20.0
+     },
+     {
+      "band": "120min+",
+      "changes": 16,
+      "changes_per_min": 4.1,
+      "s_per_asset": 14.6,
+      "brightness_0_255": 51.8,
+      "saturation": 0.521,
+      "contrast": 41.2,
+      "dark_pixels_pct": 47.9,
+      "near_black_pct": 29.5,
+      "colorfulness": 40.4,
+      "edge_density": 0.1114,
+      "warm_R_minus_B": -32.8
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 52.3,
+     "brightness_median": 50.5,
+     "saturation_mean": 0.554,
+     "contrast_mean": 42.9,
+     "dark_pixels_pct_mean": 50.0,
+     "near_black_pct_mean": 32.4,
+     "colorfulness_mean": 41.1,
+     "edge_density_mean": 0.1167,
+     "R": 48.3,
+     "G": 51.8,
+     "B": 68.9,
+     "warm_R_minus_B": -20.6,
+     "blue_dominance_B_minus_R": 20.6
+    },
+    "motion": {
+     "held_pairs": 231,
+     "median_masked_pixel_change": 22.02,
+     "pct_held_pairs_essentially_static": 0.4,
+     "median_zoom_normalized_residual": 0.3179
+    }
+   },
+   "script": {
+    "n_words": 17723,
+    "wpm": 143.0,
+    "wpm_curve_per10min": [
+     139.7,
+     144.3,
+     146.1,
+     143.6,
+     143.9,
+     144.0,
+     138.8,
+     147.1,
+     144.3,
+     141.5,
+     138.2,
+     143.5,
+     57.3
+    ],
+    "narration_start_s": 0.08,
+    "narration_end_s": 7435.92,
+    "mean_sentence_words": 14.87,
+    "median_sentence_words": 13.0,
+    "p90_sentence_words": 27.0,
+    "n_sentences": 1195,
+    "flesch_reading_ease": 59.7,
+    "flesch_kincaid_grade": 8.6,
+    "type_token_ratio": 0.1172,
+    "unique_words": 2078,
+    "n_questions": 15,
+    "questions_per_hour": 7.3,
+    "cta_count": 3,
+    "first_cta_s": 59.3,
+    "last_cta_s": 73.8,
+    "sleep_mentions": 0,
+    "you_per_1000w": 5.2,
+    "analogy_per_hour": 16.0,
+    "jargon_per_1000w": 21.8,
+    "attention_reset_pct": 21.3,
+    "first_sentence": "A candle flame in your kitchen produces light.",
+    "cta_text": "Before we go any further, if you find this kind of deep exploration fascinating, a quick like or subscribe really helps the channel grow.",
+    "top_repeated_6grams": [
+     [
+      "the speed of light in vacuum",
+      9
+     ],
+     [
+      "is the same for every observer",
+      7
+     ],
+     [
+      "every observer no matter how they",
+      5
+     ],
+     [
+      "no matter how they are moving",
+      5
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 71.0,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "YBNfHLlrJkg": {
+   "channel": "Sleep On Physics",
+   "classification": "Recent-Median",
+   "title": "No One Knows If Neutrinos Are Their Own Antiparticles",
+   "url": "https://www.youtube.com/watch?v=YBNfHLlrJkg",
+   "upload_date": "20260804",
+   "duration_s": 7823,
+   "duration_min": 130.4,
+   "views": 11929,
+   "likes": 227,
+   "comments": 41,
+   "views_per_day": 745.6,
+   "like_rate_pct": 1.9,
+   "visual": {
+    "total_visual_changes": 322,
+    "changes_per_min": 2.47,
+    "mean_s_per_asset": 24.3,
+    "assets_per_10min": 24.7,
+    "est_unique_assets_120min": 296,
+    "asset_duration": {
+     "median_s": 29.9,
+     "mean_s": 24.3,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 29.9,
+     "p90_s": 39.9,
+     "max_s": 59.9,
+     "pct_shots_over_30s": 24.0,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 350,
+      "changes_per_min": 2.68,
+      "s_per_asset": 22.4
+     },
+     "0.40": {
+      "changes": 322,
+      "changes_per_min": 2.47,
+      "s_per_asset": 24.3
+     },
+     "0.50": {
+      "changes": 297,
+      "changes_per_min": 2.28,
+      "s_per_asset": 26.3
+     },
+     "0.60": {
+      "changes": 276,
+      "changes_per_min": 2.12,
+      "s_per_asset": 28.3
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 58,
+      "changes_per_min": 5.8,
+      "s_per_asset": 10.3,
+      "brightness_0_255": 53.3,
+      "saturation": 0.471,
+      "contrast": 43.6,
+      "dark_pixels_pct": 55.1,
+      "near_black_pct": 36.9,
+      "colorfulness": 28.0,
+      "edge_density": 0.0764,
+      "warm_R_minus_B": -3.5
+     },
+     {
+      "band": "10-30min",
+      "changes": 48,
+      "changes_per_min": 2.4,
+      "s_per_asset": 25.0,
+      "brightness_0_255": 43.7,
+      "saturation": 0.599,
+      "contrast": 35.7,
+      "dark_pixels_pct": 61.5,
+      "near_black_pct": 37.2,
+      "colorfulness": 38.0,
+      "edge_density": 0.0711,
+      "warm_R_minus_B": -30.9
+     },
+     {
+      "band": "30-60min",
+      "changes": 64,
+      "changes_per_min": 2.13,
+      "s_per_asset": 28.1,
+      "brightness_0_255": 38.9,
+      "saturation": 0.62,
+      "contrast": 32.8,
+      "dark_pixels_pct": 64.6,
+      "near_black_pct": 41.0,
+      "colorfulness": 35.7,
+      "edge_density": 0.0735,
+      "warm_R_minus_B": -28.7
+     },
+     {
+      "band": "60-90min",
+      "changes": 63,
+      "changes_per_min": 2.1,
+      "s_per_asset": 28.6,
+      "brightness_0_255": 39.8,
+      "saturation": 0.611,
+      "contrast": 34.3,
+      "dark_pixels_pct": 63.8,
+      "near_black_pct": 39.9,
+      "colorfulness": 37.6,
+      "edge_density": 0.0713,
+      "warm_R_minus_B": -28.0
+     },
+     {
+      "band": "90-120min",
+      "changes": 68,
+      "changes_per_min": 2.27,
+      "s_per_asset": 26.5,
+      "brightness_0_255": 44.0,
+      "saturation": 0.612,
+      "contrast": 33.6,
+      "dark_pixels_pct": 62.3,
+      "near_black_pct": 40.1,
+      "colorfulness": 36.9,
+      "edge_density": 0.0678,
+      "warm_R_minus_B": -31.1
+     },
+     {
+      "band": "120min+",
+      "changes": 21,
+      "changes_per_min": 2.02,
+      "s_per_asset": 29.7,
+      "brightness_0_255": 32.2,
+      "saturation": 0.664,
+      "contrast": 29.9,
+      "dark_pixels_pct": 68.2,
+      "near_black_pct": 41.1,
+      "colorfulness": 36.4,
+      "edge_density": 0.0753,
+      "warm_R_minus_B": -34.4
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 41.6,
+     "brightness_median": 30.8,
+     "saturation_mean": 0.604,
+     "contrast_mean": 34.4,
+     "dark_pixels_pct_mean": 62.9,
+     "near_black_pct_mean": 39.6,
+     "colorfulness_mean": 36.2,
+     "edge_density_mean": 0.0717,
+     "R": 36.1,
+     "G": 41.0,
+     "B": 64.0,
+     "warm_R_minus_B": -27.9,
+     "blue_dominance_B_minus_R": 27.9
+    },
+    "motion": {
+     "held_pairs": 461,
+     "median_masked_pixel_change": 11.88,
+     "pct_held_pairs_essentially_static": 4.6,
+     "median_zoom_normalized_residual": 0.2466
+    }
+   },
+   "script": {
+    "n_words": 17845,
+    "wpm": 136.9,
+    "wpm_curve_per10min": [
+     141.4,
+     138.1,
+     140.0,
+     147.4,
+     135.9,
+     135.5,
+     137.0,
+     133.5,
+     132.7,
+     140.4,
+     124.3,
+     134.5,
+     138.2,
+     5.6
+    ],
+    "narration_start_s": 0.24,
+    "narration_end_s": 7824.48,
+    "mean_sentence_words": 14.75,
+    "median_sentence_words": 13.0,
+    "p90_sentence_words": 27.0,
+    "n_sentences": 1210,
+    "flesch_reading_ease": 45.7,
+    "flesch_kincaid_grade": 10.5,
+    "type_token_ratio": 0.1277,
+    "unique_words": 2279,
+    "n_questions": 21,
+    "questions_per_hour": 9.7,
+    "cta_count": 1,
+    "first_cta_s": 62.9,
+    "last_cta_s": 62.9,
+    "sleep_mentions": 0,
+    "you_per_1000w": 5.2,
+    "analogy_per_hour": 12.9,
+    "jargon_per_1000w": 21.4,
+    "attention_reset_pct": 19.2,
+    "first_sentence": "Every particle of matter you have ever encountered has a twin, an antimatter counterpart that is its exact opposite.",
+    "cta_text": "If you find this kind of deep exploration into the unsolved mysteries of physics interesting, a quick like or subscribe really helps the channel grow.",
+    "top_repeated_6grams": [
+     [
+      "the neutrino is its own antiparticle",
+      10
+     ],
+     [
+      "why the universe is made of",
+      8
+     ],
+     [
+      "the universe is made of matter",
+      8
+     ],
+     [
+      "of why the universe is made",
+      5
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 60.3,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "BLPBP5BaU-0": {
+   "channel": "Sleep On Physics",
+   "classification": "Recent-Strong",
+   "title": "What Is Electricity Made Of According to Quantum Physics?",
+   "url": "https://www.youtube.com/watch?v=BLPBP5BaU-0",
+   "upload_date": "20260813",
+   "duration_s": 7848,
+   "duration_min": 130.8,
+   "views": 79844,
+   "likes": 2483,
+   "comments": 129,
+   "views_per_day": 11406.3,
+   "like_rate_pct": 3.11,
+   "visual": {
+    "total_visual_changes": 351,
+    "changes_per_min": 2.68,
+    "mean_s_per_asset": 22.4,
+    "assets_per_10min": 26.8,
+    "est_unique_assets_120min": 322,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 22.3,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 30.0,
+     "p90_s": 39.9,
+     "max_s": 59.9,
+     "pct_shots_over_30s": 12.3,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 406,
+      "changes_per_min": 3.1,
+      "s_per_asset": 19.3
+     },
+     "0.40": {
+      "changes": 351,
+      "changes_per_min": 2.68,
+      "s_per_asset": 22.4
+     },
+     "0.50": {
+      "changes": 322,
+      "changes_per_min": 2.46,
+      "s_per_asset": 24.4
+     },
+     "0.60": {
+      "changes": 294,
+      "changes_per_min": 2.25,
+      "s_per_asset": 26.7
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 59,
+      "changes_per_min": 5.9,
+      "s_per_asset": 10.2,
+      "brightness_0_255": 52.7,
+      "saturation": 0.441,
+      "contrast": 37.5,
+      "dark_pixels_pct": 53.5,
+      "near_black_pct": 39.7,
+      "colorfulness": 25.4,
+      "edge_density": 0.0752,
+      "warm_R_minus_B": -1.0
+     },
+     {
+      "band": "10-30min",
+      "changes": 49,
+      "changes_per_min": 2.45,
+      "s_per_asset": 24.5,
+      "brightness_0_255": 41.0,
+      "saturation": 0.665,
+      "contrast": 35.1,
+      "dark_pixels_pct": 60.4,
+      "near_black_pct": 38.4,
+      "colorfulness": 42.0,
+      "edge_density": 0.1097,
+      "warm_R_minus_B": -42.7
+     },
+     {
+      "band": "30-60min",
+      "changes": 76,
+      "changes_per_min": 2.53,
+      "s_per_asset": 23.7,
+      "brightness_0_255": 43.9,
+      "saturation": 0.575,
+      "contrast": 35.2,
+      "dark_pixels_pct": 57.5,
+      "near_black_pct": 36.0,
+      "colorfulness": 36.0,
+      "edge_density": 0.1044,
+      "warm_R_minus_B": -33.1
+     },
+     {
+      "band": "60-90min",
+      "changes": 74,
+      "changes_per_min": 2.47,
+      "s_per_asset": 24.3,
+      "brightness_0_255": 43.1,
+      "saturation": 0.554,
+      "contrast": 35.8,
+      "dark_pixels_pct": 58.1,
+      "near_black_pct": 37.3,
+      "colorfulness": 33.4,
+      "edge_density": 0.1031,
+      "warm_R_minus_B": -30.0
+     },
+     {
+      "band": "90-120min",
+      "changes": 72,
+      "changes_per_min": 2.4,
+      "s_per_asset": 25.0,
+      "brightness_0_255": 42.3,
+      "saturation": 0.57,
+      "contrast": 34.9,
+      "dark_pixels_pct": 58.4,
+      "near_black_pct": 35.6,
+      "colorfulness": 33.8,
+      "edge_density": 0.0987,
+      "warm_R_minus_B": -29.9
+     },
+     {
+      "band": "120min+",
+      "changes": 21,
+      "changes_per_min": 1.94,
+      "s_per_asset": 30.9,
+      "brightness_0_255": 40.6,
+      "saturation": 0.661,
+      "contrast": 36.9,
+      "dark_pixels_pct": 59.2,
+      "near_black_pct": 34.3,
+      "colorfulness": 43.2,
+      "edge_density": 0.1114,
+      "warm_R_minus_B": -42.9
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 43.3,
+     "brightness_median": 36.0,
+     "saturation_mean": 0.58,
+     "contrast_mean": 35.6,
+     "dark_pixels_pct_mean": 58.1,
+     "near_black_pct_mean": 36.7,
+     "colorfulness_mean": 35.6,
+     "edge_density_mean": 0.1019,
+     "R": 33.7,
+     "G": 44.0,
+     "B": 65.1,
+     "warm_R_minus_B": -31.4,
+     "blue_dominance_B_minus_R": 31.4
+    },
+    "motion": {
+     "held_pairs": 434,
+     "median_masked_pixel_change": 18.45,
+     "pct_held_pairs_essentially_static": 3.5,
+     "median_zoom_normalized_residual": 0.4006
+    }
+   },
+   "script": {
+    "n_words": 17780,
+    "wpm": 135.9,
+    "wpm_curve_per10min": [
+     141.9,
+     134.7,
+     147.4,
+     132.4,
+     134.7,
+     141.9,
+     143.7,
+     130.8,
+     129.4,
+     130.8,
+     133.5,
+     130.3,
+     135.0,
+     11.5
+    ],
+    "narration_start_s": 0.0,
+    "narration_end_s": 7849.24,
+    "mean_sentence_words": 14.53,
+    "median_sentence_words": 13,
+    "p90_sentence_words": 25.0,
+    "n_sentences": 1227,
+    "flesch_reading_ease": 46.2,
+    "flesch_kincaid_grade": 10.4,
+    "type_token_ratio": 0.1417,
+    "unique_words": 2519,
+    "n_questions": 19,
+    "questions_per_hour": 8.7,
+    "cta_count": 2,
+    "first_cta_s": 59.4,
+    "last_cta_s": 7822.9,
+    "sleep_mentions": 5,
+    "you_per_1000w": 9.7,
+    "analogy_per_hour": 23.4,
+    "jargon_per_1000w": 20.2,
+    "attention_reset_pct": 14.6,
+    "first_sentence": "Tonight, we're going to explore something you interact with every single day, but almost certainly misunderstand at a fundamental level.",
+    "cta_text": "Before we go any further, if you find this kind of deep exploration fascinating, a quick like or subscribe really helps the channel grow.",
+    "top_repeated_6grams": [
+     [
+      "from the switch to the lamp",
+      4
+     ],
+     [
+      "at close to the speed of",
+      4
+     ],
+     [
+      "close to the speed of light",
+      4
+     ],
+     [
+      "the electromagnetic field surrounding the wire",
+      4
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 77.9,
+    "chapters": 0
+   },
+   "rpm": {
+    "estimate": 18.21,
+    "min": 11.53,
+    "max": 24.89
+   }
+  },
+  "Nq-wJpo8Hk4": {
+   "channel": "Calm Science",
+   "classification": "Breakout",
+   "title": "What Is Energy Made of According to Quantum Physics?",
+   "url": "https://www.youtube.com/watch?v=Nq-wJpo8Hk4",
+   "upload_date": "20260629",
+   "duration_s": 7974,
+   "duration_min": 132.9,
+   "views": 91004,
+   "likes": 2461,
+   "comments": 81,
+   "views_per_day": 1750.1,
+   "like_rate_pct": 2.7,
+   "visual": {
+    "total_visual_changes": 375,
+    "changes_per_min": 2.82,
+    "mean_s_per_asset": 21.3,
+    "assets_per_10min": 28.2,
+    "est_unique_assets_120min": 339,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 21.3,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 29.9,
+     "p90_s": 37.3,
+     "max_s": 59.9,
+     "pct_shots_over_30s": 10.4,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 20.0,
+    "aspect": 2.22,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 437,
+      "changes_per_min": 3.29,
+      "s_per_asset": 18.2
+     },
+     "0.40": {
+      "changes": 375,
+      "changes_per_min": 2.82,
+      "s_per_asset": 21.3
+     },
+     "0.50": {
+      "changes": 355,
+      "changes_per_min": 2.67,
+      "s_per_asset": 22.5
+     },
+     "0.60": {
+      "changes": 340,
+      "changes_per_min": 2.56,
+      "s_per_asset": 23.5
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 43,
+      "changes_per_min": 4.3,
+      "s_per_asset": 14.0,
+      "brightness_0_255": 30.2,
+      "saturation": 0.419,
+      "contrast": 33.9,
+      "dark_pixels_pct": 69.7,
+      "near_black_pct": 50.6,
+      "colorfulness": 21.1,
+      "edge_density": 0.0724,
+      "warm_R_minus_B": -3.6
+     },
+     {
+      "band": "10-30min",
+      "changes": 64,
+      "changes_per_min": 3.2,
+      "s_per_asset": 18.8,
+      "brightness_0_255": 35.5,
+      "saturation": 0.406,
+      "contrast": 35.5,
+      "dark_pixels_pct": 64.2,
+      "near_black_pct": 44.2,
+      "colorfulness": 23.1,
+      "edge_density": 0.0703,
+      "warm_R_minus_B": -10.3
+     },
+     {
+      "band": "30-60min",
+      "changes": 81,
+      "changes_per_min": 2.7,
+      "s_per_asset": 22.2,
+      "brightness_0_255": 33.7,
+      "saturation": 0.446,
+      "contrast": 35.8,
+      "dark_pixels_pct": 64.2,
+      "near_black_pct": 47.0,
+      "colorfulness": 28.8,
+      "edge_density": 0.0666,
+      "warm_R_minus_B": -9.1
+     },
+     {
+      "band": "60-90min",
+      "changes": 70,
+      "changes_per_min": 2.33,
+      "s_per_asset": 25.7,
+      "brightness_0_255": 31.4,
+      "saturation": 0.465,
+      "contrast": 31.7,
+      "dark_pixels_pct": 66.2,
+      "near_black_pct": 44.2,
+      "colorfulness": 29.0,
+      "edge_density": 0.0681,
+      "warm_R_minus_B": -15.7
+     },
+     {
+      "band": "90-120min",
+      "changes": 79,
+      "changes_per_min": 2.63,
+      "s_per_asset": 22.8,
+      "brightness_0_255": 35.5,
+      "saturation": 0.397,
+      "contrast": 35.6,
+      "dark_pixels_pct": 61.6,
+      "near_black_pct": 44.0,
+      "colorfulness": 22.6,
+      "edge_density": 0.0796,
+      "warm_R_minus_B": -11.7
+     },
+     {
+      "band": "120min+",
+      "changes": 38,
+      "changes_per_min": 2.95,
+      "s_per_asset": 20.4,
+      "brightness_0_255": 30.1,
+      "saturation": 0.426,
+      "contrast": 32.9,
+      "dark_pixels_pct": 67.9,
+      "near_black_pct": 50.5,
+      "colorfulness": 25.2,
+      "edge_density": 0.0832,
+      "warm_R_minus_B": -13.3
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 33.2,
+     "brightness_median": 30.7,
+     "saturation_mean": 0.429,
+     "contrast_mean": 34.3,
+     "dark_pixels_pct_mean": 64.9,
+     "near_black_pct_mean": 46.0,
+     "colorfulness_mean": 25.6,
+     "edge_density_mean": 0.0724,
+     "R": 31.8,
+     "G": 32.6,
+     "B": 43.1,
+     "warm_R_minus_B": -11.4,
+     "blue_dominance_B_minus_R": 11.4
+    },
+    "motion": {
+     "held_pairs": 425,
+     "median_masked_pixel_change": 14.91,
+     "pct_held_pairs_essentially_static": 0.2,
+     "median_zoom_normalized_residual": 0.3167
+    }
+   },
+   "script": {
+    "n_words": 15680,
+    "wpm": 118.0,
+    "wpm_curve_per10min": [
+     118.4,
+     122.7,
+     115.8,
+     119.2,
+     116.4,
+     122.0,
+     113.7,
+     109.2,
+     118.5,
+     121.5,
+     118.9,
+     117.7,
+     118.3,
+     35.7
+    ],
+    "narration_start_s": 0.32,
+    "narration_end_s": 7976.32,
+    "mean_sentence_words": 12.24,
+    "median_sentence_words": 11,
+    "p90_sentence_words": 22.0,
+    "n_sentences": 1287,
+    "flesch_reading_ease": 50.7,
+    "flesch_kincaid_grade": 9.2,
+    "type_token_ratio": 0.1492,
+    "unique_words": 2340,
+    "n_questions": 24,
+    "questions_per_hour": 10.8,
+    "cta_count": 1,
+    "first_cta_s": 64.6,
+    "last_cta_s": 64.6,
+    "sleep_mentions": 3,
+    "you_per_1000w": 8.9,
+    "analogy_per_hour": 6.8,
+    "jargon_per_1000w": 27.4,
+    "attention_reset_pct": 12.7,
+    "first_sentence": "Tonight we're going to talk about something you interact with every single second of your life.",
+    "cta_text": "Before we begin, if you enjoy these topics as much as we do, make sure to like the video or subscribe.",
+    "top_repeated_6grams": [
+     [
+      "has a value at every point",
+      4
+     ],
+     [
+      "by the speed of light squared",
+      4
+     ],
+     [
+      "field has a value at every",
+      3
+     ],
+     [
+      "not off by a factor of",
+      3
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 18.0,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "LxDfEBostXk": {
+   "channel": "Calm Science",
+   "classification": "Breakout-Controlled",
+   "title": "Where Does Light Get Its Speed From?",
+   "url": "https://www.youtube.com/watch?v=LxDfEBostXk",
+   "upload_date": "20260731",
+   "duration_s": 8061,
+   "duration_min": 134.3,
+   "views": 80342,
+   "likes": 1854,
+   "comments": 124,
+   "views_per_day": 4017.1,
+   "like_rate_pct": 2.31,
+   "visual": {
+    "total_visual_changes": 364,
+    "changes_per_min": 2.71,
+    "mean_s_per_asset": 22.1,
+    "assets_per_10min": 27.1,
+    "est_unique_assets_120min": 325,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 22.1,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 29.9,
+     "p90_s": 29.9,
+     "max_s": 59.9,
+     "pct_shots_over_30s": 9.1,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 20.0,
+    "aspect": 2.22,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 425,
+      "changes_per_min": 3.16,
+      "s_per_asset": 19.0
+     },
+     "0.40": {
+      "changes": 364,
+      "changes_per_min": 2.71,
+      "s_per_asset": 22.1
+     },
+     "0.50": {
+      "changes": 342,
+      "changes_per_min": 2.55,
+      "s_per_asset": 23.6
+     },
+     "0.60": {
+      "changes": 328,
+      "changes_per_min": 2.44,
+      "s_per_asset": 24.6
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 37,
+      "changes_per_min": 3.7,
+      "s_per_asset": 16.2,
+      "brightness_0_255": 28.0,
+      "saturation": 0.356,
+      "contrast": 31.7,
+      "dark_pixels_pct": 71.3,
+      "near_black_pct": 54.2,
+      "colorfulness": 16.1,
+      "edge_density": 0.0563,
+      "warm_R_minus_B": -5.4
+     },
+     {
+      "band": "10-30min",
+      "changes": 51,
+      "changes_per_min": 2.55,
+      "s_per_asset": 23.5,
+      "brightness_0_255": 31.1,
+      "saturation": 0.391,
+      "contrast": 33.8,
+      "dark_pixels_pct": 68.8,
+      "near_black_pct": 47.9,
+      "colorfulness": 21.8,
+      "edge_density": 0.081,
+      "warm_R_minus_B": -7.7
+     },
+     {
+      "band": "30-60min",
+      "changes": 81,
+      "changes_per_min": 2.7,
+      "s_per_asset": 22.2,
+      "brightness_0_255": 30.5,
+      "saturation": 0.436,
+      "contrast": 34.1,
+      "dark_pixels_pct": 68.7,
+      "near_black_pct": 50.2,
+      "colorfulness": 23.9,
+      "edge_density": 0.068,
+      "warm_R_minus_B": -11.5
+     },
+     {
+      "band": "60-90min",
+      "changes": 71,
+      "changes_per_min": 2.37,
+      "s_per_asset": 25.4,
+      "brightness_0_255": 31.5,
+      "saturation": 0.482,
+      "contrast": 33.6,
+      "dark_pixels_pct": 65.1,
+      "near_black_pct": 46.8,
+      "colorfulness": 29.5,
+      "edge_density": 0.0635,
+      "warm_R_minus_B": -18.3
+     },
+     {
+      "band": "90-120min",
+      "changes": 82,
+      "changes_per_min": 2.73,
+      "s_per_asset": 22.0,
+      "brightness_0_255": 32.4,
+      "saturation": 0.42,
+      "contrast": 33.4,
+      "dark_pixels_pct": 65.3,
+      "near_black_pct": 44.6,
+      "colorfulness": 21.5,
+      "edge_density": 0.0815,
+      "warm_R_minus_B": -13.6
+     },
+     {
+      "band": "120min+",
+      "changes": 42,
+      "changes_per_min": 2.93,
+      "s_per_asset": 20.5,
+      "brightness_0_255": 26.6,
+      "saturation": 0.411,
+      "contrast": 28.9,
+      "dark_pixels_pct": 72.5,
+      "near_black_pct": 51.4,
+      "colorfulness": 20.9,
+      "edge_density": 0.072,
+      "warm_R_minus_B": -11.1
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 30.6,
+     "brightness_median": 28.6,
+     "saturation_mean": 0.427,
+     "contrast_mean": 33.0,
+     "dark_pixels_pct_mean": 67.8,
+     "near_black_pct_mean": 48.4,
+     "colorfulness_mean": 23.4,
+     "edge_density_mean": 0.0714,
+     "R": 27.9,
+     "G": 30.4,
+     "B": 40.3,
+     "warm_R_minus_B": -12.4,
+     "blue_dominance_B_minus_R": 12.4
+    },
+    "motion": {
+     "held_pairs": 445,
+     "median_masked_pixel_change": 14.84,
+     "pct_held_pairs_essentially_static": 0.7,
+     "median_zoom_normalized_residual": 0.3492
+    }
+   },
+   "script": {
+    "n_words": 16364,
+    "wpm": 121.8,
+    "wpm_curve_per10min": [
+     125.0,
+     119.1,
+     118.1,
+     122.9,
+     118.7,
+     117.7,
+     122.3,
+     126.1,
+     126.1,
+     118.4,
+     120.5,
+     122.6,
+     124.0,
+     54.9
+    ],
+    "narration_start_s": 0.44,
+    "narration_end_s": 8063.08,
+    "mean_sentence_words": 12.78,
+    "median_sentence_words": 11.0,
+    "p90_sentence_words": 23.0,
+    "n_sentences": 1285,
+    "flesch_reading_ease": 56.2,
+    "flesch_kincaid_grade": 8.6,
+    "type_token_ratio": 0.1346,
+    "unique_words": 2202,
+    "n_questions": 24,
+    "questions_per_hour": 10.7,
+    "cta_count": 1,
+    "first_cta_s": 64.4,
+    "last_cta_s": 64.4,
+    "sleep_mentions": 3,
+    "you_per_1000w": 7.0,
+    "analogy_per_hour": 6.7,
+    "jargon_per_1000w": 18.3,
+    "attention_reset_pct": 11.2,
+    "first_sentence": "Tonight, we're going to explore something so familiar that most people never stop to question it.",
+    "cta_text": "Before we begin, if you enjoy these topics as much as we do, make sure to like the video or subscribe.",
+    "top_repeated_6grams": [
+     [
+      "the speed of light is not",
+      12
+     ],
+     [
+      "speed of light is not just",
+      7
+     ],
+     [
+      "10 to the power of minus",
+      5
+     ],
+     [
+      "the permittivity and permeability of free",
+      5
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 14.8,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "-n6HdllViRU": {
+   "channel": "Calm Science",
+   "classification": "Recent-Median",
+   "title": "The True Scale of a Single Atom",
+   "url": "https://www.youtube.com/watch?v=-n6HdllViRU",
+   "upload_date": "20260814",
+   "duration_s": 7837,
+   "duration_min": 130.6,
+   "views": 9266,
+   "likes": 238,
+   "comments": 7,
+   "views_per_day": 1544.3,
+   "like_rate_pct": 2.57,
+   "visual": {
+    "total_visual_changes": 369,
+    "changes_per_min": 2.83,
+    "mean_s_per_asset": 21.2,
+    "assets_per_10min": 28.3,
+    "est_unique_assets_120min": 339,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 21.2,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 29.9,
+     "p90_s": 30.0,
+     "max_s": 59.9,
+     "pct_shots_over_30s": 9.5,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 20.0,
+    "aspect": 2.22,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 419,
+      "changes_per_min": 3.21,
+      "s_per_asset": 18.7
+     },
+     "0.40": {
+      "changes": 369,
+      "changes_per_min": 2.83,
+      "s_per_asset": 21.2
+     },
+     "0.50": {
+      "changes": 344,
+      "changes_per_min": 2.63,
+      "s_per_asset": 22.8
+     },
+     "0.60": {
+      "changes": 330,
+      "changes_per_min": 2.53,
+      "s_per_asset": 23.7
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 39,
+      "changes_per_min": 3.9,
+      "s_per_asset": 15.4,
+      "brightness_0_255": 38.2,
+      "saturation": 0.383,
+      "contrast": 36.8,
+      "dark_pixels_pct": 58.9,
+      "near_black_pct": 42.7,
+      "colorfulness": 19.0,
+      "edge_density": 0.0844,
+      "warm_R_minus_B": -12.3
+     },
+     {
+      "band": "10-30min",
+      "changes": 64,
+      "changes_per_min": 3.2,
+      "s_per_asset": 18.8,
+      "brightness_0_255": 37.3,
+      "saturation": 0.429,
+      "contrast": 37.0,
+      "dark_pixels_pct": 63.5,
+      "near_black_pct": 45.5,
+      "colorfulness": 27.0,
+      "edge_density": 0.0853,
+      "warm_R_minus_B": -14.8
+     },
+     {
+      "band": "30-60min",
+      "changes": 84,
+      "changes_per_min": 2.8,
+      "s_per_asset": 21.4,
+      "brightness_0_255": 30.5,
+      "saturation": 0.426,
+      "contrast": 32.1,
+      "dark_pixels_pct": 67.8,
+      "near_black_pct": 48.7,
+      "colorfulness": 25.6,
+      "edge_density": 0.071,
+      "warm_R_minus_B": -10.4
+     },
+     {
+      "band": "60-90min",
+      "changes": 74,
+      "changes_per_min": 2.47,
+      "s_per_asset": 24.3,
+      "brightness_0_255": 33.8,
+      "saturation": 0.464,
+      "contrast": 35.1,
+      "dark_pixels_pct": 65.1,
+      "near_black_pct": 46.5,
+      "colorfulness": 28.1,
+      "edge_density": 0.0685,
+      "warm_R_minus_B": -19.1
+     },
+     {
+      "band": "90-120min",
+      "changes": 75,
+      "changes_per_min": 2.5,
+      "s_per_asset": 24.0,
+      "brightness_0_255": 37.1,
+      "saturation": 0.411,
+      "contrast": 36.6,
+      "dark_pixels_pct": 62.2,
+      "near_black_pct": 42.6,
+      "colorfulness": 25.5,
+      "edge_density": 0.0746,
+      "warm_R_minus_B": -15.9
+     },
+     {
+      "band": "120min+",
+      "changes": 33,
+      "changes_per_min": 3.11,
+      "s_per_asset": 19.3,
+      "brightness_0_255": 32.8,
+      "saturation": 0.453,
+      "contrast": 33.6,
+      "dark_pixels_pct": 67.5,
+      "near_black_pct": 45.6,
+      "colorfulness": 28.4,
+      "edge_density": 0.0714,
+      "warm_R_minus_B": -17.7
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 34.6,
+     "brightness_median": 30.6,
+     "saturation_mean": 0.431,
+     "contrast_mean": 35.0,
+     "dark_pixels_pct_mean": 64.6,
+     "near_black_pct_mean": 45.6,
+     "colorfulness_mean": 26.1,
+     "edge_density_mean": 0.0744,
+     "R": 30.9,
+     "G": 34.5,
+     "B": 45.9,
+     "warm_R_minus_B": -15.1,
+     "blue_dominance_B_minus_R": 15.1
+    },
+    "motion": {
+     "held_pairs": 415,
+     "median_masked_pixel_change": 14.65,
+     "pct_held_pairs_essentially_static": 0.7,
+     "median_zoom_normalized_residual": 0.3218
+    }
+   },
+   "script": {
+    "n_words": 15678,
+    "wpm": 120.0,
+    "wpm_curve_per10min": [
+     131.1,
+     128.0,
+     117.8,
+     115.6,
+     119.0,
+     123.2,
+     121.2,
+     115.3,
+     115.1,
+     121.6,
+     120.4,
+     116.0,
+     117.2,
+     6.3
+    ],
+    "narration_start_s": 0.48,
+    "narration_end_s": 7837.0,
+    "mean_sentence_words": 13.25,
+    "median_sentence_words": 12,
+    "p90_sentence_words": 23.0,
+    "n_sentences": 1189,
+    "flesch_reading_ease": 52.4,
+    "flesch_kincaid_grade": 9.2,
+    "type_token_ratio": 0.1521,
+    "unique_words": 2384,
+    "n_questions": 5,
+    "questions_per_hour": 2.3,
+    "cta_count": 1,
+    "first_cta_s": 75.0,
+    "last_cta_s": 75.0,
+    "sleep_mentions": 2,
+    "you_per_1000w": 8.8,
+    "analogy_per_hour": 11.9,
+    "jargon_per_1000w": 26.0,
+    "attention_reset_pct": 9.9,
+    "first_sentence": "Tonight, we're going to shrink down to a scale so small that your mind is not built to hold it.",
+    "cta_text": "Before we begin, if you enjoy these topics as much as we do, make sure to like the video or subscribe.",
+    "top_repeated_6grams": [
+     [
+      "* 10 to the power of",
+      5
+     ],
+     [
+      "mega electron volts divided by c^",
+      4
+     ],
+     [
+      "electron volts divided by c^ 2",
+      4
+     ],
+     [
+      "the current age of the universe",
+      3
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 0.0,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "lqZntA10Q5g": {
+   "channel": "Calm Science",
+   "classification": "Recent-Strong",
+   "title": "If Energy Can\u2019t Be Created\u2026 Where Did It Come From?",
+   "url": "https://www.youtube.com/watch?v=lqZntA10Q5g",
+   "upload_date": "20260810",
+   "duration_s": 8005,
+   "duration_min": 133.4,
+   "views": 63899,
+   "likes": 1598,
+   "comments": 122,
+   "views_per_day": 6389.9,
+   "like_rate_pct": 2.5,
+   "visual": {
+    "total_visual_changes": 358,
+    "changes_per_min": 2.68,
+    "mean_s_per_asset": 22.4,
+    "assets_per_10min": 26.8,
+    "est_unique_assets_120min": 322,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 22.4,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 29.9,
+     "p90_s": 33.9,
+     "max_s": 59.9,
+     "pct_shots_over_30s": 10.1,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 20.0,
+    "aspect": 2.22,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 405,
+      "changes_per_min": 3.04,
+      "s_per_asset": 19.8
+     },
+     "0.40": {
+      "changes": 358,
+      "changes_per_min": 2.68,
+      "s_per_asset": 22.4
+     },
+     "0.50": {
+      "changes": 336,
+      "changes_per_min": 2.52,
+      "s_per_asset": 23.8
+     },
+     "0.60": {
+      "changes": 321,
+      "changes_per_min": 2.41,
+      "s_per_asset": 24.9
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 44,
+      "changes_per_min": 4.4,
+      "s_per_asset": 13.6,
+      "brightness_0_255": 33.7,
+      "saturation": 0.406,
+      "contrast": 37.3,
+      "dark_pixels_pct": 65.8,
+      "near_black_pct": 51.5,
+      "colorfulness": 22.3,
+      "edge_density": 0.0875,
+      "warm_R_minus_B": -10.7
+     },
+     {
+      "band": "10-30min",
+      "changes": 56,
+      "changes_per_min": 2.8,
+      "s_per_asset": 21.4,
+      "brightness_0_255": 33.3,
+      "saturation": 0.395,
+      "contrast": 36.8,
+      "dark_pixels_pct": 66.2,
+      "near_black_pct": 49.4,
+      "colorfulness": 23.9,
+      "edge_density": 0.0776,
+      "warm_R_minus_B": -9.5
+     },
+     {
+      "band": "30-60min",
+      "changes": 77,
+      "changes_per_min": 2.57,
+      "s_per_asset": 23.4,
+      "brightness_0_255": 33.8,
+      "saturation": 0.415,
+      "contrast": 36.4,
+      "dark_pixels_pct": 66.0,
+      "near_black_pct": 48.0,
+      "colorfulness": 24.6,
+      "edge_density": 0.0792,
+      "warm_R_minus_B": -13.1
+     },
+     {
+      "band": "60-90min",
+      "changes": 70,
+      "changes_per_min": 2.33,
+      "s_per_asset": 25.7,
+      "brightness_0_255": 32.7,
+      "saturation": 0.461,
+      "contrast": 33.9,
+      "dark_pixels_pct": 65.8,
+      "near_black_pct": 45.0,
+      "colorfulness": 28.5,
+      "edge_density": 0.0668,
+      "warm_R_minus_B": -16.6
+     },
+     {
+      "band": "90-120min",
+      "changes": 75,
+      "changes_per_min": 2.5,
+      "s_per_asset": 24.0,
+      "brightness_0_255": 33.4,
+      "saturation": 0.427,
+      "contrast": 33.8,
+      "dark_pixels_pct": 64.3,
+      "near_black_pct": 44.2,
+      "colorfulness": 25.2,
+      "edge_density": 0.0729,
+      "warm_R_minus_B": -14.1
+     },
+     {
+      "band": "120min+",
+      "changes": 36,
+      "changes_per_min": 2.68,
+      "s_per_asset": 22.4,
+      "brightness_0_255": 29.7,
+      "saturation": 0.41,
+      "contrast": 32.2,
+      "dark_pixels_pct": 68.0,
+      "near_black_pct": 51.4,
+      "colorfulness": 21.3,
+      "edge_density": 0.0771,
+      "warm_R_minus_B": -12.9
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 32.9,
+     "brightness_median": 30.5,
+     "saturation_mean": 0.424,
+     "contrast_mean": 34.9,
+     "dark_pixels_pct_mean": 65.8,
+     "near_black_pct_mean": 47.4,
+     "colorfulness_mean": 25.0,
+     "edge_density_mean": 0.0751,
+     "R": 30.3,
+     "G": 32.6,
+     "B": 43.6,
+     "warm_R_minus_B": -13.3,
+     "blue_dominance_B_minus_R": 13.3
+    },
+    "motion": {
+     "held_pairs": 443,
+     "median_masked_pixel_change": 15.63,
+     "pct_held_pairs_essentially_static": 0.9,
+     "median_zoom_normalized_residual": 0.3242
+    }
+   },
+   "script": {
+    "n_words": 16219,
+    "wpm": 121.6,
+    "wpm_curve_per10min": [
+     130.5,
+     121.2,
+     118.7,
+     120.8,
+     119.7,
+     119.0,
+     119.2,
+     122.1,
+     125.9,
+     120.7,
+     123.4,
+     119.9,
+     118.8,
+     42.0
+    ],
+    "narration_start_s": 0.48,
+    "narration_end_s": 8007.16,
+    "mean_sentence_words": 13.59,
+    "median_sentence_words": 12,
+    "p90_sentence_words": 25.0,
+    "n_sentences": 1195,
+    "flesch_reading_ease": 50.6,
+    "flesch_kincaid_grade": 9.5,
+    "type_token_ratio": 0.1498,
+    "unique_words": 2429,
+    "n_questions": 21,
+    "questions_per_hour": 9.4,
+    "cta_count": 1,
+    "first_cta_s": 55.3,
+    "last_cta_s": 55.3,
+    "sleep_mentions": 3,
+    "you_per_1000w": 5.8,
+    "analogy_per_hour": 6.3,
+    "jargon_per_1000w": 13.5,
+    "attention_reset_pct": 14.0,
+    "first_sentence": "Tonight, we're going to answer one of the most fundamental questions in all of physics.",
+    "cta_text": "Before we begin, if you enjoy these topics as much as we do, make sure to like the video or subscribe.",
+    "top_repeated_6grams": [
+     [
+      "in the history of physics it",
+      3
+     ],
+     [
+      "the nobel prize in physics in",
+      3
+     ],
+     [
+      "potential energy stored in the arrangement",
+      3
+     ],
+     [
+      "energy stored in the arrangement of",
+      3
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 15.7,
+    "chapters": 0
+   },
+   "rpm": {
+    "estimate": 19.04,
+    "min": 11.32,
+    "max": 26.76
+   }
+  },
+  "Ty6ZMyFagsU": {
+   "channel": "Calm Space",
+   "classification": "Breakout",
+   "title": "What Voyager Detected at The Edge of Our Solar System",
+   "url": "https://www.youtube.com/watch?v=Ty6ZMyFagsU",
+   "upload_date": "20260218",
+   "duration_s": 8529,
+   "duration_min": 142.2,
+   "views": 1770220,
+   "likes": 25721,
+   "comments": 419,
+   "views_per_day": 9673.3,
+   "like_rate_pct": 1.45,
+   "visual": {
+    "total_visual_changes": 430,
+    "changes_per_min": 3.02,
+    "mean_s_per_asset": 19.8,
+    "assets_per_10min": 30.2,
+    "est_unique_assets_120min": 363,
+    "asset_duration": {
+     "median_s": 10.0,
+     "mean_s": 19.8,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 30.0,
+     "p90_s": 39.9,
+     "max_s": 69.9,
+     "pct_shots_over_30s": 10.7,
+     "pct_shots_over_60s": 0.2
+    },
+    "letterbox_pct": 20.0,
+    "aspect": 2.22,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 472,
+      "changes_per_min": 3.32,
+      "s_per_asset": 18.1
+     },
+     "0.40": {
+      "changes": 430,
+      "changes_per_min": 3.02,
+      "s_per_asset": 19.8
+     },
+     "0.50": {
+      "changes": 417,
+      "changes_per_min": 2.93,
+      "s_per_asset": 20.5
+     },
+     "0.60": {
+      "changes": 398,
+      "changes_per_min": 2.8,
+      "s_per_asset": 21.4
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 43,
+      "changes_per_min": 4.3,
+      "s_per_asset": 14.0,
+      "brightness_0_255": 34.1,
+      "saturation": 0.375,
+      "contrast": 37.2,
+      "dark_pixels_pct": 65.9,
+      "near_black_pct": 51.4,
+      "colorfulness": 24.7,
+      "edge_density": 0.0793,
+      "warm_R_minus_B": -3.4
+     },
+     {
+      "band": "10-30min",
+      "changes": 57,
+      "changes_per_min": 2.85,
+      "s_per_asset": 21.1,
+      "brightness_0_255": 29.6,
+      "saturation": 0.496,
+      "contrast": 31.1,
+      "dark_pixels_pct": 67.9,
+      "near_black_pct": 49.2,
+      "colorfulness": 31.6,
+      "edge_density": 0.0614,
+      "warm_R_minus_B": -21.9
+     },
+     {
+      "band": "30-60min",
+      "changes": 88,
+      "changes_per_min": 2.93,
+      "s_per_asset": 20.5,
+      "brightness_0_255": 34.3,
+      "saturation": 0.478,
+      "contrast": 34.9,
+      "dark_pixels_pct": 63.6,
+      "near_black_pct": 44.7,
+      "colorfulness": 30.9,
+      "edge_density": 0.073,
+      "warm_R_minus_B": -19.3
+     },
+     {
+      "band": "60-90min",
+      "changes": 81,
+      "changes_per_min": 2.7,
+      "s_per_asset": 22.2,
+      "brightness_0_255": 32.4,
+      "saturation": 0.505,
+      "contrast": 33.1,
+      "dark_pixels_pct": 65.0,
+      "near_black_pct": 45.6,
+      "colorfulness": 31.8,
+      "edge_density": 0.0648,
+      "warm_R_minus_B": -18.7
+     },
+     {
+      "band": "90-120min",
+      "changes": 84,
+      "changes_per_min": 2.8,
+      "s_per_asset": 21.4,
+      "brightness_0_255": 31.2,
+      "saturation": 0.461,
+      "contrast": 32.7,
+      "dark_pixels_pct": 67.5,
+      "near_black_pct": 47.4,
+      "colorfulness": 26.5,
+      "edge_density": 0.0716,
+      "warm_R_minus_B": -16.8
+     },
+     {
+      "band": "120min+",
+      "changes": 77,
+      "changes_per_min": 3.48,
+      "s_per_asset": 17.3,
+      "brightness_0_255": 31.7,
+      "saturation": 0.428,
+      "contrast": 33.1,
+      "dark_pixels_pct": 66.6,
+      "near_black_pct": 50.1,
+      "colorfulness": 24.0,
+      "edge_density": 0.08,
+      "warm_R_minus_B": -14.4
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 32.1,
+     "brightness_median": 29.9,
+     "saturation_mean": 0.467,
+     "contrast_mean": 33.4,
+     "dark_pixels_pct_mean": 66.0,
+     "near_black_pct_mean": 47.5,
+     "colorfulness_mean": 28.7,
+     "edge_density_mean": 0.0708,
+     "R": 29.1,
+     "G": 31.6,
+     "B": 46.2,
+     "warm_R_minus_B": -17.1,
+     "blue_dominance_B_minus_R": 17.1
+    },
+    "motion": {
+     "held_pairs": 424,
+     "median_masked_pixel_change": 15.39,
+     "pct_held_pairs_essentially_static": 0.7,
+     "median_zoom_normalized_residual": 0.3303
+    }
+   },
+   "script": {
+    "n_words": 16046,
+    "wpm": 112.9,
+    "wpm_curve_per10min": [
+     120.3,
+     115.5,
+     112.4,
+     108.4,
+     111.1,
+     107.7,
+     109.8,
+     108.3,
+     117.2,
+     111.1,
+     108.7,
+     117.3,
+     112.0,
+     118.9,
+     25.9
+    ],
+    "narration_start_s": 0.56,
+    "narration_end_s": 8530.08,
+    "mean_sentence_words": 10.96,
+    "median_sentence_words": 10.0,
+    "p90_sentence_words": 19.0,
+    "n_sentences": 1467,
+    "flesch_reading_ease": 51.6,
+    "flesch_kincaid_grade": 8.7,
+    "type_token_ratio": 0.1704,
+    "unique_words": 2735,
+    "n_questions": 32,
+    "questions_per_hour": 13.5,
+    "cta_count": 1,
+    "first_cta_s": 66.6,
+    "last_cta_s": 66.6,
+    "sleep_mentions": 3,
+    "you_per_1000w": 1.1,
+    "analogy_per_hour": 10.1,
+    "jargon_per_1000w": 6.9,
+    "attention_reset_pct": 10.0,
+    "first_sentence": "Tonight, we're going to explore one of the most remarkable journeys in human history.",
+    "cta_text": "Before we get started, if you love exploring the depths of space as much as we do, take a second to like the video or subscribe.",
+    "top_repeated_6grams": [
+     [
+      "the edge of the solar system",
+      9
+     ],
+     [
+      "two spacecraft built with 1970s technology",
+      4
+     ],
+     [
+      "edge of the solar system they",
+      3
+     ],
+     [
+      "takes over 22 hours to reach",
+      3
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 9.1,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "Lgu_Oq8_J5I": {
+   "channel": "Calm Space",
+   "classification": "Median",
+   "title": "How Many Habitable Planets Are Actually Out There?",
+   "url": "https://www.youtube.com/watch?v=Lgu_Oq8_J5I",
+   "upload_date": "20260623",
+   "duration_s": 7917,
+   "duration_min": 131.9,
+   "views": 23812,
+   "likes": 664,
+   "comments": 78,
+   "views_per_day": 410.6,
+   "like_rate_pct": 2.79,
+   "visual": {
+    "total_visual_changes": 385,
+    "changes_per_min": 2.92,
+    "mean_s_per_asset": 20.6,
+    "assets_per_10min": 29.2,
+    "est_unique_assets_120min": 350,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 20.6,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 29.9,
+     "p90_s": 30.0,
+     "max_s": 59.9,
+     "pct_shots_over_30s": 9.4,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 20.0,
+    "aspect": 2.22,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 429,
+      "changes_per_min": 3.25,
+      "s_per_asset": 18.5
+     },
+     "0.40": {
+      "changes": 385,
+      "changes_per_min": 2.92,
+      "s_per_asset": 20.6
+     },
+     "0.50": {
+      "changes": 367,
+      "changes_per_min": 2.78,
+      "s_per_asset": 21.6
+     },
+     "0.60": {
+      "changes": 352,
+      "changes_per_min": 2.67,
+      "s_per_asset": 22.5
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 47,
+      "changes_per_min": 4.7,
+      "s_per_asset": 12.8,
+      "brightness_0_255": 27.9,
+      "saturation": 0.375,
+      "contrast": 31.6,
+      "dark_pixels_pct": 70.8,
+      "near_black_pct": 54.2,
+      "colorfulness": 17.7,
+      "edge_density": 0.0624,
+      "warm_R_minus_B": -5.8
+     },
+     {
+      "band": "10-30min",
+      "changes": 57,
+      "changes_per_min": 2.85,
+      "s_per_asset": 21.1,
+      "brightness_0_255": 31.1,
+      "saturation": 0.416,
+      "contrast": 32.0,
+      "dark_pixels_pct": 69.8,
+      "near_black_pct": 50.2,
+      "colorfulness": 24.6,
+      "edge_density": 0.0599,
+      "warm_R_minus_B": -13.2
+     },
+     {
+      "band": "30-60min",
+      "changes": 83,
+      "changes_per_min": 2.77,
+      "s_per_asset": 21.7,
+      "brightness_0_255": 34.2,
+      "saturation": 0.447,
+      "contrast": 34.9,
+      "dark_pixels_pct": 63.3,
+      "near_black_pct": 45.5,
+      "colorfulness": 28.6,
+      "edge_density": 0.0721,
+      "warm_R_minus_B": -17.1
+     },
+     {
+      "band": "60-90min",
+      "changes": 83,
+      "changes_per_min": 2.77,
+      "s_per_asset": 21.7,
+      "brightness_0_255": 29.3,
+      "saturation": 0.431,
+      "contrast": 31.8,
+      "dark_pixels_pct": 68.4,
+      "near_black_pct": 50.1,
+      "colorfulness": 25.3,
+      "edge_density": 0.063,
+      "warm_R_minus_B": -13.4
+     },
+     {
+      "band": "90-120min",
+      "changes": 82,
+      "changes_per_min": 2.73,
+      "s_per_asset": 22.0,
+      "brightness_0_255": 33.0,
+      "saturation": 0.445,
+      "contrast": 33.9,
+      "dark_pixels_pct": 65.2,
+      "near_black_pct": 44.8,
+      "colorfulness": 25.8,
+      "edge_density": 0.063,
+      "warm_R_minus_B": -14.5
+     },
+     {
+      "band": "120min+",
+      "changes": 33,
+      "changes_per_min": 2.76,
+      "s_per_asset": 21.7,
+      "brightness_0_255": 28.8,
+      "saturation": 0.427,
+      "contrast": 31.9,
+      "dark_pixels_pct": 69.4,
+      "near_black_pct": 52.3,
+      "colorfulness": 21.8,
+      "edge_density": 0.0639,
+      "warm_R_minus_B": -8.2
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 31.4,
+     "brightness_median": 28.5,
+     "saturation_mean": 0.431,
+     "contrast_mean": 33.0,
+     "dark_pixels_pct_mean": 67.0,
+     "near_black_pct_mean": 48.4,
+     "colorfulness_mean": 25.1,
+     "edge_density_mean": 0.0646,
+     "R": 28.5,
+     "G": 31.1,
+     "B": 42.0,
+     "warm_R_minus_B": -13.4,
+     "blue_dominance_B_minus_R": 13.4
+    },
+    "motion": {
+     "held_pairs": 407,
+     "median_masked_pixel_change": 15.52,
+     "pct_held_pairs_essentially_static": 0.7,
+     "median_zoom_normalized_residual": 0.3477
+    }
+   },
+   "script": {
+    "n_words": 16170,
+    "wpm": 122.5,
+    "wpm_curve_per10min": [
+     133.5,
+     126.9,
+     123.3,
+     123.5,
+     118.6,
+     117.8,
+     119.0,
+     114.5,
+     119.0,
+     123.9,
+     124.3,
+     125.1,
+     122.4,
+     25.2
+    ],
+    "narration_start_s": 0.56,
+    "narration_end_s": 7918.44,
+    "mean_sentence_words": 13.57,
+    "median_sentence_words": 12,
+    "p90_sentence_words": 26.0,
+    "n_sentences": 1197,
+    "flesch_reading_ease": 53.0,
+    "flesch_kincaid_grade": 9.2,
+    "type_token_ratio": 0.156,
+    "unique_words": 2522,
+    "n_questions": 20,
+    "questions_per_hour": 9.1,
+    "cta_count": 1,
+    "first_cta_s": 66.0,
+    "last_cta_s": 66.0,
+    "sleep_mentions": 6,
+    "you_per_1000w": 3.2,
+    "analogy_per_hour": 6.8,
+    "jargon_per_1000w": 1.2,
+    "attention_reset_pct": 11.0,
+    "first_sentence": "Tonight, we're going to do something that scientists have been quietly working toward for decades.",
+    "cta_text": "Before we get started, if you love exploring the depths of space as much as we do, take a second to like the video or subscribe.",
+    "top_repeated_6grams": [
+     [
+      "of potentially habitable worlds in the",
+      3
+     ],
+     [
+      "potentially habitable worlds in the milky",
+      3
+     ],
+     [
+      "habitable worlds in the milky way",
+      3
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 15.9,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "o2eIwICmo7w": {
+   "channel": "Calm Space",
+   "classification": "Recent-Strong",
+   "title": "What Would Actually Happen If You Traveled One Light Year?",
+   "url": "https://www.youtube.com/watch?v=o2eIwICmo7w",
+   "upload_date": "20260811",
+   "duration_s": 7673,
+   "duration_min": 127.9,
+   "views": 100812,
+   "likes": 1879,
+   "comments": 84,
+   "views_per_day": 11201.3,
+   "like_rate_pct": 1.86,
+   "visual": {
+    "total_visual_changes": 363,
+    "changes_per_min": 2.84,
+    "mean_s_per_asset": 21.1,
+    "assets_per_10min": 28.4,
+    "est_unique_assets_120min": 341,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 21.1,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 29.9,
+     "p90_s": 29.9,
+     "max_s": 59.9,
+     "pct_shots_over_30s": 8.3,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 20.0,
+    "aspect": 2.22,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 413,
+      "changes_per_min": 3.23,
+      "s_per_asset": 18.6
+     },
+     "0.40": {
+      "changes": 363,
+      "changes_per_min": 2.84,
+      "s_per_asset": 21.1
+     },
+     "0.50": {
+      "changes": 338,
+      "changes_per_min": 2.64,
+      "s_per_asset": 22.7
+     },
+     "0.60": {
+      "changes": 324,
+      "changes_per_min": 2.53,
+      "s_per_asset": 23.7
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 46,
+      "changes_per_min": 4.6,
+      "s_per_asset": 13.0,
+      "brightness_0_255": 31.5,
+      "saturation": 0.344,
+      "contrast": 34.7,
+      "dark_pixels_pct": 67.6,
+      "near_black_pct": 50.4,
+      "colorfulness": 17.3,
+      "edge_density": 0.0715,
+      "warm_R_minus_B": -6.2
+     },
+     {
+      "band": "10-30min",
+      "changes": 53,
+      "changes_per_min": 2.65,
+      "s_per_asset": 22.6,
+      "brightness_0_255": 30.9,
+      "saturation": 0.412,
+      "contrast": 33.7,
+      "dark_pixels_pct": 68.6,
+      "near_black_pct": 50.8,
+      "colorfulness": 23.6,
+      "edge_density": 0.0723,
+      "warm_R_minus_B": -12.4
+     },
+     {
+      "band": "30-60min",
+      "changes": 76,
+      "changes_per_min": 2.53,
+      "s_per_asset": 23.7,
+      "brightness_0_255": 34.4,
+      "saturation": 0.422,
+      "contrast": 35.7,
+      "dark_pixels_pct": 65.4,
+      "near_black_pct": 46.7,
+      "colorfulness": 25.7,
+      "edge_density": 0.0737,
+      "warm_R_minus_B": -11.1
+     },
+     {
+      "band": "60-90min",
+      "changes": 76,
+      "changes_per_min": 2.53,
+      "s_per_asset": 23.7,
+      "brightness_0_255": 30.1,
+      "saturation": 0.422,
+      "contrast": 32.5,
+      "dark_pixels_pct": 68.9,
+      "near_black_pct": 47.3,
+      "colorfulness": 24.4,
+      "edge_density": 0.0693,
+      "warm_R_minus_B": -14.0
+     },
+     {
+      "band": "90-120min",
+      "changes": 83,
+      "changes_per_min": 2.77,
+      "s_per_asset": 21.7,
+      "brightness_0_255": 34.1,
+      "saturation": 0.417,
+      "contrast": 35.6,
+      "dark_pixels_pct": 64.0,
+      "near_black_pct": 46.8,
+      "colorfulness": 22.6,
+      "edge_density": 0.0803,
+      "warm_R_minus_B": -13.1
+     },
+     {
+      "band": "120min+",
+      "changes": 29,
+      "changes_per_min": 3.68,
+      "s_per_asset": 16.3,
+      "brightness_0_255": 26.6,
+      "saturation": 0.346,
+      "contrast": 30.3,
+      "dark_pixels_pct": 72.0,
+      "near_black_pct": 54.6,
+      "colorfulness": 16.4,
+      "edge_density": 0.0635,
+      "warm_R_minus_B": -8.1
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 32.0,
+     "brightness_median": 29.1,
+     "saturation_mean": 0.408,
+     "contrast_mean": 34.2,
+     "dark_pixels_pct_mean": 67.0,
+     "near_black_pct_mean": 48.3,
+     "colorfulness_mean": 23.1,
+     "edge_density_mean": 0.0731,
+     "R": 29.7,
+     "G": 31.8,
+     "B": 41.6,
+     "warm_R_minus_B": -11.9,
+     "blue_dominance_B_minus_R": 11.9
+    },
+    "motion": {
+     "held_pairs": 407,
+     "median_masked_pixel_change": 14.86,
+     "pct_held_pairs_essentially_static": 1.0,
+     "median_zoom_normalized_residual": 0.3392
+    }
+   },
+   "script": {
+    "n_words": 15433,
+    "wpm": 120.7,
+    "wpm_curve_per10min": [
+     127.9,
+     121.8,
+     124.1,
+     113.2,
+     118.3,
+     119.9,
+     122.2,
+     115.7,
+     115.2,
+     122.9,
+     125.0,
+     120.9,
+     96.2
+    ],
+    "narration_start_s": 0.64,
+    "narration_end_s": 7674.96,
+    "mean_sentence_words": 12.79,
+    "median_sentence_words": 12.0,
+    "p90_sentence_words": 22.0,
+    "n_sentences": 1209,
+    "flesch_reading_ease": 52.1,
+    "flesch_kincaid_grade": 9.1,
+    "type_token_ratio": 0.1685,
+    "unique_words": 2600,
+    "n_questions": 6,
+    "questions_per_hour": 2.8,
+    "cta_count": 2,
+    "first_cta_s": 47.1,
+    "last_cta_s": 7657.3,
+    "sleep_mentions": 3,
+    "you_per_1000w": 15.2,
+    "analogy_per_hour": 4.7,
+    "jargon_per_1000w": 2.1,
+    "attention_reset_pct": 8.6,
+    "first_sentence": "Tonight, we're going to explore something that sounds like a simple number, but turns into one of the most brutal journeys a human being could attempt.",
+    "cta_text": "Before we get started, if you love exploring the depths of space as much as we do, take a second to like the video or subscribe.",
+    "top_repeated_6grams": [
+     [
+      "at 10% of light speed the",
+      5
+     ],
+     [
+      "fraction of the speed of light",
+      4
+     ],
+     [
+      "one lightyear from the sun the",
+      3
+     ],
+     [
+      "the outer edge of the ought",
+      3
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 14.8,
+    "chapters": 0
+   },
+   "rpm": {
+    "estimate": 14.26,
+    "min": 7.5,
+    "max": 21.02
+   }
+  },
+  "xg8ieJQIB70": {
+   "channel": "Sleepy Science Channel",
+   "classification": "Breakout",
+   "title": "100 Facts About the Milky Way Galaxy \u2014 Fall Asleep to Astronomy",
+   "url": "https://www.youtube.com/watch?v=xg8ieJQIB70",
+   "upload_date": "20250725",
+   "duration_s": 7200,
+   "duration_min": 120.0,
+   "views": 2353340,
+   "likes": 31084,
+   "comments": 1000,
+   "views_per_day": 6018.8,
+   "like_rate_pct": 1.32,
+   "visual": {
+    "total_visual_changes": 336,
+    "changes_per_min": 2.8,
+    "mean_s_per_asset": 21.4,
+    "assets_per_10min": 28.0,
+    "est_unique_assets_120min": 336,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 21.4,
+     "p10_s": 10.0,
+     "p25_s": 20.0,
+     "p75_s": 20.0,
+     "p90_s": 20.0,
+     "max_s": 179.8,
+     "pct_shots_over_30s": 7.5,
+     "pct_shots_over_60s": 1.8
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 447,
+      "changes_per_min": 3.73,
+      "s_per_asset": 16.1
+     },
+     "0.40": {
+      "changes": 336,
+      "changes_per_min": 2.8,
+      "s_per_asset": 21.4
+     },
+     "0.50": {
+      "changes": 242,
+      "changes_per_min": 2.02,
+      "s_per_asset": 29.8
+     },
+     "0.60": {
+      "changes": 161,
+      "changes_per_min": 1.34,
+      "s_per_asset": 44.7
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 31,
+      "changes_per_min": 3.1,
+      "s_per_asset": 19.4,
+      "brightness_0_255": 31.7,
+      "saturation": 0.285,
+      "contrast": 17.4,
+      "dark_pixels_pct": 63.4,
+      "near_black_pct": 14.2,
+      "colorfulness": 12.2,
+      "edge_density": 0.0291,
+      "warm_R_minus_B": -1.1
+     },
+     {
+      "band": "10-30min",
+      "changes": 56,
+      "changes_per_min": 2.8,
+      "s_per_asset": 21.4,
+      "brightness_0_255": 31.1,
+      "saturation": 0.28,
+      "contrast": 17.4,
+      "dark_pixels_pct": 65.5,
+      "near_black_pct": 14.9,
+      "colorfulness": 12.5,
+      "edge_density": 0.0328,
+      "warm_R_minus_B": -0.5
+     },
+     {
+      "band": "30-60min",
+      "changes": 92,
+      "changes_per_min": 3.07,
+      "s_per_asset": 19.6,
+      "brightness_0_255": 31.0,
+      "saturation": 0.275,
+      "contrast": 17.3,
+      "dark_pixels_pct": 65.5,
+      "near_black_pct": 14.7,
+      "colorfulness": 12.3,
+      "edge_density": 0.0332,
+      "warm_R_minus_B": -0.6
+     },
+     {
+      "band": "60-90min",
+      "changes": 91,
+      "changes_per_min": 3.03,
+      "s_per_asset": 19.8,
+      "brightness_0_255": 31.0,
+      "saturation": 0.265,
+      "contrast": 17.2,
+      "dark_pixels_pct": 65.5,
+      "near_black_pct": 14.1,
+      "colorfulness": 12.2,
+      "edge_density": 0.032,
+      "warm_R_minus_B": -0.2
+     },
+     {
+      "band": "90-120min",
+      "changes": 66,
+      "changes_per_min": 2.2,
+      "s_per_asset": 27.3,
+      "brightness_0_255": 20.4,
+      "saturation": 0.489,
+      "contrast": 8.2,
+      "dark_pixels_pct": 88.5,
+      "near_black_pct": 46.3,
+      "colorfulness": 7.6,
+      "edge_density": 0.006,
+      "warm_R_minus_B": -8.7
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 28.4,
+     "brightness_median": 29.4,
+     "saturation_mean": 0.328,
+     "contrast_mean": 15.0,
+     "dark_pixels_pct_mean": 71.1,
+     "near_black_pct_mean": 22.5,
+     "colorfulness_mean": 11.1,
+     "edge_density_mean": 0.0257,
+     "R": 27.5,
+     "G": 28.6,
+     "B": 30.1,
+     "warm_R_minus_B": -2.6,
+     "blue_dominance_B_minus_R": 2.6
+    },
+    "motion": {
+     "held_pairs": 384,
+     "median_masked_pixel_change": 2.72,
+     "pct_held_pairs_essentially_static": 9.6,
+     "median_zoom_normalized_residual": 0.0804
+    }
+   },
+   "script": {
+    "n_words": 11950,
+    "wpm": 99.6,
+    "wpm_curve_per10min": [
+     131.7,
+     135.9,
+     129.6,
+     133.4,
+     129.5,
+     128.2,
+     134.4,
+     130.1,
+     136.2,
+     1.0,
+     2.4,
+     2.6
+    ],
+    "narration_start_s": 0.48,
+    "narration_end_s": 7167.89,
+    "mean_sentence_words": 13.78,
+    "median_sentence_words": 13,
+    "p90_sentence_words": 23.0,
+    "n_sentences": 874,
+    "flesch_reading_ease": 63.7,
+    "flesch_kincaid_grade": 7.8,
+    "type_token_ratio": 0.1693,
+    "unique_words": 2023,
+    "n_questions": 1,
+    "questions_per_hour": 0.5,
+    "cta_count": 1,
+    "first_cta_s": 87.2,
+    "last_cta_s": 87.2,
+    "sleep_mentions": 7,
+    "you_per_1000w": 4.4,
+    "analogy_per_hour": 16.0,
+    "jargon_per_1000w": 1.1,
+    "attention_reset_pct": 11.2,
+    "first_sentence": "Hello there and welcome to the Sleepy Science Channel.",
+    "cta_text": "And just before we begin, if these calm, curious explorations help you unwind or give you a quiet way to end your day, consider liking and subscribing to the channel.",
+    "top_repeated_6grams": [
+     [
+      "super massive black hole at the",
+      5
+     ],
+     [
+      "the milky way is not a",
+      5
+     ],
+     [
+      "the super massive black hole at",
+      4
+     ],
+     [
+      "[music] heat [music] heat [music] heat",
+      4
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 24.8,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "A0vVW7PWnm4": {
+   "channel": "Sleepy Science Channel",
+   "classification": "Median",
+   "title": "The Most Relaxing Facts About Mind & Body to Fall Asleep To \u2014 No Adverts",
+   "url": "https://www.youtube.com/watch?v=A0vVW7PWnm4",
+   "upload_date": "20260317",
+   "duration_s": 8080,
+   "duration_min": 134.7,
+   "views": 44875,
+   "likes": 781,
+   "comments": 19,
+   "views_per_day": 287.7,
+   "like_rate_pct": 1.74,
+   "visual": {
+    "total_visual_changes": 365,
+    "changes_per_min": 2.71,
+    "mean_s_per_asset": 22.1,
+    "assets_per_10min": 27.1,
+    "est_unique_assets_120min": 325,
+    "asset_duration": {
+     "median_s": 19.9,
+     "mean_s": 21.0,
+     "p10_s": 10.0,
+     "p25_s": 19.9,
+     "p75_s": 20.0,
+     "p90_s": 33.9,
+     "max_s": 119.7,
+     "pct_shots_over_30s": 10.2,
+     "pct_shots_over_60s": 1.1
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 536,
+      "changes_per_min": 3.98,
+      "s_per_asset": 15.1
+     },
+     "0.40": {
+      "changes": 365,
+      "changes_per_min": 2.71,
+      "s_per_asset": 22.1
+     },
+     "0.50": {
+      "changes": 256,
+      "changes_per_min": 1.9,
+      "s_per_asset": 31.6
+     },
+     "0.60": {
+      "changes": 137,
+      "changes_per_min": 1.02,
+      "s_per_asset": 59.0
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 31,
+      "changes_per_min": 3.1,
+      "s_per_asset": 19.4,
+      "brightness_0_255": 30.3,
+      "saturation": 0.398,
+      "contrast": 17.8,
+      "dark_pixels_pct": 68.8,
+      "near_black_pct": 18.0,
+      "colorfulness": 24.5,
+      "edge_density": 0.0351,
+      "warm_R_minus_B": 9.0
+     },
+     {
+      "band": "10-30min",
+      "changes": 69,
+      "changes_per_min": 3.45,
+      "s_per_asset": 17.4,
+      "brightness_0_255": 30.5,
+      "saturation": 0.401,
+      "contrast": 17.3,
+      "dark_pixels_pct": 68.3,
+      "near_black_pct": 17.3,
+      "colorfulness": 24.8,
+      "edge_density": 0.0366,
+      "warm_R_minus_B": 8.7
+     },
+     {
+      "band": "30-60min",
+      "changes": 98,
+      "changes_per_min": 3.27,
+      "s_per_asset": 18.4,
+      "brightness_0_255": 30.5,
+      "saturation": 0.403,
+      "contrast": 17.4,
+      "dark_pixels_pct": 67.8,
+      "near_black_pct": 17.4,
+      "colorfulness": 24.9,
+      "edge_density": 0.0352,
+      "warm_R_minus_B": 9.5
+     },
+     {
+      "band": "60-90min",
+      "changes": 92,
+      "changes_per_min": 3.07,
+      "s_per_asset": 19.6,
+      "brightness_0_255": 28.8,
+      "saturation": 0.402,
+      "contrast": 15.8,
+      "dark_pixels_pct": 71.5,
+      "near_black_pct": 20.6,
+      "colorfulness": 21.6,
+      "edge_density": 0.0312,
+      "warm_R_minus_B": 6.7
+     },
+     {
+      "band": "90-120min",
+      "changes": 62,
+      "changes_per_min": 2.07,
+      "s_per_asset": 29.0,
+      "brightness_0_255": 19.6,
+      "saturation": 0.372,
+      "contrast": 7.6,
+      "dark_pixels_pct": 91.5,
+      "near_black_pct": 42.3,
+      "colorfulness": 9.1,
+      "edge_density": 0.0073,
+      "warm_R_minus_B": -0.5
+     },
+     {
+      "band": "120min+",
+      "changes": 13,
+      "changes_per_min": 0.89,
+      "s_per_asset": 67.7,
+      "brightness_0_255": 13.0,
+      "saturation": 0.388,
+      "contrast": 3.6,
+      "dark_pixels_pct": 99.9,
+      "near_black_pct": 84.5,
+      "colorfulness": 4.3,
+      "edge_density": 0.0,
+      "warm_R_minus_B": -5.0
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 25.8,
+     "brightness_median": 25.6,
+     "saturation_mean": 0.394,
+     "contrast_mean": 13.4,
+     "dark_pixels_pct_mean": 77.5,
+     "near_black_pct_mean": 31.0,
+     "colorfulness_mean": 18.3,
+     "edge_density_mean": 0.0245,
+     "R": 32.4,
+     "G": 23.6,
+     "B": 27.5,
+     "warm_R_minus_B": 4.9,
+     "blue_dominance_B_minus_R": -4.9
+    },
+    "motion": {
+     "held_pairs": 444,
+     "median_masked_pixel_change": 5.53,
+     "pct_held_pairs_essentially_static": 0.2,
+     "median_zoom_normalized_residual": 0.1997
+    }
+   },
+   "script": {
+    "n_words": 18724,
+    "wpm": 139.0,
+    "wpm_curve_per10min": [
+     140.0,
+     143.1,
+     141.6,
+     142.8,
+     141.1,
+     140.2,
+     142.6,
+     140.5,
+     132.2,
+     140.6,
+     139.6,
+     135.7,
+     140.8,
+     51.6
+    ],
+    "narration_start_s": 0.56,
+    "narration_end_s": 8052.06,
+    "mean_sentence_words": 12.94,
+    "median_sentence_words": 12,
+    "p90_sentence_words": 21.0,
+    "n_sentences": 1448,
+    "flesch_reading_ease": 60.4,
+    "flesch_kincaid_grade": 8.0,
+    "type_token_ratio": 0.1653,
+    "unique_words": 3096,
+    "n_questions": 1,
+    "questions_per_hour": 0.4,
+    "cta_count": 2,
+    "first_cta_s": 81.1,
+    "last_cta_s": 7989.0,
+    "sleep_mentions": 8,
+    "you_per_1000w": 32.6,
+    "analogy_per_hour": 19.6,
+    "jargon_per_1000w": 0.1,
+    "attention_reset_pct": 9.3,
+    "first_sentence": "Hello there and welcome to [music] the sleepy science channel.",
+    "cta_text": "If you enjoy [music] these gentle journeys, I invite you to like, subscribe or share a thought below.",
+    "top_repeated_6grams": []
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 100.0,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "BA59TWIMNG4": {
+   "channel": "Sleepy Science Channel",
+   "classification": "Recent-Strong",
+   "title": "Extreme Cosmic Events | 100 Facts to Fall Asleep To",
+   "url": "https://www.youtube.com/watch?v=BA59TWIMNG4",
+   "upload_date": "20260810",
+   "duration_s": 9902,
+   "duration_min": 165.0,
+   "views": 39948,
+   "likes": 580,
+   "comments": 24,
+   "views_per_day": 3994.8,
+   "like_rate_pct": 1.45,
+   "visual": {
+    "total_visual_changes": 537,
+    "changes_per_min": 3.25,
+    "mean_s_per_asset": 18.4,
+    "assets_per_10min": 32.5,
+    "est_unique_assets_120min": 390,
+    "asset_duration": {
+     "median_s": 20.0,
+     "mean_s": 18.4,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 20.0,
+     "p90_s": 20.0,
+     "max_s": 69.9,
+     "pct_shots_over_30s": 6.2,
+     "pct_shots_over_60s": 0.2
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 700,
+      "changes_per_min": 4.24,
+      "s_per_asset": 14.1
+     },
+     "0.40": {
+      "changes": 537,
+      "changes_per_min": 3.25,
+      "s_per_asset": 18.4
+     },
+     "0.50": {
+      "changes": 356,
+      "changes_per_min": 2.16,
+      "s_per_asset": 27.8
+     },
+     "0.60": {
+      "changes": 226,
+      "changes_per_min": 1.37,
+      "s_per_asset": 43.8
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 37,
+      "changes_per_min": 3.7,
+      "s_per_asset": 16.2,
+      "brightness_0_255": 25.5,
+      "saturation": 0.385,
+      "contrast": 17.3,
+      "dark_pixels_pct": 79.6,
+      "near_black_pct": 31.1,
+      "colorfulness": 20.1,
+      "edge_density": 0.0152,
+      "warm_R_minus_B": 2.0
+     },
+     {
+      "band": "10-30min",
+      "changes": 68,
+      "changes_per_min": 3.4,
+      "s_per_asset": 17.6,
+      "brightness_0_255": 22.7,
+      "saturation": 0.387,
+      "contrast": 13.5,
+      "dark_pixels_pct": 84.5,
+      "near_black_pct": 36.2,
+      "colorfulness": 15.9,
+      "edge_density": 0.0121,
+      "warm_R_minus_B": -0.2
+     },
+     {
+      "band": "30-60min",
+      "changes": 115,
+      "changes_per_min": 3.83,
+      "s_per_asset": 15.7,
+      "brightness_0_255": 17.5,
+      "saturation": 0.355,
+      "contrast": 7.6,
+      "dark_pixels_pct": 94.3,
+      "near_black_pct": 52.3,
+      "colorfulness": 7.4,
+      "edge_density": 0.0007,
+      "warm_R_minus_B": -2.7
+     },
+     {
+      "band": "60-90min",
+      "changes": 121,
+      "changes_per_min": 4.03,
+      "s_per_asset": 14.9,
+      "brightness_0_255": 16.2,
+      "saturation": 0.358,
+      "contrast": 6.2,
+      "dark_pixels_pct": 96.9,
+      "near_black_pct": 57.9,
+      "colorfulness": 5.8,
+      "edge_density": 0.0001,
+      "warm_R_minus_B": -3.5
+     },
+     {
+      "band": "90-120min",
+      "changes": 77,
+      "changes_per_min": 2.57,
+      "s_per_asset": 23.4,
+      "brightness_0_255": 16.2,
+      "saturation": 0.381,
+      "contrast": 6.3,
+      "dark_pixels_pct": 96.8,
+      "near_black_pct": 60.1,
+      "colorfulness": 5.8,
+      "edge_density": 0.0001,
+      "warm_R_minus_B": -4.4
+     },
+     {
+      "band": "120min+",
+      "changes": 119,
+      "changes_per_min": 2.64,
+      "s_per_asset": 22.7,
+      "brightness_0_255": 16.0,
+      "saturation": 0.384,
+      "contrast": 6.2,
+      "dark_pixels_pct": 97.1,
+      "near_black_pct": 61.3,
+      "colorfulness": 5.8,
+      "edge_density": 0.0001,
+      "warm_R_minus_B": -4.4
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 17.7,
+     "brightness_median": 16.7,
+     "saturation_mean": 0.374,
+     "contrast_mean": 8.0,
+     "dark_pixels_pct_mean": 93.9,
+     "near_black_pct_mean": 54.0,
+     "colorfulness_mean": 8.2,
+     "edge_density_mean": 0.0026,
+     "R": 19.4,
+     "G": 16.8,
+     "B": 22.4,
+     "warm_R_minus_B": -3.0,
+     "blue_dominance_B_minus_R": 3.0
+    },
+    "motion": {
+     "held_pairs": 454,
+     "median_masked_pixel_change": 2.49,
+     "pct_held_pairs_essentially_static": 0.2,
+     "median_zoom_normalized_residual": 0.1265
+    }
+   },
+   "script": {
+    "n_words": 22511,
+    "wpm": 136.4,
+    "wpm_curve_per10min": [
+     143.1,
+     140.2,
+     135.5,
+     134.0,
+     136.3,
+     135.0,
+     133.3,
+     139.5,
+     135.9,
+     135.4,
+     141.6,
+     134.0,
+     138.8,
+     137.2,
+     134.6,
+     135.5,
+     61.2
+    ],
+    "narration_start_s": 0.56,
+    "narration_end_s": 9893.94,
+    "mean_sentence_words": 15.69,
+    "median_sentence_words": 15,
+    "p90_sentence_words": 23.0,
+    "n_sentences": 1435,
+    "flesch_reading_ease": 38.2,
+    "flesch_kincaid_grade": 11.8,
+    "type_token_ratio": 0.1245,
+    "unique_words": 2802,
+    "n_questions": 0,
+    "questions_per_hour": 0.0,
+    "cta_count": 2,
+    "first_cta_s": 66.6,
+    "last_cta_s": 9822.9,
+    "sleep_mentions": 2,
+    "you_per_1000w": 0.9,
+    "analogy_per_hour": 5.5,
+    "jargon_per_1000w": 6.0,
+    "attention_reset_pct": 7.5,
+    "first_sentence": "Hello there and welcome to [music] the Sleepy Science Channel.",
+    "cta_text": "If you enjoy these gentle journeys, I invite [music] you to like, subscribe, or share a thought below.",
+    "top_repeated_6grams": []
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 99.4,
+    "chapters": 0
+   },
+   "rpm": {
+    "estimate": 20.1,
+    "min": 12.5,
+    "max": 27.7
+   }
+  },
+  "gmq4gqCytlY": {
+   "channel": "Cosmo Explains",
+   "classification": "Breakout",
+   "title": "Every Confusing Thing About The Theory of Relativity Explained Slowly (For Sleep)",
+   "url": "https://www.youtube.com/watch?v=gmq4gqCytlY",
+   "upload_date": "20260512",
+   "duration_s": 7603,
+   "duration_min": 126.7,
+   "views": 198908,
+   "likes": 1909,
+   "comments": 75,
+   "views_per_day": 1989.1,
+   "like_rate_pct": 0.96,
+   "visual": {
+    "total_visual_changes": 474,
+    "changes_per_min": 3.74,
+    "mean_s_per_asset": 16.0,
+    "assets_per_10min": 37.4,
+    "est_unique_assets_120min": 449,
+    "asset_duration": {
+     "median_s": 10.0,
+     "mean_s": 16.0,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 20.0,
+     "p90_s": 29.9,
+     "max_s": 39.9,
+     "pct_shots_over_30s": 2.3,
+     "pct_shots_over_60s": 0.0
+    },
+    "letterbox_pct": 3.3,
+    "aspect": 1.84,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 531,
+      "changes_per_min": 4.19,
+      "s_per_asset": 14.3
+     },
+     "0.40": {
+      "changes": 474,
+      "changes_per_min": 3.74,
+      "s_per_asset": 16.0
+     },
+     "0.50": {
+      "changes": 405,
+      "changes_per_min": 3.2,
+      "s_per_asset": 18.8
+     },
+     "0.60": {
+      "changes": 292,
+      "changes_per_min": 2.3,
+      "s_per_asset": 26.0
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 38,
+      "changes_per_min": 3.8,
+      "s_per_asset": 15.8,
+      "brightness_0_255": 30.8,
+      "saturation": 0.604,
+      "contrast": 37.7,
+      "dark_pixels_pct": 70.6,
+      "near_black_pct": 46.7,
+      "colorfulness": 22.2,
+      "edge_density": 0.0737,
+      "warm_R_minus_B": -1.3
+     },
+     {
+      "band": "10-30min",
+      "changes": 73,
+      "changes_per_min": 3.65,
+      "s_per_asset": 16.4,
+      "brightness_0_255": 29.8,
+      "saturation": 0.619,
+      "contrast": 36.4,
+      "dark_pixels_pct": 71.2,
+      "near_black_pct": 46.6,
+      "colorfulness": 22.3,
+      "edge_density": 0.075,
+      "warm_R_minus_B": -2.4
+     },
+     {
+      "band": "30-60min",
+      "changes": 114,
+      "changes_per_min": 3.8,
+      "s_per_asset": 15.8,
+      "brightness_0_255": 30.7,
+      "saturation": 0.618,
+      "contrast": 37.6,
+      "dark_pixels_pct": 70.6,
+      "near_black_pct": 46.0,
+      "colorfulness": 22.6,
+      "edge_density": 0.0753,
+      "warm_R_minus_B": -1.4
+     },
+     {
+      "band": "60-90min",
+      "changes": 109,
+      "changes_per_min": 3.63,
+      "s_per_asset": 16.5,
+      "brightness_0_255": 30.4,
+      "saturation": 0.618,
+      "contrast": 37.3,
+      "dark_pixels_pct": 70.9,
+      "near_black_pct": 46.3,
+      "colorfulness": 22.4,
+      "edge_density": 0.0761,
+      "warm_R_minus_B": -1.7
+     },
+     {
+      "band": "90-120min",
+      "changes": 118,
+      "changes_per_min": 3.93,
+      "s_per_asset": 15.3,
+      "brightness_0_255": 30.1,
+      "saturation": 0.618,
+      "contrast": 37.0,
+      "dark_pixels_pct": 71.1,
+      "near_black_pct": 46.4,
+      "colorfulness": 22.2,
+      "edge_density": 0.0736,
+      "warm_R_minus_B": -1.6
+     },
+     {
+      "band": "120min+",
+      "changes": 22,
+      "changes_per_min": 3.28,
+      "s_per_asset": 18.3,
+      "brightness_0_255": 30.2,
+      "saturation": 0.622,
+      "contrast": 37.3,
+      "dark_pixels_pct": 70.7,
+      "near_black_pct": 47.0,
+      "colorfulness": 23.3,
+      "edge_density": 0.0792,
+      "warm_R_minus_B": -2.4
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 30.3,
+     "brightness_median": 29.5,
+     "saturation_mean": 0.617,
+     "contrast_mean": 37.2,
+     "dark_pixels_pct_mean": 70.9,
+     "near_black_pct_mean": 46.4,
+     "colorfulness_mean": 22.4,
+     "edge_density_mean": 0.0751,
+     "R": 30.3,
+     "G": 30.2,
+     "B": 32.0,
+     "warm_R_minus_B": -1.7,
+     "blue_dominance_B_minus_R": 1.7
+    },
+    "motion": {
+     "held_pairs": 287,
+     "median_masked_pixel_change": 17.77,
+     "pct_held_pairs_essentially_static": 0.0,
+     "median_zoom_normalized_residual": 0.2363
+    }
+   },
+   "script": {
+    "n_words": 16496,
+    "wpm": 130.2,
+    "wpm_curve_per10min": [
+     135.4,
+     136.1,
+     139.2,
+     129.6,
+     128.4,
+     132.3,
+     129.1,
+     125.5,
+     128.8,
+     122.0,
+     126.7,
+     131.6,
+     84.9
+    ],
+    "narration_start_s": 0.08,
+    "narration_end_s": 7602.92,
+    "mean_sentence_words": 13.75,
+    "median_sentence_words": 12,
+    "p90_sentence_words": 25.0,
+    "n_sentences": 1205,
+    "flesch_reading_ease": 59.1,
+    "flesch_kincaid_grade": 8.4,
+    "type_token_ratio": 0.1597,
+    "unique_words": 2634,
+    "n_questions": 31,
+    "questions_per_hour": 14.7,
+    "cta_count": 0,
+    "first_cta_s": null,
+    "last_cta_s": null,
+    "sleep_mentions": 4,
+    "you_per_1000w": 15.3,
+    "analogy_per_hour": 16.6,
+    "jargon_per_1000w": 8.5,
+    "attention_reset_pct": 18.9,
+    "first_sentence": "So, here's something that might surprise you.",
+    "cta_text": null,
+    "top_repeated_6grams": [
+     [
+      "the speed of light relative to",
+      4
+     ],
+     [
+      "the speed of light is the",
+      3
+     ],
+     [
+      "one of those ideas that sounds",
+      3
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 0.0,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "WHh8Q-gNZAk": {
+   "channel": "Cosmo Explains",
+   "classification": "Recent-Median",
+   "title": "The Entire History Of Nuclear Physics Explained Slowly (For Sleep)",
+   "url": "https://www.youtube.com/watch?v=WHh8Q-gNZAk",
+   "upload_date": "20260808",
+   "duration_s": 7760,
+   "duration_min": 129.3,
+   "views": 4017,
+   "likes": 63,
+   "comments": 4,
+   "views_per_day": 334.8,
+   "like_rate_pct": 1.57,
+   "visual": {
+    "total_visual_changes": 433,
+    "changes_per_min": 3.35,
+    "mean_s_per_asset": 17.9,
+    "assets_per_10min": 33.5,
+    "est_unique_assets_120min": 402,
+    "asset_duration": {
+     "median_s": 19.9,
+     "mean_s": 17.9,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 20.0,
+     "p90_s": 29.9,
+     "max_s": 79.8,
+     "pct_shots_over_30s": 7.2,
+     "pct_shots_over_60s": 0.5
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 507,
+      "changes_per_min": 3.92,
+      "s_per_asset": 15.3
+     },
+     "0.40": {
+      "changes": 433,
+      "changes_per_min": 3.35,
+      "s_per_asset": 17.9
+     },
+     "0.50": {
+      "changes": 321,
+      "changes_per_min": 2.48,
+      "s_per_asset": 24.2
+     },
+     "0.60": {
+      "changes": 68,
+      "changes_per_min": 0.53,
+      "s_per_asset": 114.1
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 29,
+      "changes_per_min": 2.9,
+      "s_per_asset": 20.7,
+      "brightness_0_255": 46.2,
+      "saturation": 0.598,
+      "contrast": 46.9,
+      "dark_pixels_pct": 53.5,
+      "near_black_pct": 29.1,
+      "colorfulness": 32.8,
+      "edge_density": 0.1252,
+      "warm_R_minus_B": 21.0
+     },
+     {
+      "band": "10-30min",
+      "changes": 66,
+      "changes_per_min": 3.3,
+      "s_per_asset": 18.2,
+      "brightness_0_255": 46.0,
+      "saturation": 0.601,
+      "contrast": 45.3,
+      "dark_pixels_pct": 52.9,
+      "near_black_pct": 27.5,
+      "colorfulness": 31.8,
+      "edge_density": 0.1267,
+      "warm_R_minus_B": 22.7
+     },
+     {
+      "band": "30-60min",
+      "changes": 101,
+      "changes_per_min": 3.37,
+      "s_per_asset": 17.8,
+      "brightness_0_255": 46.8,
+      "saturation": 0.604,
+      "contrast": 46.4,
+      "dark_pixels_pct": 52.5,
+      "near_black_pct": 27.4,
+      "colorfulness": 32.0,
+      "edge_density": 0.1284,
+      "warm_R_minus_B": 23.8
+     },
+     {
+      "band": "60-90min",
+      "changes": 106,
+      "changes_per_min": 3.53,
+      "s_per_asset": 17.0,
+      "brightness_0_255": 47.2,
+      "saturation": 0.601,
+      "contrast": 46.4,
+      "dark_pixels_pct": 52.0,
+      "near_black_pct": 27.3,
+      "colorfulness": 32.2,
+      "edge_density": 0.13,
+      "warm_R_minus_B": 23.6
+     },
+     {
+      "band": "90-120min",
+      "changes": 98,
+      "changes_per_min": 3.27,
+      "s_per_asset": 18.4,
+      "brightness_0_255": 46.2,
+      "saturation": 0.606,
+      "contrast": 46.0,
+      "dark_pixels_pct": 52.9,
+      "near_black_pct": 27.6,
+      "colorfulness": 32.0,
+      "edge_density": 0.1272,
+      "warm_R_minus_B": 23.6
+     },
+     {
+      "band": "120min+",
+      "changes": 33,
+      "changes_per_min": 3.54,
+      "s_per_asset": 17.0,
+      "brightness_0_255": 44.5,
+      "saturation": 0.598,
+      "contrast": 45.1,
+      "dark_pixels_pct": 54.7,
+      "near_black_pct": 30.6,
+      "colorfulness": 31.4,
+      "edge_density": 0.1275,
+      "warm_R_minus_B": 23.2
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 46.4,
+     "brightness_median": 45.5,
+     "saturation_mean": 0.602,
+     "contrast_mean": 46.0,
+     "dark_pixels_pct_mean": 52.8,
+     "near_black_pct_mean": 27.9,
+     "colorfulness_mean": 32.0,
+     "edge_density_mean": 0.1278,
+     "R": 57.3,
+     "G": 44.3,
+     "B": 34.1,
+     "warm_R_minus_B": 23.2,
+     "blue_dominance_B_minus_R": -23.2
+    },
+    "motion": {
+     "held_pairs": 346,
+     "median_masked_pixel_change": 19.24,
+     "pct_held_pairs_essentially_static": 0.3,
+     "median_zoom_normalized_residual": 0.2026
+    }
+   },
+   "script": {
+    "n_words": 16759,
+    "wpm": 129.6,
+    "wpm_curve_per10min": [
+     127.9,
+     133.6,
+     129.2,
+     127.1,
+     128.2,
+     124.7,
+     131.6,
+     133.6,
+     137.7,
+     129.3,
+     123.0,
+     125.5,
+     124.5
+    ],
+    "narration_start_s": 0.08,
+    "narration_end_s": 7761.6,
+    "mean_sentence_words": 14.31,
+    "median_sentence_words": 12,
+    "p90_sentence_words": 27.0,
+    "n_sentences": 1175,
+    "flesch_reading_ease": 55.8,
+    "flesch_kincaid_grade": 9.0,
+    "type_token_ratio": 0.1917,
+    "unique_words": 3213,
+    "n_questions": 21,
+    "questions_per_hour": 9.7,
+    "cta_count": 0,
+    "first_cta_s": null,
+    "last_cta_s": null,
+    "sleep_mentions": 1,
+    "you_per_1000w": 10.4,
+    "analogy_per_hour": 7.0,
+    "jargon_per_1000w": 5.1,
+    "attention_reset_pct": 16.8,
+    "first_sentence": "So, here's something worth thinking about as you settle in tonight.",
+    "cta_text": null,
+    "top_repeated_6grams": []
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 0.0,
+    "chapters": 0
+   },
+   "rpm": null
+  },
+  "xXuMfbr0V9o": {
+   "channel": "Cosmo Explains",
+   "classification": "Recent-Strong",
+   "title": "Everything About Radio Frequency Explained Slowly (For Sleep)",
+   "url": "https://www.youtube.com/watch?v=xXuMfbr0V9o",
+   "upload_date": "20260810",
+   "duration_s": 7960,
+   "duration_min": 132.7,
+   "views": 30325,
+   "likes": 672,
+   "comments": 36,
+   "views_per_day": 3032.5,
+   "like_rate_pct": 2.22,
+   "visual": {
+    "total_visual_changes": 413,
+    "changes_per_min": 3.11,
+    "mean_s_per_asset": 19.3,
+    "assets_per_10min": 31.1,
+    "est_unique_assets_120min": 374,
+    "asset_duration": {
+     "median_s": 19.9,
+     "mean_s": 19.2,
+     "p10_s": 10.0,
+     "p25_s": 10.0,
+     "p75_s": 20.0,
+     "p90_s": 29.9,
+     "max_s": 79.8,
+     "pct_shots_over_30s": 9.5,
+     "pct_shots_over_60s": 0.5
+    },
+    "letterbox_pct": 0.0,
+    "aspect": 1.78,
+    "threshold_sensitivity": {
+     "0.30": {
+      "changes": 521,
+      "changes_per_min": 3.93,
+      "s_per_asset": 15.3
+     },
+     "0.40": {
+      "changes": 413,
+      "changes_per_min": 3.11,
+      "s_per_asset": 19.3
+     },
+     "0.50": {
+      "changes": 187,
+      "changes_per_min": 1.41,
+      "s_per_asset": 42.6
+     },
+     "0.60": {
+      "changes": 2,
+      "changes_per_min": 0.02,
+      "s_per_asset": 3980.0
+     }
+    },
+    "time_bands": [
+     {
+      "band": "00-10min",
+      "changes": 28,
+      "changes_per_min": 2.8,
+      "s_per_asset": 21.4,
+      "brightness_0_255": 36.8,
+      "saturation": 0.501,
+      "contrast": 43.8,
+      "dark_pixels_pct": 67.3,
+      "near_black_pct": 43.6,
+      "colorfulness": 25.1,
+      "edge_density": 0.1188,
+      "warm_R_minus_B": -4.9
+     },
+     {
+      "band": "10-30min",
+      "changes": 62,
+      "changes_per_min": 3.1,
+      "s_per_asset": 19.4,
+      "brightness_0_255": 36.9,
+      "saturation": 0.5,
+      "contrast": 42.3,
+      "dark_pixels_pct": 66.2,
+      "near_black_pct": 41.4,
+      "colorfulness": 25.7,
+      "edge_density": 0.119,
+      "warm_R_minus_B": -6.4
+     },
+     {
+      "band": "30-60min",
+      "changes": 94,
+      "changes_per_min": 3.13,
+      "s_per_asset": 19.1,
+      "brightness_0_255": 37.8,
+      "saturation": 0.501,
+      "contrast": 44.0,
+      "dark_pixels_pct": 65.9,
+      "near_black_pct": 41.4,
+      "colorfulness": 26.0,
+      "edge_density": 0.1208,
+      "warm_R_minus_B": -5.4
+     },
+     {
+      "band": "60-90min",
+      "changes": 95,
+      "changes_per_min": 3.17,
+      "s_per_asset": 18.9,
+      "brightness_0_255": 38.5,
+      "saturation": 0.497,
+      "contrast": 44.5,
+      "dark_pixels_pct": 65.1,
+      "near_black_pct": 41.1,
+      "colorfulness": 26.4,
+      "edge_density": 0.123,
+      "warm_R_minus_B": -5.6
+     },
+     {
+      "band": "90-120min",
+      "changes": 93,
+      "changes_per_min": 3.1,
+      "s_per_asset": 19.4,
+      "brightness_0_255": 37.1,
+      "saturation": 0.503,
+      "contrast": 43.1,
+      "dark_pixels_pct": 66.2,
+      "near_black_pct": 41.6,
+      "colorfulness": 25.9,
+      "edge_density": 0.1195,
+      "warm_R_minus_B": -5.7
+     },
+     {
+      "band": "120min+",
+      "changes": 41,
+      "changes_per_min": 3.24,
+      "s_per_asset": 18.5,
+      "brightness_0_255": 35.1,
+      "saturation": 0.504,
+      "contrast": 41.2,
+      "dark_pixels_pct": 67.9,
+      "near_black_pct": 43.7,
+      "colorfulness": 24.6,
+      "edge_density": 0.1219,
+      "warm_R_minus_B": -6.0
+     }
+    ],
+    "appearance": {
+     "brightness_mean_0_255": 37.3,
+     "brightness_median": 36.8,
+     "saturation_mean": 0.501,
+     "contrast_mean": 43.3,
+     "dark_pixels_pct_mean": 66.2,
+     "near_black_pct_mean": 41.8,
+     "colorfulness_mean": 25.8,
+     "edge_density_mean": 0.1205,
+     "R": 38.9,
+     "G": 36.1,
+     "B": 44.6,
+     "warm_R_minus_B": -5.7,
+     "blue_dominance_B_minus_R": 5.7
+    },
+    "motion": {
+     "held_pairs": 384,
+     "median_masked_pixel_change": 21.58,
+     "pct_held_pairs_essentially_static": 0.0,
+     "median_zoom_normalized_residual": 0.2841
+    }
+   },
+   "script": {
+    "n_words": 17325,
+    "wpm": 130.6,
+    "wpm_curve_per10min": [
+     131.4,
+     139.5,
+     128.9,
+     129.1,
+     129.5,
+     128.3,
+     131.5,
+     124.9,
+     127.8,
+     132.6,
+     134.3,
+     133.3,
+     125.5,
+     35.9
+    ],
+    "narration_start_s": 0.16,
+    "narration_end_s": 7961.68,
+    "mean_sentence_words": 14.96,
+    "median_sentence_words": 13.0,
+    "p90_sentence_words": 28.0,
+    "n_sentences": 1160,
+    "flesch_reading_ease": 52.7,
+    "flesch_kincaid_grade": 9.6,
+    "type_token_ratio": 0.1787,
+    "unique_words": 3096,
+    "n_questions": 16,
+    "questions_per_hour": 7.2,
+    "cta_count": 0,
+    "first_cta_s": null,
+    "last_cta_s": null,
+    "sleep_mentions": 3,
+    "you_per_1000w": 12.9,
+    "analogy_per_hour": 7.7,
+    "jargon_per_1000w": 2.0,
+    "attention_reset_pct": 13.2,
+    "first_sentence": "Right now, all around you, passing through the walls of this room, through the blanket you're lying under, through you, there are thousands of invisible waves carrying music, conversations, weather data, text messages, GPS coordinates, the time signal from an atomic clock in Colorado, and probably a few hundred Wi-Fi packets that make up someone's late night Netflix stream.",
+    "cta_text": null,
+    "top_repeated_6grams": [
+     [
+      "and this is where the story",
+      3
+     ],
+     [
+      "where the story gets complicated because",
+      3
+     ],
+     [
+      "is one of those things that",
+      3
+     ]
+    ]
+   },
+   "audio_proxy": {
+    "music_tag_minute_coverage_pct": 0.0,
+    "chapters": 0
+   },
+   "rpm": null
+  }
+ }
+}

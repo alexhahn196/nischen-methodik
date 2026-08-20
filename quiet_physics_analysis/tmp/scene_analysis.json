@@ -1,0 +1,2677 @@
+{
+ "_nLpB_Ao7zw": {
+  "video_id": "_nLpB_Ao7zw",
+  "channel": "Sleep On Physics",
+  "classification": "Breakout-AllTime",
+  "title": "What Is a Photon Actually Made Of\u2026 And Why Does It Never Stand Still?",
+  "duration_s": 6511,
+  "views": 227546,
+  "upload_date": "20260403",
+  "n_storyboard_frames": 654,
+  "sample_interval_s": 9.956,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 437,
+    "changes_per_min": 4.03,
+    "s_per_asset": 14.9
+   },
+   "0.40": {
+    "changes": 415,
+    "changes_per_min": 3.82,
+    "s_per_asset": 15.7
+   },
+   "0.50": {
+    "changes": 405,
+    "changes_per_min": 3.73,
+    "s_per_asset": 16.1
+   },
+   "0.60": {
+    "changes": 392,
+    "changes_per_min": 3.61,
+    "s_per_asset": 16.6
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 415,
+  "changes_per_min": 3.82,
+  "mean_s_per_asset": 15.7,
+  "assets_per_10min": 38.2,
+  "est_unique_assets_120min": 459,
+  "asset_duration_dist": {
+   "median_s": 10.0,
+   "mean_s": 15.7,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 19.9,
+   "p90_s": 29.9,
+   "max_s": 49.8,
+   "pct_shots_over_30s": 1.2,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 52,
+    "changes_per_min": 5.2,
+    "s_per_asset": 11.5,
+    "brightness_0_255": 40.8,
+    "saturation": 0.523,
+    "contrast": 32.1,
+    "dark_pixels_pct": 61.4,
+    "near_black_pct": 39.5,
+    "colorfulness": 26.7,
+    "edge_density": 0.0761,
+    "warm_R_minus_B": -13.8
+   },
+   {
+    "band": "10-30min",
+    "changes": 74,
+    "changes_per_min": 3.7,
+    "s_per_asset": 16.2,
+    "brightness_0_255": 23.0,
+    "saturation": 0.528,
+    "contrast": 22.0,
+    "dark_pixels_pct": 78.1,
+    "near_black_pct": 56.7,
+    "colorfulness": 21.3,
+    "edge_density": 0.0551,
+    "warm_R_minus_B": -10.4
+   },
+   {
+    "band": "30-60min",
+    "changes": 111,
+    "changes_per_min": 3.7,
+    "s_per_asset": 16.2,
+    "brightness_0_255": 22.6,
+    "saturation": 0.545,
+    "contrast": 22.2,
+    "dark_pixels_pct": 79.1,
+    "near_black_pct": 58.1,
+    "colorfulness": 21.5,
+    "edge_density": 0.0564,
+    "warm_R_minus_B": -11.5
+   },
+   {
+    "band": "60-90min",
+    "changes": 110,
+    "changes_per_min": 3.67,
+    "s_per_asset": 16.4,
+    "brightness_0_255": 24.3,
+    "saturation": 0.541,
+    "contrast": 23.4,
+    "dark_pixels_pct": 76.3,
+    "near_black_pct": 54.8,
+    "colorfulness": 22.2,
+    "edge_density": 0.059,
+    "warm_R_minus_B": -10.7
+   },
+   {
+    "band": "90-120min",
+    "changes": 68,
+    "changes_per_min": 3.67,
+    "s_per_asset": 16.3,
+    "brightness_0_255": 25.7,
+    "saturation": 0.534,
+    "contrast": 22.9,
+    "dark_pixels_pct": 77.2,
+    "near_black_pct": 56.1,
+    "colorfulness": 21.6,
+    "edge_density": 0.0554,
+    "warm_R_minus_B": -10.6
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 238,
+   "median_masked_pixel_change": 10.71,
+   "pct_held_pairs_essentially_static": 3.8,
+   "median_zoom_normalized_residual": 0.3656
+  },
+  "appearance": {
+   "brightness_mean_0_255": 25.3,
+   "brightness_median": 20.0,
+   "saturation_mean": 0.536,
+   "contrast_mean": 23.5,
+   "dark_pixels_pct_mean": 76.2,
+   "near_black_pct_mean": 54.9,
+   "colorfulness_mean": 22.1,
+   "edge_density_mean": 0.0585,
+   "R": 23.5,
+   "G": 24.9,
+   "B": 34.7,
+   "warm_R_minus_B": -11.1,
+   "blue_dominance_B_minus_R": 11.1
+  }
+ },
+ "tvB659d_oik": {
+  "video_id": "tvB659d_oik",
+  "channel": "Sleep On Physics",
+  "classification": "Breakout-Modern",
+  "title": "Where Does Light Get Its Speed From?",
+  "duration_s": 7434,
+  "views": 158383,
+  "upload_date": "20260716",
+  "n_storyboard_frames": 747,
+  "sample_interval_s": 9.952,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 536,
+    "changes_per_min": 4.33,
+    "s_per_asset": 13.9
+   },
+   "0.40": {
+    "changes": 515,
+    "changes_per_min": 4.16,
+    "s_per_asset": 14.4
+   },
+   "0.50": {
+    "changes": 496,
+    "changes_per_min": 4.0,
+    "s_per_asset": 15.0
+   },
+   "0.60": {
+    "changes": 487,
+    "changes_per_min": 3.93,
+    "s_per_asset": 15.3
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 515,
+  "changes_per_min": 4.16,
+  "mean_s_per_asset": 14.4,
+  "assets_per_10min": 41.6,
+  "est_unique_assets_120min": 499,
+  "asset_duration_dist": {
+   "median_s": 10.0,
+   "mean_s": 14.4,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 20.0,
+   "p90_s": 20.0,
+   "max_s": 29.9,
+   "pct_shots_over_30s": 0.0,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 53,
+    "changes_per_min": 5.3,
+    "s_per_asset": 11.3,
+    "brightness_0_255": 64.5,
+    "saturation": 0.486,
+    "contrast": 42.6,
+    "dark_pixels_pct": 37.2,
+    "near_black_pct": 19.8,
+    "colorfulness": 34.5,
+    "edge_density": 0.1165,
+    "warm_R_minus_B": -9.5
+   },
+   {
+    "band": "10-30min",
+    "changes": 79,
+    "changes_per_min": 3.95,
+    "s_per_asset": 15.2,
+    "brightness_0_255": 47.4,
+    "saturation": 0.576,
+    "contrast": 41.0,
+    "dark_pixels_pct": 54.4,
+    "near_black_pct": 36.8,
+    "colorfulness": 42.7,
+    "edge_density": 0.1183,
+    "warm_R_minus_B": -21.1
+   },
+   {
+    "band": "30-60min",
+    "changes": 123,
+    "changes_per_min": 4.1,
+    "s_per_asset": 14.6,
+    "brightness_0_255": 53.4,
+    "saturation": 0.548,
+    "contrast": 43.6,
+    "dark_pixels_pct": 49.1,
+    "near_black_pct": 31.2,
+    "colorfulness": 40.7,
+    "edge_density": 0.1159,
+    "warm_R_minus_B": -21.5
+   },
+   {
+    "band": "60-90min",
+    "changes": 123,
+    "changes_per_min": 4.1,
+    "s_per_asset": 14.6,
+    "brightness_0_255": 51.3,
+    "saturation": 0.568,
+    "contrast": 43.5,
+    "dark_pixels_pct": 51.3,
+    "near_black_pct": 34.2,
+    "colorfulness": 41.9,
+    "edge_density": 0.1143,
+    "warm_R_minus_B": -22.1
+   },
+   {
+    "band": "90-120min",
+    "changes": 121,
+    "changes_per_min": 4.03,
+    "s_per_asset": 14.9,
+    "brightness_0_255": 51.8,
+    "saturation": 0.561,
+    "contrast": 43.4,
+    "dark_pixels_pct": 51.0,
+    "near_black_pct": 33.3,
+    "colorfulness": 42.2,
+    "edge_density": 0.1204,
+    "warm_R_minus_B": -20.0
+   },
+   {
+    "band": "120min+",
+    "changes": 16,
+    "changes_per_min": 4.1,
+    "s_per_asset": 14.6,
+    "brightness_0_255": 51.8,
+    "saturation": 0.521,
+    "contrast": 41.2,
+    "dark_pixels_pct": 47.9,
+    "near_black_pct": 29.5,
+    "colorfulness": 40.4,
+    "edge_density": 0.1114,
+    "warm_R_minus_B": -32.8
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 231,
+   "median_masked_pixel_change": 22.02,
+   "pct_held_pairs_essentially_static": 0.4,
+   "median_zoom_normalized_residual": 0.3179
+  },
+  "appearance": {
+   "brightness_mean_0_255": 52.3,
+   "brightness_median": 50.5,
+   "saturation_mean": 0.554,
+   "contrast_mean": 42.9,
+   "dark_pixels_pct_mean": 50.0,
+   "near_black_pct_mean": 32.4,
+   "colorfulness_mean": 41.1,
+   "edge_density_mean": 0.1167,
+   "R": 48.3,
+   "G": 51.8,
+   "B": 68.9,
+   "warm_R_minus_B": -20.6,
+   "blue_dominance_B_minus_R": 20.6
+  }
+ },
+ "YBNfHLlrJkg": {
+  "video_id": "YBNfHLlrJkg",
+  "channel": "Sleep On Physics",
+  "classification": "Recent-Median",
+  "title": "No One Knows If Neutrinos Are Their Own Antiparticles",
+  "duration_s": 7823,
+  "views": 11929,
+  "upload_date": "20260804",
+  "n_storyboard_frames": 784,
+  "sample_interval_s": 9.978,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 350,
+    "changes_per_min": 2.68,
+    "s_per_asset": 22.4
+   },
+   "0.40": {
+    "changes": 322,
+    "changes_per_min": 2.47,
+    "s_per_asset": 24.3
+   },
+   "0.50": {
+    "changes": 297,
+    "changes_per_min": 2.28,
+    "s_per_asset": 26.3
+   },
+   "0.60": {
+    "changes": 276,
+    "changes_per_min": 2.12,
+    "s_per_asset": 28.3
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 322,
+  "changes_per_min": 2.47,
+  "mean_s_per_asset": 24.3,
+  "assets_per_10min": 24.7,
+  "est_unique_assets_120min": 296,
+  "asset_duration_dist": {
+   "median_s": 29.9,
+   "mean_s": 24.3,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 29.9,
+   "p90_s": 39.9,
+   "max_s": 59.9,
+   "pct_shots_over_30s": 24.0,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 58,
+    "changes_per_min": 5.8,
+    "s_per_asset": 10.3,
+    "brightness_0_255": 53.3,
+    "saturation": 0.471,
+    "contrast": 43.6,
+    "dark_pixels_pct": 55.1,
+    "near_black_pct": 36.9,
+    "colorfulness": 28.0,
+    "edge_density": 0.0764,
+    "warm_R_minus_B": -3.5
+   },
+   {
+    "band": "10-30min",
+    "changes": 48,
+    "changes_per_min": 2.4,
+    "s_per_asset": 25.0,
+    "brightness_0_255": 43.7,
+    "saturation": 0.599,
+    "contrast": 35.7,
+    "dark_pixels_pct": 61.5,
+    "near_black_pct": 37.2,
+    "colorfulness": 38.0,
+    "edge_density": 0.0711,
+    "warm_R_minus_B": -30.9
+   },
+   {
+    "band": "30-60min",
+    "changes": 64,
+    "changes_per_min": 2.13,
+    "s_per_asset": 28.1,
+    "brightness_0_255": 38.9,
+    "saturation": 0.62,
+    "contrast": 32.8,
+    "dark_pixels_pct": 64.6,
+    "near_black_pct": 41.0,
+    "colorfulness": 35.7,
+    "edge_density": 0.0735,
+    "warm_R_minus_B": -28.7
+   },
+   {
+    "band": "60-90min",
+    "changes": 63,
+    "changes_per_min": 2.1,
+    "s_per_asset": 28.6,
+    "brightness_0_255": 39.8,
+    "saturation": 0.611,
+    "contrast": 34.3,
+    "dark_pixels_pct": 63.8,
+    "near_black_pct": 39.9,
+    "colorfulness": 37.6,
+    "edge_density": 0.0713,
+    "warm_R_minus_B": -28.0
+   },
+   {
+    "band": "90-120min",
+    "changes": 68,
+    "changes_per_min": 2.27,
+    "s_per_asset": 26.5,
+    "brightness_0_255": 44.0,
+    "saturation": 0.612,
+    "contrast": 33.6,
+    "dark_pixels_pct": 62.3,
+    "near_black_pct": 40.1,
+    "colorfulness": 36.9,
+    "edge_density": 0.0678,
+    "warm_R_minus_B": -31.1
+   },
+   {
+    "band": "120min+",
+    "changes": 21,
+    "changes_per_min": 2.02,
+    "s_per_asset": 29.7,
+    "brightness_0_255": 32.2,
+    "saturation": 0.664,
+    "contrast": 29.9,
+    "dark_pixels_pct": 68.2,
+    "near_black_pct": 41.1,
+    "colorfulness": 36.4,
+    "edge_density": 0.0753,
+    "warm_R_minus_B": -34.4
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 461,
+   "median_masked_pixel_change": 11.88,
+   "pct_held_pairs_essentially_static": 4.6,
+   "median_zoom_normalized_residual": 0.2466
+  },
+  "appearance": {
+   "brightness_mean_0_255": 41.6,
+   "brightness_median": 30.8,
+   "saturation_mean": 0.604,
+   "contrast_mean": 34.4,
+   "dark_pixels_pct_mean": 62.9,
+   "near_black_pct_mean": 39.6,
+   "colorfulness_mean": 36.2,
+   "edge_density_mean": 0.0717,
+   "R": 36.1,
+   "G": 41.0,
+   "B": 64.0,
+   "warm_R_minus_B": -27.9,
+   "blue_dominance_B_minus_R": 27.9
+  }
+ },
+ "BLPBP5BaU-0": {
+  "video_id": "BLPBP5BaU-0",
+  "channel": "Sleep On Physics",
+  "classification": "Recent-Strong",
+  "title": "What Is Electricity Made Of According to Quantum Physics?",
+  "duration_s": 7848,
+  "views": 79844,
+  "upload_date": "20260813",
+  "n_storyboard_frames": 786,
+  "sample_interval_s": 9.985,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 406,
+    "changes_per_min": 3.1,
+    "s_per_asset": 19.3
+   },
+   "0.40": {
+    "changes": 351,
+    "changes_per_min": 2.68,
+    "s_per_asset": 22.4
+   },
+   "0.50": {
+    "changes": 322,
+    "changes_per_min": 2.46,
+    "s_per_asset": 24.4
+   },
+   "0.60": {
+    "changes": 294,
+    "changes_per_min": 2.25,
+    "s_per_asset": 26.7
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 351,
+  "changes_per_min": 2.68,
+  "mean_s_per_asset": 22.4,
+  "assets_per_10min": 26.8,
+  "est_unique_assets_120min": 322,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 22.3,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 30.0,
+   "p90_s": 39.9,
+   "max_s": 59.9,
+   "pct_shots_over_30s": 12.3,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 59,
+    "changes_per_min": 5.9,
+    "s_per_asset": 10.2,
+    "brightness_0_255": 52.7,
+    "saturation": 0.441,
+    "contrast": 37.5,
+    "dark_pixels_pct": 53.5,
+    "near_black_pct": 39.7,
+    "colorfulness": 25.4,
+    "edge_density": 0.0752,
+    "warm_R_minus_B": -1.0
+   },
+   {
+    "band": "10-30min",
+    "changes": 49,
+    "changes_per_min": 2.45,
+    "s_per_asset": 24.5,
+    "brightness_0_255": 41.0,
+    "saturation": 0.665,
+    "contrast": 35.1,
+    "dark_pixels_pct": 60.4,
+    "near_black_pct": 38.4,
+    "colorfulness": 42.0,
+    "edge_density": 0.1097,
+    "warm_R_minus_B": -42.7
+   },
+   {
+    "band": "30-60min",
+    "changes": 76,
+    "changes_per_min": 2.53,
+    "s_per_asset": 23.7,
+    "brightness_0_255": 43.9,
+    "saturation": 0.575,
+    "contrast": 35.2,
+    "dark_pixels_pct": 57.5,
+    "near_black_pct": 36.0,
+    "colorfulness": 36.0,
+    "edge_density": 0.1044,
+    "warm_R_minus_B": -33.1
+   },
+   {
+    "band": "60-90min",
+    "changes": 74,
+    "changes_per_min": 2.47,
+    "s_per_asset": 24.3,
+    "brightness_0_255": 43.1,
+    "saturation": 0.554,
+    "contrast": 35.8,
+    "dark_pixels_pct": 58.1,
+    "near_black_pct": 37.3,
+    "colorfulness": 33.4,
+    "edge_density": 0.1031,
+    "warm_R_minus_B": -30.0
+   },
+   {
+    "band": "90-120min",
+    "changes": 72,
+    "changes_per_min": 2.4,
+    "s_per_asset": 25.0,
+    "brightness_0_255": 42.3,
+    "saturation": 0.57,
+    "contrast": 34.9,
+    "dark_pixels_pct": 58.4,
+    "near_black_pct": 35.6,
+    "colorfulness": 33.8,
+    "edge_density": 0.0987,
+    "warm_R_minus_B": -29.9
+   },
+   {
+    "band": "120min+",
+    "changes": 21,
+    "changes_per_min": 1.94,
+    "s_per_asset": 30.9,
+    "brightness_0_255": 40.6,
+    "saturation": 0.661,
+    "contrast": 36.9,
+    "dark_pixels_pct": 59.2,
+    "near_black_pct": 34.3,
+    "colorfulness": 43.2,
+    "edge_density": 0.1114,
+    "warm_R_minus_B": -42.9
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 434,
+   "median_masked_pixel_change": 18.45,
+   "pct_held_pairs_essentially_static": 3.5,
+   "median_zoom_normalized_residual": 0.4006
+  },
+  "appearance": {
+   "brightness_mean_0_255": 43.3,
+   "brightness_median": 36.0,
+   "saturation_mean": 0.58,
+   "contrast_mean": 35.6,
+   "dark_pixels_pct_mean": 58.1,
+   "near_black_pct_mean": 36.7,
+   "colorfulness_mean": 35.6,
+   "edge_density_mean": 0.1019,
+   "R": 33.7,
+   "G": 44.0,
+   "B": 65.1,
+   "warm_R_minus_B": -31.4,
+   "blue_dominance_B_minus_R": 31.4
+  }
+ },
+ "Nq-wJpo8Hk4": {
+  "video_id": "Nq-wJpo8Hk4",
+  "channel": "Calm Science",
+  "classification": "Breakout",
+  "title": "What Is Energy Made of According to Quantum Physics?",
+  "duration_s": 7974,
+  "views": 91004,
+  "upload_date": "20260629",
+  "n_storyboard_frames": 801,
+  "sample_interval_s": 9.955,
+  "letterbox_pct_of_height": 20.0,
+  "aspect_after_letterbox": 2.22,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 437,
+    "changes_per_min": 3.29,
+    "s_per_asset": 18.2
+   },
+   "0.40": {
+    "changes": 375,
+    "changes_per_min": 2.82,
+    "s_per_asset": 21.3
+   },
+   "0.50": {
+    "changes": 355,
+    "changes_per_min": 2.67,
+    "s_per_asset": 22.5
+   },
+   "0.60": {
+    "changes": 340,
+    "changes_per_min": 2.56,
+    "s_per_asset": 23.5
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 375,
+  "changes_per_min": 2.82,
+  "mean_s_per_asset": 21.3,
+  "assets_per_10min": 28.2,
+  "est_unique_assets_120min": 339,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 21.3,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 29.9,
+   "p90_s": 37.3,
+   "max_s": 59.9,
+   "pct_shots_over_30s": 10.4,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 43,
+    "changes_per_min": 4.3,
+    "s_per_asset": 14.0,
+    "brightness_0_255": 30.2,
+    "saturation": 0.419,
+    "contrast": 33.9,
+    "dark_pixels_pct": 69.7,
+    "near_black_pct": 50.6,
+    "colorfulness": 21.1,
+    "edge_density": 0.0724,
+    "warm_R_minus_B": -3.6
+   },
+   {
+    "band": "10-30min",
+    "changes": 64,
+    "changes_per_min": 3.2,
+    "s_per_asset": 18.8,
+    "brightness_0_255": 35.5,
+    "saturation": 0.406,
+    "contrast": 35.5,
+    "dark_pixels_pct": 64.2,
+    "near_black_pct": 44.2,
+    "colorfulness": 23.1,
+    "edge_density": 0.0703,
+    "warm_R_minus_B": -10.3
+   },
+   {
+    "band": "30-60min",
+    "changes": 81,
+    "changes_per_min": 2.7,
+    "s_per_asset": 22.2,
+    "brightness_0_255": 33.7,
+    "saturation": 0.446,
+    "contrast": 35.8,
+    "dark_pixels_pct": 64.2,
+    "near_black_pct": 47.0,
+    "colorfulness": 28.8,
+    "edge_density": 0.0666,
+    "warm_R_minus_B": -9.1
+   },
+   {
+    "band": "60-90min",
+    "changes": 70,
+    "changes_per_min": 2.33,
+    "s_per_asset": 25.7,
+    "brightness_0_255": 31.4,
+    "saturation": 0.465,
+    "contrast": 31.7,
+    "dark_pixels_pct": 66.2,
+    "near_black_pct": 44.2,
+    "colorfulness": 29.0,
+    "edge_density": 0.0681,
+    "warm_R_minus_B": -15.7
+   },
+   {
+    "band": "90-120min",
+    "changes": 79,
+    "changes_per_min": 2.63,
+    "s_per_asset": 22.8,
+    "brightness_0_255": 35.5,
+    "saturation": 0.397,
+    "contrast": 35.6,
+    "dark_pixels_pct": 61.6,
+    "near_black_pct": 44.0,
+    "colorfulness": 22.6,
+    "edge_density": 0.0796,
+    "warm_R_minus_B": -11.7
+   },
+   {
+    "band": "120min+",
+    "changes": 38,
+    "changes_per_min": 2.95,
+    "s_per_asset": 20.4,
+    "brightness_0_255": 30.1,
+    "saturation": 0.426,
+    "contrast": 32.9,
+    "dark_pixels_pct": 67.9,
+    "near_black_pct": 50.5,
+    "colorfulness": 25.2,
+    "edge_density": 0.0832,
+    "warm_R_minus_B": -13.3
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 425,
+   "median_masked_pixel_change": 14.91,
+   "pct_held_pairs_essentially_static": 0.2,
+   "median_zoom_normalized_residual": 0.3167
+  },
+  "appearance": {
+   "brightness_mean_0_255": 33.2,
+   "brightness_median": 30.7,
+   "saturation_mean": 0.429,
+   "contrast_mean": 34.3,
+   "dark_pixels_pct_mean": 64.9,
+   "near_black_pct_mean": 46.0,
+   "colorfulness_mean": 25.6,
+   "edge_density_mean": 0.0724,
+   "R": 31.8,
+   "G": 32.6,
+   "B": 43.1,
+   "warm_R_minus_B": -11.4,
+   "blue_dominance_B_minus_R": 11.4
+  }
+ },
+ "LxDfEBostXk": {
+  "video_id": "LxDfEBostXk",
+  "channel": "Calm Science",
+  "classification": "Breakout-Controlled",
+  "title": "Where Does Light Get Its Speed From?",
+  "duration_s": 8061,
+  "views": 80342,
+  "upload_date": "20260731",
+  "n_storyboard_frames": 810,
+  "sample_interval_s": 9.952,
+  "letterbox_pct_of_height": 20.0,
+  "aspect_after_letterbox": 2.22,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 425,
+    "changes_per_min": 3.16,
+    "s_per_asset": 19.0
+   },
+   "0.40": {
+    "changes": 364,
+    "changes_per_min": 2.71,
+    "s_per_asset": 22.1
+   },
+   "0.50": {
+    "changes": 342,
+    "changes_per_min": 2.55,
+    "s_per_asset": 23.6
+   },
+   "0.60": {
+    "changes": 328,
+    "changes_per_min": 2.44,
+    "s_per_asset": 24.6
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 364,
+  "changes_per_min": 2.71,
+  "mean_s_per_asset": 22.1,
+  "assets_per_10min": 27.1,
+  "est_unique_assets_120min": 325,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 22.1,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 29.9,
+   "p90_s": 29.9,
+   "max_s": 59.9,
+   "pct_shots_over_30s": 9.1,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 37,
+    "changes_per_min": 3.7,
+    "s_per_asset": 16.2,
+    "brightness_0_255": 28.0,
+    "saturation": 0.356,
+    "contrast": 31.7,
+    "dark_pixels_pct": 71.3,
+    "near_black_pct": 54.2,
+    "colorfulness": 16.1,
+    "edge_density": 0.0563,
+    "warm_R_minus_B": -5.4
+   },
+   {
+    "band": "10-30min",
+    "changes": 51,
+    "changes_per_min": 2.55,
+    "s_per_asset": 23.5,
+    "brightness_0_255": 31.1,
+    "saturation": 0.391,
+    "contrast": 33.8,
+    "dark_pixels_pct": 68.8,
+    "near_black_pct": 47.9,
+    "colorfulness": 21.8,
+    "edge_density": 0.081,
+    "warm_R_minus_B": -7.7
+   },
+   {
+    "band": "30-60min",
+    "changes": 81,
+    "changes_per_min": 2.7,
+    "s_per_asset": 22.2,
+    "brightness_0_255": 30.5,
+    "saturation": 0.436,
+    "contrast": 34.1,
+    "dark_pixels_pct": 68.7,
+    "near_black_pct": 50.2,
+    "colorfulness": 23.9,
+    "edge_density": 0.068,
+    "warm_R_minus_B": -11.5
+   },
+   {
+    "band": "60-90min",
+    "changes": 71,
+    "changes_per_min": 2.37,
+    "s_per_asset": 25.4,
+    "brightness_0_255": 31.5,
+    "saturation": 0.482,
+    "contrast": 33.6,
+    "dark_pixels_pct": 65.1,
+    "near_black_pct": 46.8,
+    "colorfulness": 29.5,
+    "edge_density": 0.0635,
+    "warm_R_minus_B": -18.3
+   },
+   {
+    "band": "90-120min",
+    "changes": 82,
+    "changes_per_min": 2.73,
+    "s_per_asset": 22.0,
+    "brightness_0_255": 32.4,
+    "saturation": 0.42,
+    "contrast": 33.4,
+    "dark_pixels_pct": 65.3,
+    "near_black_pct": 44.6,
+    "colorfulness": 21.5,
+    "edge_density": 0.0815,
+    "warm_R_minus_B": -13.6
+   },
+   {
+    "band": "120min+",
+    "changes": 42,
+    "changes_per_min": 2.93,
+    "s_per_asset": 20.5,
+    "brightness_0_255": 26.6,
+    "saturation": 0.411,
+    "contrast": 28.9,
+    "dark_pixels_pct": 72.5,
+    "near_black_pct": 51.4,
+    "colorfulness": 20.9,
+    "edge_density": 0.072,
+    "warm_R_minus_B": -11.1
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 445,
+   "median_masked_pixel_change": 14.84,
+   "pct_held_pairs_essentially_static": 0.7,
+   "median_zoom_normalized_residual": 0.3492
+  },
+  "appearance": {
+   "brightness_mean_0_255": 30.6,
+   "brightness_median": 28.6,
+   "saturation_mean": 0.427,
+   "contrast_mean": 33.0,
+   "dark_pixels_pct_mean": 67.8,
+   "near_black_pct_mean": 48.4,
+   "colorfulness_mean": 23.4,
+   "edge_density_mean": 0.0714,
+   "R": 27.9,
+   "G": 30.4,
+   "B": 40.3,
+   "warm_R_minus_B": -12.4,
+   "blue_dominance_B_minus_R": 12.4
+  }
+ },
+ "-n6HdllViRU": {
+  "video_id": "-n6HdllViRU",
+  "channel": "Calm Science",
+  "classification": "Recent-Median",
+  "title": "The True Scale of a Single Atom",
+  "duration_s": 7837,
+  "views": 9266,
+  "upload_date": "20260814",
+  "n_storyboard_frames": 785,
+  "sample_interval_s": 9.983,
+  "letterbox_pct_of_height": 20.0,
+  "aspect_after_letterbox": 2.22,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 419,
+    "changes_per_min": 3.21,
+    "s_per_asset": 18.7
+   },
+   "0.40": {
+    "changes": 369,
+    "changes_per_min": 2.83,
+    "s_per_asset": 21.2
+   },
+   "0.50": {
+    "changes": 344,
+    "changes_per_min": 2.63,
+    "s_per_asset": 22.8
+   },
+   "0.60": {
+    "changes": 330,
+    "changes_per_min": 2.53,
+    "s_per_asset": 23.7
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 369,
+  "changes_per_min": 2.83,
+  "mean_s_per_asset": 21.2,
+  "assets_per_10min": 28.3,
+  "est_unique_assets_120min": 339,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 21.2,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 29.9,
+   "p90_s": 30.0,
+   "max_s": 59.9,
+   "pct_shots_over_30s": 9.5,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 39,
+    "changes_per_min": 3.9,
+    "s_per_asset": 15.4,
+    "brightness_0_255": 38.2,
+    "saturation": 0.383,
+    "contrast": 36.8,
+    "dark_pixels_pct": 58.9,
+    "near_black_pct": 42.7,
+    "colorfulness": 19.0,
+    "edge_density": 0.0844,
+    "warm_R_minus_B": -12.3
+   },
+   {
+    "band": "10-30min",
+    "changes": 64,
+    "changes_per_min": 3.2,
+    "s_per_asset": 18.8,
+    "brightness_0_255": 37.3,
+    "saturation": 0.429,
+    "contrast": 37.0,
+    "dark_pixels_pct": 63.5,
+    "near_black_pct": 45.5,
+    "colorfulness": 27.0,
+    "edge_density": 0.0853,
+    "warm_R_minus_B": -14.8
+   },
+   {
+    "band": "30-60min",
+    "changes": 84,
+    "changes_per_min": 2.8,
+    "s_per_asset": 21.4,
+    "brightness_0_255": 30.5,
+    "saturation": 0.426,
+    "contrast": 32.1,
+    "dark_pixels_pct": 67.8,
+    "near_black_pct": 48.7,
+    "colorfulness": 25.6,
+    "edge_density": 0.071,
+    "warm_R_minus_B": -10.4
+   },
+   {
+    "band": "60-90min",
+    "changes": 74,
+    "changes_per_min": 2.47,
+    "s_per_asset": 24.3,
+    "brightness_0_255": 33.8,
+    "saturation": 0.464,
+    "contrast": 35.1,
+    "dark_pixels_pct": 65.1,
+    "near_black_pct": 46.5,
+    "colorfulness": 28.1,
+    "edge_density": 0.0685,
+    "warm_R_minus_B": -19.1
+   },
+   {
+    "band": "90-120min",
+    "changes": 75,
+    "changes_per_min": 2.5,
+    "s_per_asset": 24.0,
+    "brightness_0_255": 37.1,
+    "saturation": 0.411,
+    "contrast": 36.6,
+    "dark_pixels_pct": 62.2,
+    "near_black_pct": 42.6,
+    "colorfulness": 25.5,
+    "edge_density": 0.0746,
+    "warm_R_minus_B": -15.9
+   },
+   {
+    "band": "120min+",
+    "changes": 33,
+    "changes_per_min": 3.11,
+    "s_per_asset": 19.3,
+    "brightness_0_255": 32.8,
+    "saturation": 0.453,
+    "contrast": 33.6,
+    "dark_pixels_pct": 67.5,
+    "near_black_pct": 45.6,
+    "colorfulness": 28.4,
+    "edge_density": 0.0714,
+    "warm_R_minus_B": -17.7
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 415,
+   "median_masked_pixel_change": 14.65,
+   "pct_held_pairs_essentially_static": 0.7,
+   "median_zoom_normalized_residual": 0.3218
+  },
+  "appearance": {
+   "brightness_mean_0_255": 34.6,
+   "brightness_median": 30.6,
+   "saturation_mean": 0.431,
+   "contrast_mean": 35.0,
+   "dark_pixels_pct_mean": 64.6,
+   "near_black_pct_mean": 45.6,
+   "colorfulness_mean": 26.1,
+   "edge_density_mean": 0.0744,
+   "R": 30.9,
+   "G": 34.5,
+   "B": 45.9,
+   "warm_R_minus_B": -15.1,
+   "blue_dominance_B_minus_R": 15.1
+  }
+ },
+ "lqZntA10Q5g": {
+  "video_id": "lqZntA10Q5g",
+  "channel": "Calm Science",
+  "classification": "Recent-Strong",
+  "title": "If Energy Can\u2019t Be Created\u2026 Where Did It Come From?",
+  "duration_s": 8005,
+  "views": 63899,
+  "upload_date": "20260810",
+  "n_storyboard_frames": 802,
+  "sample_interval_s": 9.981,
+  "letterbox_pct_of_height": 20.0,
+  "aspect_after_letterbox": 2.22,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 405,
+    "changes_per_min": 3.04,
+    "s_per_asset": 19.8
+   },
+   "0.40": {
+    "changes": 358,
+    "changes_per_min": 2.68,
+    "s_per_asset": 22.4
+   },
+   "0.50": {
+    "changes": 336,
+    "changes_per_min": 2.52,
+    "s_per_asset": 23.8
+   },
+   "0.60": {
+    "changes": 321,
+    "changes_per_min": 2.41,
+    "s_per_asset": 24.9
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 358,
+  "changes_per_min": 2.68,
+  "mean_s_per_asset": 22.4,
+  "assets_per_10min": 26.8,
+  "est_unique_assets_120min": 322,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 22.4,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 29.9,
+   "p90_s": 33.9,
+   "max_s": 59.9,
+   "pct_shots_over_30s": 10.1,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 44,
+    "changes_per_min": 4.4,
+    "s_per_asset": 13.6,
+    "brightness_0_255": 33.7,
+    "saturation": 0.406,
+    "contrast": 37.3,
+    "dark_pixels_pct": 65.8,
+    "near_black_pct": 51.5,
+    "colorfulness": 22.3,
+    "edge_density": 0.0875,
+    "warm_R_minus_B": -10.7
+   },
+   {
+    "band": "10-30min",
+    "changes": 56,
+    "changes_per_min": 2.8,
+    "s_per_asset": 21.4,
+    "brightness_0_255": 33.3,
+    "saturation": 0.395,
+    "contrast": 36.8,
+    "dark_pixels_pct": 66.2,
+    "near_black_pct": 49.4,
+    "colorfulness": 23.9,
+    "edge_density": 0.0776,
+    "warm_R_minus_B": -9.5
+   },
+   {
+    "band": "30-60min",
+    "changes": 77,
+    "changes_per_min": 2.57,
+    "s_per_asset": 23.4,
+    "brightness_0_255": 33.8,
+    "saturation": 0.415,
+    "contrast": 36.4,
+    "dark_pixels_pct": 66.0,
+    "near_black_pct": 48.0,
+    "colorfulness": 24.6,
+    "edge_density": 0.0792,
+    "warm_R_minus_B": -13.1
+   },
+   {
+    "band": "60-90min",
+    "changes": 70,
+    "changes_per_min": 2.33,
+    "s_per_asset": 25.7,
+    "brightness_0_255": 32.7,
+    "saturation": 0.461,
+    "contrast": 33.9,
+    "dark_pixels_pct": 65.8,
+    "near_black_pct": 45.0,
+    "colorfulness": 28.5,
+    "edge_density": 0.0668,
+    "warm_R_minus_B": -16.6
+   },
+   {
+    "band": "90-120min",
+    "changes": 75,
+    "changes_per_min": 2.5,
+    "s_per_asset": 24.0,
+    "brightness_0_255": 33.4,
+    "saturation": 0.427,
+    "contrast": 33.8,
+    "dark_pixels_pct": 64.3,
+    "near_black_pct": 44.2,
+    "colorfulness": 25.2,
+    "edge_density": 0.0729,
+    "warm_R_minus_B": -14.1
+   },
+   {
+    "band": "120min+",
+    "changes": 36,
+    "changes_per_min": 2.68,
+    "s_per_asset": 22.4,
+    "brightness_0_255": 29.7,
+    "saturation": 0.41,
+    "contrast": 32.2,
+    "dark_pixels_pct": 68.0,
+    "near_black_pct": 51.4,
+    "colorfulness": 21.3,
+    "edge_density": 0.0771,
+    "warm_R_minus_B": -12.9
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 443,
+   "median_masked_pixel_change": 15.63,
+   "pct_held_pairs_essentially_static": 0.9,
+   "median_zoom_normalized_residual": 0.3242
+  },
+  "appearance": {
+   "brightness_mean_0_255": 32.9,
+   "brightness_median": 30.5,
+   "saturation_mean": 0.424,
+   "contrast_mean": 34.9,
+   "dark_pixels_pct_mean": 65.8,
+   "near_black_pct_mean": 47.4,
+   "colorfulness_mean": 25.0,
+   "edge_density_mean": 0.0751,
+   "R": 30.3,
+   "G": 32.6,
+   "B": 43.6,
+   "warm_R_minus_B": -13.3,
+   "blue_dominance_B_minus_R": 13.3
+  }
+ },
+ "Ty6ZMyFagsU": {
+  "video_id": "Ty6ZMyFagsU",
+  "channel": "Calm Space",
+  "classification": "Breakout",
+  "title": "What Voyager Detected at The Edge of Our Solar System",
+  "duration_s": 8529,
+  "views": 1770220,
+  "upload_date": "20260218",
+  "n_storyboard_frames": 855,
+  "sample_interval_s": 9.975,
+  "letterbox_pct_of_height": 20.0,
+  "aspect_after_letterbox": 2.22,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 472,
+    "changes_per_min": 3.32,
+    "s_per_asset": 18.1
+   },
+   "0.40": {
+    "changes": 430,
+    "changes_per_min": 3.02,
+    "s_per_asset": 19.8
+   },
+   "0.50": {
+    "changes": 417,
+    "changes_per_min": 2.93,
+    "s_per_asset": 20.5
+   },
+   "0.60": {
+    "changes": 398,
+    "changes_per_min": 2.8,
+    "s_per_asset": 21.4
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 430,
+  "changes_per_min": 3.02,
+  "mean_s_per_asset": 19.8,
+  "assets_per_10min": 30.2,
+  "est_unique_assets_120min": 363,
+  "asset_duration_dist": {
+   "median_s": 10.0,
+   "mean_s": 19.8,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 30.0,
+   "p90_s": 39.9,
+   "max_s": 69.9,
+   "pct_shots_over_30s": 10.7,
+   "pct_shots_over_60s": 0.2
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 43,
+    "changes_per_min": 4.3,
+    "s_per_asset": 14.0,
+    "brightness_0_255": 34.1,
+    "saturation": 0.375,
+    "contrast": 37.2,
+    "dark_pixels_pct": 65.9,
+    "near_black_pct": 51.4,
+    "colorfulness": 24.7,
+    "edge_density": 0.0793,
+    "warm_R_minus_B": -3.4
+   },
+   {
+    "band": "10-30min",
+    "changes": 57,
+    "changes_per_min": 2.85,
+    "s_per_asset": 21.1,
+    "brightness_0_255": 29.6,
+    "saturation": 0.496,
+    "contrast": 31.1,
+    "dark_pixels_pct": 67.9,
+    "near_black_pct": 49.2,
+    "colorfulness": 31.6,
+    "edge_density": 0.0614,
+    "warm_R_minus_B": -21.9
+   },
+   {
+    "band": "30-60min",
+    "changes": 88,
+    "changes_per_min": 2.93,
+    "s_per_asset": 20.5,
+    "brightness_0_255": 34.3,
+    "saturation": 0.478,
+    "contrast": 34.9,
+    "dark_pixels_pct": 63.6,
+    "near_black_pct": 44.7,
+    "colorfulness": 30.9,
+    "edge_density": 0.073,
+    "warm_R_minus_B": -19.3
+   },
+   {
+    "band": "60-90min",
+    "changes": 81,
+    "changes_per_min": 2.7,
+    "s_per_asset": 22.2,
+    "brightness_0_255": 32.4,
+    "saturation": 0.505,
+    "contrast": 33.1,
+    "dark_pixels_pct": 65.0,
+    "near_black_pct": 45.6,
+    "colorfulness": 31.8,
+    "edge_density": 0.0648,
+    "warm_R_minus_B": -18.7
+   },
+   {
+    "band": "90-120min",
+    "changes": 84,
+    "changes_per_min": 2.8,
+    "s_per_asset": 21.4,
+    "brightness_0_255": 31.2,
+    "saturation": 0.461,
+    "contrast": 32.7,
+    "dark_pixels_pct": 67.5,
+    "near_black_pct": 47.4,
+    "colorfulness": 26.5,
+    "edge_density": 0.0716,
+    "warm_R_minus_B": -16.8
+   },
+   {
+    "band": "120min+",
+    "changes": 77,
+    "changes_per_min": 3.48,
+    "s_per_asset": 17.3,
+    "brightness_0_255": 31.7,
+    "saturation": 0.428,
+    "contrast": 33.1,
+    "dark_pixels_pct": 66.6,
+    "near_black_pct": 50.1,
+    "colorfulness": 24.0,
+    "edge_density": 0.08,
+    "warm_R_minus_B": -14.4
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 424,
+   "median_masked_pixel_change": 15.39,
+   "pct_held_pairs_essentially_static": 0.7,
+   "median_zoom_normalized_residual": 0.3303
+  },
+  "appearance": {
+   "brightness_mean_0_255": 32.1,
+   "brightness_median": 29.9,
+   "saturation_mean": 0.467,
+   "contrast_mean": 33.4,
+   "dark_pixels_pct_mean": 66.0,
+   "near_black_pct_mean": 47.5,
+   "colorfulness_mean": 28.7,
+   "edge_density_mean": 0.0708,
+   "R": 29.1,
+   "G": 31.6,
+   "B": 46.2,
+   "warm_R_minus_B": -17.1,
+   "blue_dominance_B_minus_R": 17.1
+  }
+ },
+ "Lgu_Oq8_J5I": {
+  "video_id": "Lgu_Oq8_J5I",
+  "channel": "Calm Space",
+  "classification": "Median",
+  "title": "How Many Habitable Planets Are Actually Out There?",
+  "duration_s": 7917,
+  "views": 23812,
+  "upload_date": "20260623",
+  "n_storyboard_frames": 793,
+  "sample_interval_s": 9.984,
+  "letterbox_pct_of_height": 20.0,
+  "aspect_after_letterbox": 2.22,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 429,
+    "changes_per_min": 3.25,
+    "s_per_asset": 18.5
+   },
+   "0.40": {
+    "changes": 385,
+    "changes_per_min": 2.92,
+    "s_per_asset": 20.6
+   },
+   "0.50": {
+    "changes": 367,
+    "changes_per_min": 2.78,
+    "s_per_asset": 21.6
+   },
+   "0.60": {
+    "changes": 352,
+    "changes_per_min": 2.67,
+    "s_per_asset": 22.5
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 385,
+  "changes_per_min": 2.92,
+  "mean_s_per_asset": 20.6,
+  "assets_per_10min": 29.2,
+  "est_unique_assets_120min": 350,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 20.6,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 29.9,
+   "p90_s": 30.0,
+   "max_s": 59.9,
+   "pct_shots_over_30s": 9.4,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 47,
+    "changes_per_min": 4.7,
+    "s_per_asset": 12.8,
+    "brightness_0_255": 27.9,
+    "saturation": 0.375,
+    "contrast": 31.6,
+    "dark_pixels_pct": 70.8,
+    "near_black_pct": 54.2,
+    "colorfulness": 17.7,
+    "edge_density": 0.0624,
+    "warm_R_minus_B": -5.8
+   },
+   {
+    "band": "10-30min",
+    "changes": 57,
+    "changes_per_min": 2.85,
+    "s_per_asset": 21.1,
+    "brightness_0_255": 31.1,
+    "saturation": 0.416,
+    "contrast": 32.0,
+    "dark_pixels_pct": 69.8,
+    "near_black_pct": 50.2,
+    "colorfulness": 24.6,
+    "edge_density": 0.0599,
+    "warm_R_minus_B": -13.2
+   },
+   {
+    "band": "30-60min",
+    "changes": 83,
+    "changes_per_min": 2.77,
+    "s_per_asset": 21.7,
+    "brightness_0_255": 34.2,
+    "saturation": 0.447,
+    "contrast": 34.9,
+    "dark_pixels_pct": 63.3,
+    "near_black_pct": 45.5,
+    "colorfulness": 28.6,
+    "edge_density": 0.0721,
+    "warm_R_minus_B": -17.1
+   },
+   {
+    "band": "60-90min",
+    "changes": 83,
+    "changes_per_min": 2.77,
+    "s_per_asset": 21.7,
+    "brightness_0_255": 29.3,
+    "saturation": 0.431,
+    "contrast": 31.8,
+    "dark_pixels_pct": 68.4,
+    "near_black_pct": 50.1,
+    "colorfulness": 25.3,
+    "edge_density": 0.063,
+    "warm_R_minus_B": -13.4
+   },
+   {
+    "band": "90-120min",
+    "changes": 82,
+    "changes_per_min": 2.73,
+    "s_per_asset": 22.0,
+    "brightness_0_255": 33.0,
+    "saturation": 0.445,
+    "contrast": 33.9,
+    "dark_pixels_pct": 65.2,
+    "near_black_pct": 44.8,
+    "colorfulness": 25.8,
+    "edge_density": 0.063,
+    "warm_R_minus_B": -14.5
+   },
+   {
+    "band": "120min+",
+    "changes": 33,
+    "changes_per_min": 2.76,
+    "s_per_asset": 21.7,
+    "brightness_0_255": 28.8,
+    "saturation": 0.427,
+    "contrast": 31.9,
+    "dark_pixels_pct": 69.4,
+    "near_black_pct": 52.3,
+    "colorfulness": 21.8,
+    "edge_density": 0.0639,
+    "warm_R_minus_B": -8.2
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 407,
+   "median_masked_pixel_change": 15.52,
+   "pct_held_pairs_essentially_static": 0.7,
+   "median_zoom_normalized_residual": 0.3477
+  },
+  "appearance": {
+   "brightness_mean_0_255": 31.4,
+   "brightness_median": 28.5,
+   "saturation_mean": 0.431,
+   "contrast_mean": 33.0,
+   "dark_pixels_pct_mean": 67.0,
+   "near_black_pct_mean": 48.4,
+   "colorfulness_mean": 25.1,
+   "edge_density_mean": 0.0646,
+   "R": 28.5,
+   "G": 31.1,
+   "B": 42.0,
+   "warm_R_minus_B": -13.4,
+   "blue_dominance_B_minus_R": 13.4
+  }
+ },
+ "o2eIwICmo7w": {
+  "video_id": "o2eIwICmo7w",
+  "channel": "Calm Space",
+  "classification": "Recent-Strong",
+  "title": "What Would Actually Happen If You Traveled One Light Year?",
+  "duration_s": 7673,
+  "views": 100812,
+  "upload_date": "20260811",
+  "n_storyboard_frames": 771,
+  "sample_interval_s": 9.952,
+  "letterbox_pct_of_height": 20.0,
+  "aspect_after_letterbox": 2.22,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 413,
+    "changes_per_min": 3.23,
+    "s_per_asset": 18.6
+   },
+   "0.40": {
+    "changes": 363,
+    "changes_per_min": 2.84,
+    "s_per_asset": 21.1
+   },
+   "0.50": {
+    "changes": 338,
+    "changes_per_min": 2.64,
+    "s_per_asset": 22.7
+   },
+   "0.60": {
+    "changes": 324,
+    "changes_per_min": 2.53,
+    "s_per_asset": 23.7
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 363,
+  "changes_per_min": 2.84,
+  "mean_s_per_asset": 21.1,
+  "assets_per_10min": 28.4,
+  "est_unique_assets_120min": 341,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 21.1,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 29.9,
+   "p90_s": 29.9,
+   "max_s": 59.9,
+   "pct_shots_over_30s": 8.3,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 46,
+    "changes_per_min": 4.6,
+    "s_per_asset": 13.0,
+    "brightness_0_255": 31.5,
+    "saturation": 0.344,
+    "contrast": 34.7,
+    "dark_pixels_pct": 67.6,
+    "near_black_pct": 50.4,
+    "colorfulness": 17.3,
+    "edge_density": 0.0715,
+    "warm_R_minus_B": -6.2
+   },
+   {
+    "band": "10-30min",
+    "changes": 53,
+    "changes_per_min": 2.65,
+    "s_per_asset": 22.6,
+    "brightness_0_255": 30.9,
+    "saturation": 0.412,
+    "contrast": 33.7,
+    "dark_pixels_pct": 68.6,
+    "near_black_pct": 50.8,
+    "colorfulness": 23.6,
+    "edge_density": 0.0723,
+    "warm_R_minus_B": -12.4
+   },
+   {
+    "band": "30-60min",
+    "changes": 76,
+    "changes_per_min": 2.53,
+    "s_per_asset": 23.7,
+    "brightness_0_255": 34.4,
+    "saturation": 0.422,
+    "contrast": 35.7,
+    "dark_pixels_pct": 65.4,
+    "near_black_pct": 46.7,
+    "colorfulness": 25.7,
+    "edge_density": 0.0737,
+    "warm_R_minus_B": -11.1
+   },
+   {
+    "band": "60-90min",
+    "changes": 76,
+    "changes_per_min": 2.53,
+    "s_per_asset": 23.7,
+    "brightness_0_255": 30.1,
+    "saturation": 0.422,
+    "contrast": 32.5,
+    "dark_pixels_pct": 68.9,
+    "near_black_pct": 47.3,
+    "colorfulness": 24.4,
+    "edge_density": 0.0693,
+    "warm_R_minus_B": -14.0
+   },
+   {
+    "band": "90-120min",
+    "changes": 83,
+    "changes_per_min": 2.77,
+    "s_per_asset": 21.7,
+    "brightness_0_255": 34.1,
+    "saturation": 0.417,
+    "contrast": 35.6,
+    "dark_pixels_pct": 64.0,
+    "near_black_pct": 46.8,
+    "colorfulness": 22.6,
+    "edge_density": 0.0803,
+    "warm_R_minus_B": -13.1
+   },
+   {
+    "band": "120min+",
+    "changes": 29,
+    "changes_per_min": 3.68,
+    "s_per_asset": 16.3,
+    "brightness_0_255": 26.6,
+    "saturation": 0.346,
+    "contrast": 30.3,
+    "dark_pixels_pct": 72.0,
+    "near_black_pct": 54.6,
+    "colorfulness": 16.4,
+    "edge_density": 0.0635,
+    "warm_R_minus_B": -8.1
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 407,
+   "median_masked_pixel_change": 14.86,
+   "pct_held_pairs_essentially_static": 1.0,
+   "median_zoom_normalized_residual": 0.3392
+  },
+  "appearance": {
+   "brightness_mean_0_255": 32.0,
+   "brightness_median": 29.1,
+   "saturation_mean": 0.408,
+   "contrast_mean": 34.2,
+   "dark_pixels_pct_mean": 67.0,
+   "near_black_pct_mean": 48.3,
+   "colorfulness_mean": 23.1,
+   "edge_density_mean": 0.0731,
+   "R": 29.7,
+   "G": 31.8,
+   "B": 41.6,
+   "warm_R_minus_B": -11.9,
+   "blue_dominance_B_minus_R": 11.9
+  }
+ },
+ "xg8ieJQIB70": {
+  "video_id": "xg8ieJQIB70",
+  "channel": "Sleepy Science Channel",
+  "classification": "Breakout",
+  "title": "100 Facts About the Milky Way Galaxy \u2014 Fall Asleep to Astronomy",
+  "duration_s": 7200,
+  "views": 2353340,
+  "upload_date": "20250725",
+  "n_storyboard_frames": 721,
+  "sample_interval_s": 9.986,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 447,
+    "changes_per_min": 3.73,
+    "s_per_asset": 16.1
+   },
+   "0.40": {
+    "changes": 336,
+    "changes_per_min": 2.8,
+    "s_per_asset": 21.4
+   },
+   "0.50": {
+    "changes": 242,
+    "changes_per_min": 2.02,
+    "s_per_asset": 29.8
+   },
+   "0.60": {
+    "changes": 161,
+    "changes_per_min": 1.34,
+    "s_per_asset": 44.7
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 336,
+  "changes_per_min": 2.8,
+  "mean_s_per_asset": 21.4,
+  "assets_per_10min": 28.0,
+  "est_unique_assets_120min": 336,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 21.4,
+   "p10_s": 10.0,
+   "p25_s": 20.0,
+   "p75_s": 20.0,
+   "p90_s": 20.0,
+   "max_s": 179.8,
+   "pct_shots_over_30s": 7.5,
+   "pct_shots_over_60s": 1.8
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 31,
+    "changes_per_min": 3.1,
+    "s_per_asset": 19.4,
+    "brightness_0_255": 31.7,
+    "saturation": 0.285,
+    "contrast": 17.4,
+    "dark_pixels_pct": 63.4,
+    "near_black_pct": 14.2,
+    "colorfulness": 12.2,
+    "edge_density": 0.0291,
+    "warm_R_minus_B": -1.1
+   },
+   {
+    "band": "10-30min",
+    "changes": 56,
+    "changes_per_min": 2.8,
+    "s_per_asset": 21.4,
+    "brightness_0_255": 31.1,
+    "saturation": 0.28,
+    "contrast": 17.4,
+    "dark_pixels_pct": 65.5,
+    "near_black_pct": 14.9,
+    "colorfulness": 12.5,
+    "edge_density": 0.0328,
+    "warm_R_minus_B": -0.5
+   },
+   {
+    "band": "30-60min",
+    "changes": 92,
+    "changes_per_min": 3.07,
+    "s_per_asset": 19.6,
+    "brightness_0_255": 31.0,
+    "saturation": 0.275,
+    "contrast": 17.3,
+    "dark_pixels_pct": 65.5,
+    "near_black_pct": 14.7,
+    "colorfulness": 12.3,
+    "edge_density": 0.0332,
+    "warm_R_minus_B": -0.6
+   },
+   {
+    "band": "60-90min",
+    "changes": 91,
+    "changes_per_min": 3.03,
+    "s_per_asset": 19.8,
+    "brightness_0_255": 31.0,
+    "saturation": 0.265,
+    "contrast": 17.2,
+    "dark_pixels_pct": 65.5,
+    "near_black_pct": 14.1,
+    "colorfulness": 12.2,
+    "edge_density": 0.032,
+    "warm_R_minus_B": -0.2
+   },
+   {
+    "band": "90-120min",
+    "changes": 66,
+    "changes_per_min": 2.2,
+    "s_per_asset": 27.3,
+    "brightness_0_255": 20.4,
+    "saturation": 0.489,
+    "contrast": 8.2,
+    "dark_pixels_pct": 88.5,
+    "near_black_pct": 46.3,
+    "colorfulness": 7.6,
+    "edge_density": 0.006,
+    "warm_R_minus_B": -8.7
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 384,
+   "median_masked_pixel_change": 2.72,
+   "pct_held_pairs_essentially_static": 9.6,
+   "median_zoom_normalized_residual": 0.0804
+  },
+  "appearance": {
+   "brightness_mean_0_255": 28.4,
+   "brightness_median": 29.4,
+   "saturation_mean": 0.328,
+   "contrast_mean": 15.0,
+   "dark_pixels_pct_mean": 71.1,
+   "near_black_pct_mean": 22.5,
+   "colorfulness_mean": 11.1,
+   "edge_density_mean": 0.0257,
+   "R": 27.5,
+   "G": 28.6,
+   "B": 30.1,
+   "warm_R_minus_B": -2.6,
+   "blue_dominance_B_minus_R": 2.6
+  }
+ },
+ "A0vVW7PWnm4": {
+  "video_id": "A0vVW7PWnm4",
+  "channel": "Sleepy Science Channel",
+  "classification": "Median",
+  "title": "The Most Relaxing Facts About Mind & Body to Fall Asleep To \u2014 No Adverts",
+  "duration_s": 8080,
+  "views": 44875,
+  "upload_date": "20260317",
+  "n_storyboard_frames": 810,
+  "sample_interval_s": 9.975,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 536,
+    "changes_per_min": 3.98,
+    "s_per_asset": 15.1
+   },
+   "0.40": {
+    "changes": 365,
+    "changes_per_min": 2.71,
+    "s_per_asset": 22.1
+   },
+   "0.50": {
+    "changes": 256,
+    "changes_per_min": 1.9,
+    "s_per_asset": 31.6
+   },
+   "0.60": {
+    "changes": 137,
+    "changes_per_min": 1.02,
+    "s_per_asset": 59.0
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 365,
+  "changes_per_min": 2.71,
+  "mean_s_per_asset": 22.1,
+  "assets_per_10min": 27.1,
+  "est_unique_assets_120min": 325,
+  "asset_duration_dist": {
+   "median_s": 19.9,
+   "mean_s": 21.0,
+   "p10_s": 10.0,
+   "p25_s": 19.9,
+   "p75_s": 20.0,
+   "p90_s": 33.9,
+   "max_s": 119.7,
+   "pct_shots_over_30s": 10.2,
+   "pct_shots_over_60s": 1.1
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 31,
+    "changes_per_min": 3.1,
+    "s_per_asset": 19.4,
+    "brightness_0_255": 30.3,
+    "saturation": 0.398,
+    "contrast": 17.8,
+    "dark_pixels_pct": 68.8,
+    "near_black_pct": 18.0,
+    "colorfulness": 24.5,
+    "edge_density": 0.0351,
+    "warm_R_minus_B": 9.0
+   },
+   {
+    "band": "10-30min",
+    "changes": 69,
+    "changes_per_min": 3.45,
+    "s_per_asset": 17.4,
+    "brightness_0_255": 30.5,
+    "saturation": 0.401,
+    "contrast": 17.3,
+    "dark_pixels_pct": 68.3,
+    "near_black_pct": 17.3,
+    "colorfulness": 24.8,
+    "edge_density": 0.0366,
+    "warm_R_minus_B": 8.7
+   },
+   {
+    "band": "30-60min",
+    "changes": 98,
+    "changes_per_min": 3.27,
+    "s_per_asset": 18.4,
+    "brightness_0_255": 30.5,
+    "saturation": 0.403,
+    "contrast": 17.4,
+    "dark_pixels_pct": 67.8,
+    "near_black_pct": 17.4,
+    "colorfulness": 24.9,
+    "edge_density": 0.0352,
+    "warm_R_minus_B": 9.5
+   },
+   {
+    "band": "60-90min",
+    "changes": 92,
+    "changes_per_min": 3.07,
+    "s_per_asset": 19.6,
+    "brightness_0_255": 28.8,
+    "saturation": 0.402,
+    "contrast": 15.8,
+    "dark_pixels_pct": 71.5,
+    "near_black_pct": 20.6,
+    "colorfulness": 21.6,
+    "edge_density": 0.0312,
+    "warm_R_minus_B": 6.7
+   },
+   {
+    "band": "90-120min",
+    "changes": 62,
+    "changes_per_min": 2.07,
+    "s_per_asset": 29.0,
+    "brightness_0_255": 19.6,
+    "saturation": 0.372,
+    "contrast": 7.6,
+    "dark_pixels_pct": 91.5,
+    "near_black_pct": 42.3,
+    "colorfulness": 9.1,
+    "edge_density": 0.0073,
+    "warm_R_minus_B": -0.5
+   },
+   {
+    "band": "120min+",
+    "changes": 13,
+    "changes_per_min": 0.89,
+    "s_per_asset": 67.7,
+    "brightness_0_255": 13.0,
+    "saturation": 0.388,
+    "contrast": 3.6,
+    "dark_pixels_pct": 99.9,
+    "near_black_pct": 84.5,
+    "colorfulness": 4.3,
+    "edge_density": 0.0,
+    "warm_R_minus_B": -5.0
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 444,
+   "median_masked_pixel_change": 5.53,
+   "pct_held_pairs_essentially_static": 0.2,
+   "median_zoom_normalized_residual": 0.1997
+  },
+  "appearance": {
+   "brightness_mean_0_255": 25.8,
+   "brightness_median": 25.6,
+   "saturation_mean": 0.394,
+   "contrast_mean": 13.4,
+   "dark_pixels_pct_mean": 77.5,
+   "near_black_pct_mean": 31.0,
+   "colorfulness_mean": 18.3,
+   "edge_density_mean": 0.0245,
+   "R": 32.4,
+   "G": 23.6,
+   "B": 27.5,
+   "warm_R_minus_B": 4.9,
+   "blue_dominance_B_minus_R": -4.9
+  }
+ },
+ "BA59TWIMNG4": {
+  "video_id": "BA59TWIMNG4",
+  "channel": "Sleepy Science Channel",
+  "classification": "Recent-Strong",
+  "title": "Extreme Cosmic Events | 100 Facts to Fall Asleep To",
+  "duration_s": 9902,
+  "views": 39948,
+  "upload_date": "20260810",
+  "n_storyboard_frames": 992,
+  "sample_interval_s": 9.982,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 700,
+    "changes_per_min": 4.24,
+    "s_per_asset": 14.1
+   },
+   "0.40": {
+    "changes": 537,
+    "changes_per_min": 3.25,
+    "s_per_asset": 18.4
+   },
+   "0.50": {
+    "changes": 356,
+    "changes_per_min": 2.16,
+    "s_per_asset": 27.8
+   },
+   "0.60": {
+    "changes": 226,
+    "changes_per_min": 1.37,
+    "s_per_asset": 43.8
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 537,
+  "changes_per_min": 3.25,
+  "mean_s_per_asset": 18.4,
+  "assets_per_10min": 32.5,
+  "est_unique_assets_120min": 390,
+  "asset_duration_dist": {
+   "median_s": 20.0,
+   "mean_s": 18.4,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 20.0,
+   "p90_s": 20.0,
+   "max_s": 69.9,
+   "pct_shots_over_30s": 6.2,
+   "pct_shots_over_60s": 0.2
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 37,
+    "changes_per_min": 3.7,
+    "s_per_asset": 16.2,
+    "brightness_0_255": 25.5,
+    "saturation": 0.385,
+    "contrast": 17.3,
+    "dark_pixels_pct": 79.6,
+    "near_black_pct": 31.1,
+    "colorfulness": 20.1,
+    "edge_density": 0.0152,
+    "warm_R_minus_B": 2.0
+   },
+   {
+    "band": "10-30min",
+    "changes": 68,
+    "changes_per_min": 3.4,
+    "s_per_asset": 17.6,
+    "brightness_0_255": 22.7,
+    "saturation": 0.387,
+    "contrast": 13.5,
+    "dark_pixels_pct": 84.5,
+    "near_black_pct": 36.2,
+    "colorfulness": 15.9,
+    "edge_density": 0.0121,
+    "warm_R_minus_B": -0.2
+   },
+   {
+    "band": "30-60min",
+    "changes": 115,
+    "changes_per_min": 3.83,
+    "s_per_asset": 15.7,
+    "brightness_0_255": 17.5,
+    "saturation": 0.355,
+    "contrast": 7.6,
+    "dark_pixels_pct": 94.3,
+    "near_black_pct": 52.3,
+    "colorfulness": 7.4,
+    "edge_density": 0.0007,
+    "warm_R_minus_B": -2.7
+   },
+   {
+    "band": "60-90min",
+    "changes": 121,
+    "changes_per_min": 4.03,
+    "s_per_asset": 14.9,
+    "brightness_0_255": 16.2,
+    "saturation": 0.358,
+    "contrast": 6.2,
+    "dark_pixels_pct": 96.9,
+    "near_black_pct": 57.9,
+    "colorfulness": 5.8,
+    "edge_density": 0.0001,
+    "warm_R_minus_B": -3.5
+   },
+   {
+    "band": "90-120min",
+    "changes": 77,
+    "changes_per_min": 2.57,
+    "s_per_asset": 23.4,
+    "brightness_0_255": 16.2,
+    "saturation": 0.381,
+    "contrast": 6.3,
+    "dark_pixels_pct": 96.8,
+    "near_black_pct": 60.1,
+    "colorfulness": 5.8,
+    "edge_density": 0.0001,
+    "warm_R_minus_B": -4.4
+   },
+   {
+    "band": "120min+",
+    "changes": 119,
+    "changes_per_min": 2.64,
+    "s_per_asset": 22.7,
+    "brightness_0_255": 16.0,
+    "saturation": 0.384,
+    "contrast": 6.2,
+    "dark_pixels_pct": 97.1,
+    "near_black_pct": 61.3,
+    "colorfulness": 5.8,
+    "edge_density": 0.0001,
+    "warm_R_minus_B": -4.4
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 454,
+   "median_masked_pixel_change": 2.49,
+   "pct_held_pairs_essentially_static": 0.2,
+   "median_zoom_normalized_residual": 0.1265
+  },
+  "appearance": {
+   "brightness_mean_0_255": 17.7,
+   "brightness_median": 16.7,
+   "saturation_mean": 0.374,
+   "contrast_mean": 8.0,
+   "dark_pixels_pct_mean": 93.9,
+   "near_black_pct_mean": 54.0,
+   "colorfulness_mean": 8.2,
+   "edge_density_mean": 0.0026,
+   "R": 19.4,
+   "G": 16.8,
+   "B": 22.4,
+   "warm_R_minus_B": -3.0,
+   "blue_dominance_B_minus_R": 3.0
+  }
+ },
+ "gmq4gqCytlY": {
+  "video_id": "gmq4gqCytlY",
+  "channel": "Cosmo Explains",
+  "classification": "Breakout",
+  "title": "Every Confusing Thing About The Theory of Relativity Explained Slowly (For Sleep)",
+  "duration_s": 7603,
+  "views": 198908,
+  "upload_date": "20260512",
+  "n_storyboard_frames": 762,
+  "sample_interval_s": 9.978,
+  "letterbox_pct_of_height": 3.3,
+  "aspect_after_letterbox": 1.84,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 531,
+    "changes_per_min": 4.19,
+    "s_per_asset": 14.3
+   },
+   "0.40": {
+    "changes": 474,
+    "changes_per_min": 3.74,
+    "s_per_asset": 16.0
+   },
+   "0.50": {
+    "changes": 405,
+    "changes_per_min": 3.2,
+    "s_per_asset": 18.8
+   },
+   "0.60": {
+    "changes": 292,
+    "changes_per_min": 2.3,
+    "s_per_asset": 26.0
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 474,
+  "changes_per_min": 3.74,
+  "mean_s_per_asset": 16.0,
+  "assets_per_10min": 37.4,
+  "est_unique_assets_120min": 449,
+  "asset_duration_dist": {
+   "median_s": 10.0,
+   "mean_s": 16.0,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 20.0,
+   "p90_s": 29.9,
+   "max_s": 39.9,
+   "pct_shots_over_30s": 2.3,
+   "pct_shots_over_60s": 0.0
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 38,
+    "changes_per_min": 3.8,
+    "s_per_asset": 15.8,
+    "brightness_0_255": 30.8,
+    "saturation": 0.604,
+    "contrast": 37.7,
+    "dark_pixels_pct": 70.6,
+    "near_black_pct": 46.7,
+    "colorfulness": 22.2,
+    "edge_density": 0.0737,
+    "warm_R_minus_B": -1.3
+   },
+   {
+    "band": "10-30min",
+    "changes": 73,
+    "changes_per_min": 3.65,
+    "s_per_asset": 16.4,
+    "brightness_0_255": 29.8,
+    "saturation": 0.619,
+    "contrast": 36.4,
+    "dark_pixels_pct": 71.2,
+    "near_black_pct": 46.6,
+    "colorfulness": 22.3,
+    "edge_density": 0.075,
+    "warm_R_minus_B": -2.4
+   },
+   {
+    "band": "30-60min",
+    "changes": 114,
+    "changes_per_min": 3.8,
+    "s_per_asset": 15.8,
+    "brightness_0_255": 30.7,
+    "saturation": 0.618,
+    "contrast": 37.6,
+    "dark_pixels_pct": 70.6,
+    "near_black_pct": 46.0,
+    "colorfulness": 22.6,
+    "edge_density": 0.0753,
+    "warm_R_minus_B": -1.4
+   },
+   {
+    "band": "60-90min",
+    "changes": 109,
+    "changes_per_min": 3.63,
+    "s_per_asset": 16.5,
+    "brightness_0_255": 30.4,
+    "saturation": 0.618,
+    "contrast": 37.3,
+    "dark_pixels_pct": 70.9,
+    "near_black_pct": 46.3,
+    "colorfulness": 22.4,
+    "edge_density": 0.0761,
+    "warm_R_minus_B": -1.7
+   },
+   {
+    "band": "90-120min",
+    "changes": 118,
+    "changes_per_min": 3.93,
+    "s_per_asset": 15.3,
+    "brightness_0_255": 30.1,
+    "saturation": 0.618,
+    "contrast": 37.0,
+    "dark_pixels_pct": 71.1,
+    "near_black_pct": 46.4,
+    "colorfulness": 22.2,
+    "edge_density": 0.0736,
+    "warm_R_minus_B": -1.6
+   },
+   {
+    "band": "120min+",
+    "changes": 22,
+    "changes_per_min": 3.28,
+    "s_per_asset": 18.3,
+    "brightness_0_255": 30.2,
+    "saturation": 0.622,
+    "contrast": 37.3,
+    "dark_pixels_pct": 70.7,
+    "near_black_pct": 47.0,
+    "colorfulness": 23.3,
+    "edge_density": 0.0792,
+    "warm_R_minus_B": -2.4
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 287,
+   "median_masked_pixel_change": 17.77,
+   "pct_held_pairs_essentially_static": 0.0,
+   "median_zoom_normalized_residual": 0.2363
+  },
+  "appearance": {
+   "brightness_mean_0_255": 30.3,
+   "brightness_median": 29.5,
+   "saturation_mean": 0.617,
+   "contrast_mean": 37.2,
+   "dark_pixels_pct_mean": 70.9,
+   "near_black_pct_mean": 46.4,
+   "colorfulness_mean": 22.4,
+   "edge_density_mean": 0.0751,
+   "R": 30.3,
+   "G": 30.2,
+   "B": 32.0,
+   "warm_R_minus_B": -1.7,
+   "blue_dominance_B_minus_R": 1.7
+  }
+ },
+ "WHh8Q-gNZAk": {
+  "video_id": "WHh8Q-gNZAk",
+  "channel": "Cosmo Explains",
+  "classification": "Recent-Median",
+  "title": "The Entire History Of Nuclear Physics Explained Slowly (For Sleep)",
+  "duration_s": 7760,
+  "views": 4017,
+  "upload_date": "20260808",
+  "n_storyboard_frames": 780,
+  "sample_interval_s": 9.949,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 507,
+    "changes_per_min": 3.92,
+    "s_per_asset": 15.3
+   },
+   "0.40": {
+    "changes": 433,
+    "changes_per_min": 3.35,
+    "s_per_asset": 17.9
+   },
+   "0.50": {
+    "changes": 321,
+    "changes_per_min": 2.48,
+    "s_per_asset": 24.2
+   },
+   "0.60": {
+    "changes": 68,
+    "changes_per_min": 0.53,
+    "s_per_asset": 114.1
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 433,
+  "changes_per_min": 3.35,
+  "mean_s_per_asset": 17.9,
+  "assets_per_10min": 33.5,
+  "est_unique_assets_120min": 402,
+  "asset_duration_dist": {
+   "median_s": 19.9,
+   "mean_s": 17.9,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 20.0,
+   "p90_s": 29.9,
+   "max_s": 79.8,
+   "pct_shots_over_30s": 7.2,
+   "pct_shots_over_60s": 0.5
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 29,
+    "changes_per_min": 2.9,
+    "s_per_asset": 20.7,
+    "brightness_0_255": 46.2,
+    "saturation": 0.598,
+    "contrast": 46.9,
+    "dark_pixels_pct": 53.5,
+    "near_black_pct": 29.1,
+    "colorfulness": 32.8,
+    "edge_density": 0.1252,
+    "warm_R_minus_B": 21.0
+   },
+   {
+    "band": "10-30min",
+    "changes": 66,
+    "changes_per_min": 3.3,
+    "s_per_asset": 18.2,
+    "brightness_0_255": 46.0,
+    "saturation": 0.601,
+    "contrast": 45.3,
+    "dark_pixels_pct": 52.9,
+    "near_black_pct": 27.5,
+    "colorfulness": 31.8,
+    "edge_density": 0.1267,
+    "warm_R_minus_B": 22.7
+   },
+   {
+    "band": "30-60min",
+    "changes": 101,
+    "changes_per_min": 3.37,
+    "s_per_asset": 17.8,
+    "brightness_0_255": 46.8,
+    "saturation": 0.604,
+    "contrast": 46.4,
+    "dark_pixels_pct": 52.5,
+    "near_black_pct": 27.4,
+    "colorfulness": 32.0,
+    "edge_density": 0.1284,
+    "warm_R_minus_B": 23.8
+   },
+   {
+    "band": "60-90min",
+    "changes": 106,
+    "changes_per_min": 3.53,
+    "s_per_asset": 17.0,
+    "brightness_0_255": 47.2,
+    "saturation": 0.601,
+    "contrast": 46.4,
+    "dark_pixels_pct": 52.0,
+    "near_black_pct": 27.3,
+    "colorfulness": 32.2,
+    "edge_density": 0.13,
+    "warm_R_minus_B": 23.6
+   },
+   {
+    "band": "90-120min",
+    "changes": 98,
+    "changes_per_min": 3.27,
+    "s_per_asset": 18.4,
+    "brightness_0_255": 46.2,
+    "saturation": 0.606,
+    "contrast": 46.0,
+    "dark_pixels_pct": 52.9,
+    "near_black_pct": 27.6,
+    "colorfulness": 32.0,
+    "edge_density": 0.1272,
+    "warm_R_minus_B": 23.6
+   },
+   {
+    "band": "120min+",
+    "changes": 33,
+    "changes_per_min": 3.54,
+    "s_per_asset": 17.0,
+    "brightness_0_255": 44.5,
+    "saturation": 0.598,
+    "contrast": 45.1,
+    "dark_pixels_pct": 54.7,
+    "near_black_pct": 30.6,
+    "colorfulness": 31.4,
+    "edge_density": 0.1275,
+    "warm_R_minus_B": 23.2
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 346,
+   "median_masked_pixel_change": 19.24,
+   "pct_held_pairs_essentially_static": 0.3,
+   "median_zoom_normalized_residual": 0.2026
+  },
+  "appearance": {
+   "brightness_mean_0_255": 46.4,
+   "brightness_median": 45.5,
+   "saturation_mean": 0.602,
+   "contrast_mean": 46.0,
+   "dark_pixels_pct_mean": 52.8,
+   "near_black_pct_mean": 27.9,
+   "colorfulness_mean": 32.0,
+   "edge_density_mean": 0.1278,
+   "R": 57.3,
+   "G": 44.3,
+   "B": 34.1,
+   "warm_R_minus_B": 23.2,
+   "blue_dominance_B_minus_R": -23.2
+  }
+ },
+ "xXuMfbr0V9o": {
+  "video_id": "xXuMfbr0V9o",
+  "channel": "Cosmo Explains",
+  "classification": "Recent-Strong",
+  "title": "Everything About Radio Frequency Explained Slowly (For Sleep)",
+  "duration_s": 7960,
+  "views": 30325,
+  "upload_date": "20260810",
+  "n_storyboard_frames": 798,
+  "sample_interval_s": 9.975,
+  "letterbox_pct_of_height": 0.0,
+  "aspect_after_letterbox": 1.78,
+  "threshold_sensitivity": {
+   "0.30": {
+    "changes": 521,
+    "changes_per_min": 3.93,
+    "s_per_asset": 15.3
+   },
+   "0.40": {
+    "changes": 413,
+    "changes_per_min": 3.11,
+    "s_per_asset": 19.3
+   },
+   "0.50": {
+    "changes": 187,
+    "changes_per_min": 1.41,
+    "s_per_asset": 42.6
+   },
+   "0.60": {
+    "changes": 2,
+    "changes_per_min": 0.02,
+    "s_per_asset": 3980.0
+   }
+  },
+  "primary_threshold": 0.4,
+  "total_visual_changes": 413,
+  "changes_per_min": 3.11,
+  "mean_s_per_asset": 19.3,
+  "assets_per_10min": 31.1,
+  "est_unique_assets_120min": 374,
+  "asset_duration_dist": {
+   "median_s": 19.9,
+   "mean_s": 19.2,
+   "p10_s": 10.0,
+   "p25_s": 10.0,
+   "p75_s": 20.0,
+   "p90_s": 29.9,
+   "max_s": 79.8,
+   "pct_shots_over_30s": 9.5,
+   "pct_shots_over_60s": 0.5
+  },
+  "time_bands": [
+   {
+    "band": "00-10min",
+    "changes": 28,
+    "changes_per_min": 2.8,
+    "s_per_asset": 21.4,
+    "brightness_0_255": 36.8,
+    "saturation": 0.501,
+    "contrast": 43.8,
+    "dark_pixels_pct": 67.3,
+    "near_black_pct": 43.6,
+    "colorfulness": 25.1,
+    "edge_density": 0.1188,
+    "warm_R_minus_B": -4.9
+   },
+   {
+    "band": "10-30min",
+    "changes": 62,
+    "changes_per_min": 3.1,
+    "s_per_asset": 19.4,
+    "brightness_0_255": 36.9,
+    "saturation": 0.5,
+    "contrast": 42.3,
+    "dark_pixels_pct": 66.2,
+    "near_black_pct": 41.4,
+    "colorfulness": 25.7,
+    "edge_density": 0.119,
+    "warm_R_minus_B": -6.4
+   },
+   {
+    "band": "30-60min",
+    "changes": 94,
+    "changes_per_min": 3.13,
+    "s_per_asset": 19.1,
+    "brightness_0_255": 37.8,
+    "saturation": 0.501,
+    "contrast": 44.0,
+    "dark_pixels_pct": 65.9,
+    "near_black_pct": 41.4,
+    "colorfulness": 26.0,
+    "edge_density": 0.1208,
+    "warm_R_minus_B": -5.4
+   },
+   {
+    "band": "60-90min",
+    "changes": 95,
+    "changes_per_min": 3.17,
+    "s_per_asset": 18.9,
+    "brightness_0_255": 38.5,
+    "saturation": 0.497,
+    "contrast": 44.5,
+    "dark_pixels_pct": 65.1,
+    "near_black_pct": 41.1,
+    "colorfulness": 26.4,
+    "edge_density": 0.123,
+    "warm_R_minus_B": -5.6
+   },
+   {
+    "band": "90-120min",
+    "changes": 93,
+    "changes_per_min": 3.1,
+    "s_per_asset": 19.4,
+    "brightness_0_255": 37.1,
+    "saturation": 0.503,
+    "contrast": 43.1,
+    "dark_pixels_pct": 66.2,
+    "near_black_pct": 41.6,
+    "colorfulness": 25.9,
+    "edge_density": 0.1195,
+    "warm_R_minus_B": -5.7
+   },
+   {
+    "band": "120min+",
+    "changes": 41,
+    "changes_per_min": 3.24,
+    "s_per_asset": 18.5,
+    "brightness_0_255": 35.1,
+    "saturation": 0.504,
+    "contrast": 41.2,
+    "dark_pixels_pct": 67.9,
+    "near_black_pct": 43.7,
+    "colorfulness": 24.6,
+    "edge_density": 0.1219,
+    "warm_R_minus_B": -6.0
+   }
+  ],
+  "motion_on_held_images": {
+   "held_pairs": 384,
+   "median_masked_pixel_change": 21.58,
+   "pct_held_pairs_essentially_static": 0.0,
+   "median_zoom_normalized_residual": 0.2841
+  },
+  "appearance": {
+   "brightness_mean_0_255": 37.3,
+   "brightness_median": 36.8,
+   "saturation_mean": 0.501,
+   "contrast_mean": 43.3,
+   "dark_pixels_pct_mean": 66.2,
+   "near_black_pct_mean": 41.8,
+   "colorfulness_mean": 25.8,
+   "edge_density_mean": 0.1205,
+   "R": 38.9,
+   "G": 36.1,
+   "B": 44.6,
+   "warm_R_minus_B": -5.7,
+   "blue_dominance_B_minus_R": 5.7
+  }
+ }
+}

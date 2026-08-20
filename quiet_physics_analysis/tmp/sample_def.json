@@ -1,0 +1,19 @@
+[
+ {"ch":"sleep_on_physics","cn":"Sleep On Physics","id":"BLPBP5BaU-0","cls":"Recent-Strong","why":"Highest-viewed video among the 12 most recent uploads (79k vs channel median 11k); represents current production standard at its best."},
+ {"ch":"sleep_on_physics","cn":"Sleep On Physics","id":"YBNfHLlrJkg","cls":"Recent-Median","why":"Views exactly at channel median (11k) and published recently (pos 15/123); the true typical current output."},
+ {"ch":"sleep_on_physics","cn":"Sleep On Physics","id":"tvB659d_oik","cls":"Breakout-Modern","why":"158k views, ~14x channel median, from the current production era (pos 33/123); breakout without confounding style drift."},
+ {"ch":"sleep_on_physics","cn":"Sleep On Physics","id":"_nLpB_Ao7zw","cls":"Breakout-AllTime","why":"Channel's all-time top video (227k, ~21x median) but from the earliest era (pos 121/123); used to detect production-style evolution."},
+ {"ch":"calm_science","cn":"Calm Science","id":"lqZntA10Q5g","cls":"Recent-Strong","why":"Highest-viewed among 12 most recent (63k vs median 9.2k); current best-performing output."},
+ {"ch":"calm_science","cn":"Calm Science","id":"-n6HdllViRU","cls":"Recent-Median","why":"Views exactly at channel median (9.2k), 3rd-newest video; typical current output."},
+ {"ch":"calm_science","cn":"Calm Science","id":"Nq-wJpo8Hk4","cls":"Breakout","why":"Channel's all-time top video (91k, ~10x median)."},
+ {"ch":"calm_science","cn":"Calm Science","id":"LxDfEBostXk","cls":"Breakout-Controlled","why":"80k views AND same topic/near-identical title as Sleep On Physics' breakout tvB659d_oik ('Where Does Light Get Its Speed From?') - enables a controlled same-topic A/B production comparison between the two priority channels."},
+ {"ch":"calm_space","cn":"Calm Space","id":"o2eIwICmo7w","cls":"Recent-Strong","why":"Highest-viewed among 12 most recent (100k vs median 23k); current cosmic-atmosphere standard."},
+ {"ch":"calm_space","cn":"Calm Space","id":"Lgu_Oq8_J5I","cls":"Median","why":"Views at channel median (23k), mid-catalog (pos 49/185)."},
+ {"ch":"calm_space","cn":"Calm Space","id":"Ty6ZMyFagsU","cls":"Breakout","why":"Channel's all-time top video (1.7M, ~74x median); older era (pos 151/185) - flagged for style drift."},
+ {"ch":"sleepy_science","cn":"Sleepy Science Channel","id":"BA59TWIMNG4","cls":"Recent-Strong","why":"Highest-viewed among 12 most recent (39k); largest channel in sample (328k subs)."},
+ {"ch":"sleepy_science","cn":"Sleepy Science Channel","id":"A0vVW7PWnm4","cls":"Median","why":"Views at channel median (44k), mid-catalog (pos 97/290)."},
+ {"ch":"sleepy_science","cn":"Sleepy Science Channel","id":"xg8ieJQIB70","cls":"Breakout","why":"Channel's all-time top video (2.3M, ~49x median); older era (pos 275/290) - flagged for style drift."},
+ {"ch":"cosmo_explains","cn":"Cosmo Explains","id":"xXuMfbr0V9o","cls":"Recent-Strong","why":"Highest-viewed among 12 most recent (30k vs median 3.95k)."},
+ {"ch":"cosmo_explains","cn":"Cosmo Explains","id":"WHh8Q-gNZAk","cls":"Recent-Median","why":"Views at channel median (4.0k), recent (pos 10/134); weakest-performing channel in sample - used as a contrast/negative reference."},
+ {"ch":"cosmo_explains","cn":"Cosmo Explains","id":"gmq4gqCytlY","cls":"Breakout","why":"Channel's all-time top video (198k, ~50x median)."}
+]

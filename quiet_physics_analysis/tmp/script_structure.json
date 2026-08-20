@@ -1,0 +1,1469 @@
+{
+ "-n6HdllViRU": {
+  "channel": "Calm Science",
+  "classification": "Recent-Median",
+  "title": "The True Scale of a Single Atom",
+  "duration_s": 7837,
+  "n_words": 15678,
+  "first_5_sentences": [
+   "Tonight, we're going to shrink down to a scale so small that your mind is not built to hold it.",
+   "A single atom, something you cannot see, cannot touch, cannot photograph with any camera that has ever existed.",
+   "And yet everything around you, this screen, your hands, the air filling your lungs right now, is made entirely of these things.",
+   "Billions upon billions of them packed together so tightly that they feel solid.",
+   "But here's what's going to unsettle you."
+  ],
+  "cta_count": 1,
+  "cta_hits": [
+   [
+    75.0,
+    "Before we begin, if you enjoy these topics as much as we do, make sure to like the video or subscribe."
+   ]
+  ],
+  "first_cta_s": 75.0,
+  "last_cta_s": 75.0,
+  "sleep_mention_count": 2,
+  "sleep_hits": [
+   [
+    0.5,
+    "Tonight, we're going to shrink down to a scale so small that your mind is not built to hold it."
+   ],
+   [
+    59.0,
+    "By the end of tonight, you're going to understand exactly how small an atom really is."
+   ]
+  ],
+  "n_questions": 5,
+  "question_median_gap_s": 549.8,
+  "questions_first_10min": 0,
+  "questions_per_hour": 2.3,
+  "attention_reset_sentences": 118,
+  "reset_pct": 9.9,
+  "you_count": 138,
+  "we_count": 101,
+  "I_count": 3,
+  "you_per_1000w": 8.8,
+  "analogy_markers": 26,
+  "analogy_per_hour": 11.9,
+  "jargon_terms": 407,
+  "jargon_per_1000w": 26.0,
+  "repeated_6grams": [
+   [
+    "* 10 to the power of",
+    5
+   ],
+   [
+    "mega electron volts divided by c^",
+    4
+   ],
+   [
+    "electron volts divided by c^ 2",
+    4
+   ],
+   [
+    "the current age of the universe",
+    3
+   ],
+   [
+    "a single proton and a single",
+    3
+   ],
+   [
+    "single proton and a single electron",
+    3
+   ],
+   [
+    "10 to the power of 27",
+    3
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "roughly 7 * 10 to the power of 27 atoms",
+    2
+   ]
+  ]
+ },
+ "A0vVW7PWnm4": {
+  "channel": "Sleepy Science Channel",
+  "classification": "Median",
+  "title": "The Most Relaxing Facts About Mind & Body to Fall Asleep To \u2014 No Adverts",
+  "duration_s": 8080,
+  "n_words": 18724,
+  "first_5_sentences": [
+   "Hello there and welcome to [music] the sleepy science channel.",
+   "Tonight we are exploring the vast and intricate relationship between mind and body.",
+   "The living [music] partnership that shapes every thought, every movement and every feeling you have ever felt.",
+   "This is the story of how perception becomes reality.",
+   "how signals race beneath your awareness and how systems built for survival [music] quietly guide your days and nights."
+  ],
+  "cta_count": 2,
+  "cta_hits": [
+   [
+    81.1,
+    "If you enjoy [music] these gentle journeys, I invite you to like, subscribe or share a thought below."
+   ],
+   [
+    7989.0,
+    "If you enjoyed this sleepy journey through science, you might like, subscribe, or leave a kind comment so others can find their way here, too."
+   ]
+  ],
+  "first_cta_s": 81.1,
+  "last_cta_s": 7989.0,
+  "sleep_mention_count": 8,
+  "sleep_hits": [
+   [
+    3.0,
+    "Tonight we are exploring the vast and intricate relationship between mind and body."
+   ],
+   [
+    383.7,
+    "A consistent bedtime [music] can shift your hormone timing and sharpen morning alertness."
+   ],
+   [
+    591.0,
+    "When you fall asleep, your brain does not power down."
+   ],
+   [
+    3018.6,
+    "Late [music] day naps can interfere with night sleep for some people because they steal pressure from the next bedtime."
+   ]
+  ],
+  "n_questions": 1,
+  "question_median_gap_s": null,
+  "questions_first_10min": 0,
+  "questions_per_hour": 0.4,
+  "attention_reset_sentences": 135,
+  "reset_pct": 9.3,
+  "you_count": 610,
+  "we_count": 13,
+  "I_count": 7,
+  "you_per_1000w": 32.6,
+  "analogy_markers": 44,
+  "analogy_per_hour": 19.6,
+  "jargon_terms": 1,
+  "jargon_per_1000w": 0.1,
+  "repeated_6grams": [],
+  "repeated_10grams": []
+ },
+ "BA59TWIMNG4": {
+  "channel": "Sleepy Science Channel",
+  "classification": "Recent-Strong",
+  "title": "Extreme Cosmic Events | 100 Facts to Fall Asleep To",
+  "duration_s": 9902,
+  "n_words": 22511,
+  "first_5_sentences": [
+   "Hello there and welcome to [music] the Sleepy Science Channel.",
+   "Tonight we'll be exploring some of the most extreme [music] events that we have ever discovered in our cosmos.",
+   "These are moments when the universe is pushed to its most [music] powerful limits and ordinary astronomy gives way to some of the most dramatic processes known to science.",
+   "Across the cosmos, [music] immense forces can transform entire regions of space in barely [music] an instant.",
+   "Some events release energy on scales too vast to imagine, while others reveal conditions that [music] seem too extreme to even exist."
+  ],
+  "cta_count": 2,
+  "cta_hits": [
+   [
+    66.6,
+    "If you enjoy these gentle journeys, I invite [music] you to like, subscribe, or share a thought below."
+   ],
+   [
+    9822.9,
+    "If you enjoyed this journey, you are always welcome to like [music] the video, subscribe to the channel, or leave a thought below."
+   ]
+  ],
+  "first_cta_s": 66.6,
+  "last_cta_s": 9822.9,
+  "sleep_mention_count": 2,
+  "sleep_hits": [
+   [
+    3.0,
+    "Tonight we'll be exploring some of the most extreme [music] events that we have ever discovered in our cosmos."
+   ],
+   [
+    9852.1,
+    "Sleep well and good night."
+   ]
+  ],
+  "n_questions": 0,
+  "question_median_gap_s": null,
+  "questions_first_10min": 0,
+  "questions_per_hour": 0.0,
+  "attention_reset_sentences": 108,
+  "reset_pct": 7.5,
+  "you_count": 21,
+  "we_count": 50,
+  "I_count": 2,
+  "you_per_1000w": 0.9,
+  "analogy_markers": 15,
+  "analogy_per_hour": 5.5,
+  "jargon_terms": 134,
+  "jargon_per_1000w": 6.0,
+  "repeated_6grams": [],
+  "repeated_10grams": []
+ },
+ "BLPBP5BaU-0": {
+  "channel": "Sleep On Physics",
+  "classification": "Recent-Strong",
+  "title": "What Is Electricity Made Of According to Quantum Physics?",
+  "duration_s": 7848,
+  "n_words": 17780,
+  "first_5_sentences": [
+   "Tonight, we're going to explore something you interact with every single day, but almost certainly misunderstand at a fundamental level.",
+   "Electricity.",
+   "You flip a switch, and light fills the room.",
+   "You plug in your phone, and it charges.",
+   "It feels like something is flowing through those wires, like water through a pipe."
+  ],
+  "cta_count": 2,
+  "cta_hits": [
+   [
+    59.4,
+    "Before we go any further, if you find this kind of deep exploration fascinating, a quick like or subscribe really helps the channel grow."
+   ],
+   [
+    7822.9,
+    "If you found this exploration valuable, a like or subscribe helps me keep making these deep journeys into physics."
+   ]
+  ],
+  "first_cta_s": 59.4,
+  "last_cta_s": 7822.9,
+  "sleep_mention_count": 5,
+  "sleep_hits": [
+   [
+    0.0,
+    "Tonight, we're going to explore something you interact with every single day, but almost certainly misunderstand at a fundamental level."
+   ],
+   [
+    54.6,
+    "And by the end of tonight, you're going to understand exactly what it is."
+   ],
+   [
+    7822.9,
+    "Thank you for joining me tonight."
+   ],
+   [
+    7831.4,
+    "Sleep well knowing that the quantum electromagnetic field is all around you, always has been, and always will be, connecting every charged particle in the unive"
+   ]
+  ],
+  "n_questions": 19,
+  "question_median_gap_s": 159.7,
+  "questions_first_10min": 1,
+  "questions_per_hour": 8.7,
+  "attention_reset_sentences": 179,
+  "reset_pct": 14.6,
+  "you_count": 172,
+  "we_count": 79,
+  "I_count": 6,
+  "you_per_1000w": 9.7,
+  "analogy_markers": 51,
+  "analogy_per_hour": 23.4,
+  "jargon_terms": 359,
+  "jargon_per_1000w": 20.2,
+  "repeated_6grams": [
+   [
+    "from the switch to the lamp",
+    4
+   ],
+   [
+    "at close to the speed of",
+    4
+   ],
+   [
+    "close to the speed of light",
+    4
+   ],
+   [
+    "the electromagnetic field surrounding the wire",
+    4
+   ],
+   [
+    "not a stream of tiny sparks",
+    3
+   ],
+   [
+    "propagates at close to the speed",
+    3
+   ],
+   [
+    "charged particles and the electromagnetic field",
+    3
+   ],
+   [
+    "at nearly the speed of light",
+    3
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "you flip a switch and light fills the room you",
+    2
+   ],
+   [
+    "are the most common charge carriers in ordinary solid materials",
+    2
+   ]
+  ]
+ },
+ "Lgu_Oq8_J5I": {
+  "channel": "Calm Space",
+  "classification": "Median",
+  "title": "How Many Habitable Planets Are Actually Out There?",
+  "duration_s": 7917,
+  "n_words": 16170,
+  "first_5_sentences": [
+   "Tonight, we're going to do something that scientists have been quietly working toward for decades.",
+   "We're going to count the planets that could actually support life.",
+   "30 years ago, we couldn't do this.",
+   "We had one solar system to study and no way to see beyond it.",
+   "Then, we built the instruments."
+  ],
+  "cta_count": 1,
+  "cta_hits": [
+   [
+    66.0,
+    "Before we get started, if you love exploring the depths of space as much as we do, take a second to like the video or subscribe."
+   ]
+  ],
+  "first_cta_s": 66.0,
+  "last_cta_s": 66.0,
+  "sleep_mention_count": 6,
+  "sleep_hits": [
+   [
+    0.6,
+    "Tonight, we're going to do something that scientists have been quietly working toward for decades."
+   ],
+   [
+    44.8,
+    "By the end of tonight, you're going to understand what life actually needs to exist, which stars can host it, what the most current science says about how rare "
+   ],
+   [
+    4718.6,
+    "If funded and built, it would represent a generational leap in our ability to answer the question we're exploring tonight."
+   ],
+   [
+    6946.3,
+    "If it's common, the galaxy might be teeming with observers, beings that built their own telescopes, found their own planets, formulated their own versions of th"
+   ]
+  ],
+  "n_questions": 20,
+  "question_median_gap_s": 7.6,
+  "questions_first_10min": 0,
+  "questions_per_hour": 9.1,
+  "attention_reset_sentences": 132,
+  "reset_pct": 11.0,
+  "you_count": 51,
+  "we_count": 294,
+  "I_count": 2,
+  "you_per_1000w": 3.2,
+  "analogy_markers": 15,
+  "analogy_per_hour": 6.8,
+  "jargon_terms": 20,
+  "jargon_per_1000w": 1.2,
+  "repeated_6grams": [
+   [
+    "of potentially habitable worlds in the",
+    3
+   ],
+   [
+    "potentially habitable worlds in the milky",
+    3
+   ],
+   [
+    "habitable worlds in the milky way",
+    3
+   ]
+  ],
+  "repeated_10grams": []
+ },
+ "LxDfEBostXk": {
+  "channel": "Calm Science",
+  "classification": "Breakout-Controlled",
+  "title": "Where Does Light Get Its Speed From?",
+  "duration_s": 8061,
+  "n_words": 16364,
+  "first_5_sentences": [
+   "Tonight, we're going to explore something so familiar that most people never stop to question it.",
+   "Light.",
+   "It fills every room you've ever stood in.",
+   "It lets you read these words.",
+   "It travels from distant stars into your eyes every single night."
+  ],
+  "cta_count": 1,
+  "cta_hits": [
+   [
+    64.4,
+    "Before we begin, if you enjoy these topics as much as we do, make sure to like the video or subscribe."
+   ]
+  ],
+  "first_cta_s": 64.4,
+  "last_cta_s": 64.4,
+  "sleep_mention_count": 3,
+  "sleep_hits": [
+   [
+    0.4,
+    "Tonight, we're going to explore something so familiar that most people never stop to question it."
+   ],
+   [
+    49.2,
+    "By the end of tonight, you're going to understand where light gets its speed from."
+   ],
+   [
+    8060.5,
+    "Good night."
+   ]
+  ],
+  "n_questions": 24,
+  "question_median_gap_s": 156.3,
+  "questions_first_10min": 3,
+  "questions_per_hour": 10.7,
+  "attention_reset_sentences": 144,
+  "reset_pct": 11.2,
+  "you_count": 115,
+  "we_count": 80,
+  "I_count": 0,
+  "you_per_1000w": 7.0,
+  "analogy_markers": 15,
+  "analogy_per_hour": 6.7,
+  "jargon_terms": 299,
+  "jargon_per_1000w": 18.3,
+  "repeated_6grams": [
+   [
+    "the speed of light is not",
+    12
+   ],
+   [
+    "speed of light is not just",
+    7
+   ],
+   [
+    "10 to the power of minus",
+    5
+   ],
+   [
+    "the permittivity and permeability of free",
+    5
+   ],
+   [
+    "permittivity and permeability of free space",
+    5
+   ],
+   [
+    "you are seeing it as it",
+    5
+   ],
+   [
+    "are seeing it as it was",
+    5
+   ],
+   [
+    "of free space tells you how",
+    4
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "field to form and propagate it has a value of",
+    2
+   ],
+   [
+    "to form and propagate it has a value of approximately",
+    2
+   ],
+   [
+    "a property of electromagnetic waves it is a property of",
+    2
+   ],
+   [
+    "property of electromagnetic waves it is a property of the",
+    2
+   ]
+  ]
+ },
+ "Nq-wJpo8Hk4": {
+  "channel": "Calm Science",
+  "classification": "Breakout",
+  "title": "What Is Energy Made of According to Quantum Physics?",
+  "duration_s": 7974,
+  "n_words": 15680,
+  "first_5_sentences": [
+   "Tonight we're going to talk about something you interact with every single second of your life.",
+   "Something that powers every thought in your brain, every heartbeat in your chest, every photon hitting your eyes right now.",
+   "And we have almost no idea what it actually is.",
+   "Energy.",
+   "You've heard the word a thousand times, but here's what nobody tells you."
+  ],
+  "cta_count": 1,
+  "cta_hits": [
+   [
+    64.6,
+    "Before we begin, if you enjoy these topics as much as we do, make sure to like the video or subscribe."
+   ]
+  ],
+  "first_cta_s": 64.6,
+  "last_cta_s": 64.6,
+  "sleep_mention_count": 3,
+  "sleep_hits": [
+   [
+    0.3,
+    "Tonight we're going to talk about something you interact with every single second of your life."
+   ],
+   [
+    51.4,
+    "By the end of tonight, you're going to understand why the most common thing in the universe is also the most philosophically unsettling thing physics has ever e"
+   ],
+   [
+    7972.2,
+    "Good night."
+   ]
+  ],
+  "n_questions": 24,
+  "question_median_gap_s": 119.9,
+  "questions_first_10min": 0,
+  "questions_per_hour": 10.8,
+  "attention_reset_sentences": 163,
+  "reset_pct": 12.7,
+  "you_count": 140,
+  "we_count": 90,
+  "I_count": 1,
+  "you_per_1000w": 8.9,
+  "analogy_markers": 15,
+  "analogy_per_hour": 6.8,
+  "jargon_terms": 430,
+  "jargon_per_1000w": 27.4,
+  "repeated_6grams": [
+   [
+    "has a value at every point",
+    4
+   ],
+   [
+    "by the speed of light squared",
+    4
+   ],
+   [
+    "field has a value at every",
+    3
+   ],
+   [
+    "not off by a factor of",
+    3
+   ],
+   [
+    "follows from the laws of physics",
+    3
+   ],
+   [
+    "from the laws of physics being",
+    3
+   ],
+   [
+    "the laws of physics being the",
+    3
+   ],
+   [
+    "laws of physics being the same",
+    3
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "momentum follows from the laws of physics being the same",
+    2
+   ],
+   [
+    "follows from the laws of physics being the same regardless",
+    2
+   ],
+   [
+    "from the laws of physics being the same regardless of",
+    2
+   ],
+   [
+    "energy is the response of a physical system to the",
+    2
+   ]
+  ]
+ },
+ "Ty6ZMyFagsU": {
+  "channel": "Calm Space",
+  "classification": "Breakout",
+  "title": "What Voyager Detected at The Edge of Our Solar System",
+  "duration_s": 8529,
+  "n_words": 16046,
+  "first_5_sentences": [
+   "Tonight, we're going to explore one of the most remarkable journeys in human history.",
+   "Two spacecraft launched in 1977, designed for a 5-year mission to study Jupiter and Saturn.",
+   "They're still operational nearly 50 years later, billions of miles beyond their original destination.",
+   "And when they reached the edge of the solar system, they discovered something shocking.",
+   "The boundary was 2.4 billion miles farther than every scientist predicted."
+  ],
+  "cta_count": 1,
+  "cta_hits": [
+   [
+    66.6,
+    "Before we get started, if you love exploring the depths of space as much as we do, take a second to like the video or subscribe."
+   ]
+  ],
+  "first_cta_s": 66.6,
+  "last_cta_s": 66.6,
+  "sleep_mention_count": 3,
+  "sleep_hits": [
+   [
+    0.6,
+    "Tonight, we're going to explore one of the most remarkable journeys in human history."
+   ],
+   [
+    52.8,
+    "By the end of tonight, you're going to understand how two spacecraft built with 1970s technology rewrote our understanding of where the solar system ends and in"
+   ],
+   [
+    7571.4,
+    "Tonight we explored the shocking discoveries Voyager made at the edge of the solar system."
+   ]
+  ],
+  "n_questions": 32,
+  "question_median_gap_s": 9.0,
+  "questions_first_10min": 0,
+  "questions_per_hour": 13.5,
+  "attention_reset_sentences": 146,
+  "reset_pct": 10.0,
+  "you_count": 18,
+  "we_count": 173,
+  "I_count": 0,
+  "you_per_1000w": 1.1,
+  "analogy_markers": 24,
+  "analogy_per_hour": 10.1,
+  "jargon_terms": 111,
+  "jargon_per_1000w": 6.9,
+  "repeated_6grams": [
+   [
+    "the edge of the solar system",
+    9
+   ],
+   [
+    "two spacecraft built with 1970s technology",
+    4
+   ],
+   [
+    "edge of the solar system they",
+    3
+   ],
+   [
+    "takes over 22 hours to reach",
+    3
+   ],
+   [
+    "at the edge of the solar",
+    3
+   ],
+   [
+    "uranus and neptune the only spacecraft",
+    3
+   ],
+   [
+    "finding them is essentially zero space",
+    3
+   ],
+   [
+    "them is essentially zero space is",
+    3
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "finding them is essentially zero space is too vast the",
+    3
+   ],
+   [
+    "a better vacuum than we can create in our best",
+    2
+   ],
+   [
+    "better vacuum than we can create in our best laboratories",
+    2
+   ],
+   [
+    "vacuum than we can create in our best laboratories but",
+    2
+   ]
+  ]
+ },
+ "WHh8Q-gNZAk": {
+  "channel": "Cosmo Explains",
+  "classification": "Recent-Median",
+  "title": "The Entire History Of Nuclear Physics Explained Slowly (For Sleep)",
+  "duration_s": 7760,
+  "n_words": 16759,
+  "first_5_sentences": [
+   "So, here's something worth thinking about as you settle in tonight.",
+   "Right now, wherever you are, there are particles passing through your body.",
+   "Tiny, almost massless things called nutrinos.",
+   "And they're coming from the sun from distant stars, from nuclear reactions that happened billions of years ago.",
+   "trillions of them every single second slipping through you like you're not even there."
+  ],
+  "cta_count": 0,
+  "cta_hits": [],
+  "first_cta_s": null,
+  "last_cta_s": null,
+  "sleep_mention_count": 1,
+  "sleep_hits": [
+   [
+    0.1,
+    "So, here's something worth thinking about as you settle in tonight."
+   ]
+  ],
+  "n_questions": 21,
+  "question_median_gap_s": 267.3,
+  "questions_first_10min": 5,
+  "questions_per_hour": 9.7,
+  "attention_reset_sentences": 197,
+  "reset_pct": 16.8,
+  "you_count": 174,
+  "we_count": 53,
+  "I_count": 8,
+  "you_per_1000w": 10.4,
+  "analogy_markers": 15,
+  "analogy_per_hour": 7.0,
+  "jargon_terms": 85,
+  "jargon_per_1000w": 5.1,
+  "repeated_6grams": [],
+  "repeated_10grams": []
+ },
+ "YBNfHLlrJkg": {
+  "channel": "Sleep On Physics",
+  "classification": "Recent-Median",
+  "title": "No One Knows If Neutrinos Are Their Own Antiparticles",
+  "duration_s": 7823,
+  "n_words": 17845,
+  "first_5_sentences": [
+   "Every particle of matter you have ever encountered has a twin, an antimatter counterpart that is its exact opposite.",
+   "The electron has the posetron.",
+   "The proton has the anti-roton.",
+   "When they meet, they annihilate each other in a flash of pure energy.",
+   "This is one of the most fundamental symmetries in all of physics."
+  ],
+  "cta_count": 1,
+  "cta_hits": [
+   [
+    62.9,
+    "If you find this kind of deep exploration into the unsolved mysteries of physics interesting, a quick like or subscribe really helps the channel grow."
+   ]
+  ],
+  "first_cta_s": 62.9,
+  "last_cta_s": 62.9,
+  "sleep_mention_count": 0,
+  "sleep_hits": [],
+  "n_questions": 21,
+  "question_median_gap_s": 107.0,
+  "questions_first_10min": 0,
+  "questions_per_hour": 9.7,
+  "attention_reset_sentences": 232,
+  "reset_pct": 19.2,
+  "you_count": 92,
+  "we_count": 95,
+  "I_count": 1,
+  "you_per_1000w": 5.2,
+  "analogy_markers": 28,
+  "analogy_per_hour": 12.9,
+  "jargon_terms": 382,
+  "jargon_per_1000w": 21.4,
+  "repeated_6grams": [
+   [
+    "the neutrino is its own antiparticle",
+    10
+   ],
+   [
+    "why the universe is made of",
+    8
+   ],
+   [
+    "the universe is made of matter",
+    8
+   ],
+   [
+    "of why the universe is made",
+    5
+   ],
+   [
+    "the neutrino and the anti-utrino are",
+    4
+   ],
+   [
+    "when neutrinos were thought to be",
+    4
+   ],
+   [
+    "neutrinos were thought to be massless",
+    4
+   ],
+   [
+    "whether the neutrino is its own",
+    4
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "the question of why the universe is made of matter",
+    3
+   ],
+   [
+    "the nutrino is one of the most abundant particles in",
+    2
+   ],
+   [
+    "nutrino is one of the most abundant particles in the",
+    2
+   ],
+   [
+    "is one of the most abundant particles in the universe",
+    2
+   ]
+  ]
+ },
+ "_nLpB_Ao7zw": {
+  "channel": "Sleep On Physics",
+  "classification": "Breakout-AllTime",
+  "title": "What Is a Photon Actually Made Of\u2026 And Why Does It Never Stand Still?",
+  "duration_s": 6511,
+  "n_words": 17145,
+  "first_5_sentences": [
+   "Tonight, we're going to confront a question that sounds almost childishly simple, >> [music] >> but has haunted physicists for over a century.",
+   "What is a photon actually made of?",
+   "You've heard the word thousands of times.",
+   "Light is made of photons.",
+   "But what is a photon?"
+  ],
+  "cta_count": 2,
+  "cta_hits": [
+   [
+    61.6,
+    "Before we go any further, if you find this kind of deep exploration fascinating, a quick like or subscribe really helps the channel grow."
+   ],
+   [
+    6459.1,
+    "If this exploration gave you a new way of seeing the world, a like or subscribe helps this channel keep making these deep dives into the nature of reality."
+   ]
+  ],
+  "first_cta_s": 61.6,
+  "last_cta_s": 6459.1,
+  "sleep_mention_count": 5,
+  "sleep_hits": [
+   [
+    0.3,
+    "Tonight, we're going to confront a question that sounds almost childishly simple, >> [music] >> but has haunted physicists for over a century."
+   ],
+   [
+    40.2,
+    "And here's the part that will stay with you long after tonight."
+   ],
+   [
+    962.3,
+    "And this is the object we're trying to understand tonight."
+   ],
+   [
+    6369.8,
+    "And when you look up at the stars tonight, the light entering your eyes has been traveling for years or centuries or millennia."
+   ]
+  ],
+  "n_questions": 39,
+  "question_median_gap_s": 11.6,
+  "questions_first_10min": 5,
+  "questions_per_hour": 21.6,
+  "attention_reset_sentences": 239,
+  "reset_pct": 16.8,
+  "you_count": 247,
+  "we_count": 74,
+  "I_count": 7,
+  "you_per_1000w": 14.4,
+  "analogy_markers": 35,
+  "analogy_per_hour": 19.4,
+  "jargon_terms": 716,
+  "jargon_per_1000w": 41.8,
+  "repeated_6grams": [
+   [
+    "at exactly the speed of light",
+    9
+   ],
+   [
+    "a quantum excitation of the electromagnetic",
+    6
+   ],
+   [
+    "quantum excitation of the electromagnetic field",
+    6
+   ],
+   [
+    "exactly the speed of light not",
+    4
+   ],
+   [
+    "a quantum of the electromagnetic field",
+    4
+   ],
+   [
+    "is a quantum excitation of the",
+    4
+   ],
+   [
+    "the standard model of particle physics",
+    4
+   ],
+   [
+    "quantum of the electromagnetic field and",
+    4
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "if the peaks of one wave line up with the",
+    2
+   ],
+   [
+    "when someone asks what a photon is made of the",
+    2
+   ],
+   [
+    "one of the most important ideas in all of physics",
+    2
+   ],
+   [
+    "of the most important ideas in all of physics the",
+    2
+   ]
+  ]
+ },
+ "gmq4gqCytlY": {
+  "channel": "Cosmo Explains",
+  "classification": "Breakout",
+  "title": "Every Confusing Thing About The Theory of Relativity Explained Slowly (For Sleep)",
+  "duration_s": 7603,
+  "n_words": 16496,
+  "first_5_sentences": [
+   "So, here's something that might surprise you.",
+   "The theory of relativity, this thing that most people associate with genius level physics and incomprehensible math, and maybe a vague image of Einstein sticking his tongue out in that famous photograph.",
+   "It actually starts with a question so simple that a teenager asked it.",
+   "And that teenager was Einstein himself around 1895, probably 16 years old, living in northern Italy, after dropping out of a school in Munich that he couldn't stand.",
+   "And the question was this."
+  ],
+  "cta_count": 0,
+  "cta_hits": [],
+  "first_cta_s": null,
+  "last_cta_s": null,
+  "sleep_mention_count": 4,
+  "sleep_hits": [
+   [
+    82.7,
+    "That question, that deceptively simple, almost childlike question, is the seed from which everything we're going to talk about tonight grows."
+   ],
+   [
+    7177.4,
+    "And you know, lying here thinking about all of this, it's worth stepping back and appreciating the arc of the story we've traveled together tonight."
+   ],
+   [
+    7437.9,
+    "And isn't that a beautiful thought to drift off with?"
+   ],
+   [
+    7563.4,
+    "You've been part of that story tonight, even just by listening."
+   ]
+  ],
+  "n_questions": 31,
+  "question_median_gap_s": 188.5,
+  "questions_first_10min": 8,
+  "questions_per_hour": 14.7,
+  "attention_reset_sentences": 228,
+  "reset_pct": 18.9,
+  "you_count": 252,
+  "we_count": 81,
+  "I_count": 13,
+  "you_per_1000w": 15.3,
+  "analogy_markers": 35,
+  "analogy_per_hour": 16.6,
+  "jargon_terms": 141,
+  "jargon_per_1000w": 8.5,
+  "repeated_6grams": [
+   [
+    "the speed of light relative to",
+    4
+   ],
+   [
+    "the speed of light is the",
+    3
+   ],
+   [
+    "one of those ideas that sounds",
+    3
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "the laws of physics are the same in all inertial",
+    2
+   ]
+  ]
+ },
+ "lqZntA10Q5g": {
+  "channel": "Calm Science",
+  "classification": "Recent-Strong",
+  "title": "If Energy Can\u2019t Be Created\u2026 Where Did It Come From?",
+  "duration_s": 8005,
+  "n_words": 16219,
+  "first_5_sentences": [
+   "Tonight, we're going to answer one of the most fundamental questions in all of physics.",
+   "Where does energy come from?",
+   "You've probably heard that energy can't be created or destroyed, only transformed.",
+   "That's true.",
+   "But if energy can never be created, then the energy burning in every star, driving every heartbeat, holding every atom together, none of it was ever made."
+  ],
+  "cta_count": 1,
+  "cta_hits": [
+   [
+    55.3,
+    "Before we begin, if you enjoy these topics as much as we do, make sure to like the video or subscribe."
+   ]
+  ],
+  "first_cta_s": 55.3,
+  "last_cta_s": 55.3,
+  "sleep_mention_count": 3,
+  "sleep_hits": [
+   [
+    0.5,
+    "Tonight, we're going to answer one of the most fundamental questions in all of physics."
+   ],
+   [
+    45.9,
+    "By the end of tonight, you're going to understand why that chain traces back to the very beginning of time, and what that means for everything that exists."
+   ],
+   [
+    8004.6,
+    "Good night."
+   ]
+  ],
+  "n_questions": 21,
+  "question_median_gap_s": 223.7,
+  "questions_first_10min": 6,
+  "questions_per_hour": 9.4,
+  "attention_reset_sentences": 167,
+  "reset_pct": 14.0,
+  "you_count": 94,
+  "we_count": 104,
+  "I_count": 1,
+  "you_per_1000w": 5.8,
+  "analogy_markers": 14,
+  "analogy_per_hour": 6.3,
+  "jargon_terms": 219,
+  "jargon_per_1000w": 13.5,
+  "repeated_6grams": [
+   [
+    "in the history of physics it",
+    3
+   ],
+   [
+    "the nobel prize in physics in",
+    3
+   ],
+   [
+    "potential energy stored in the arrangement",
+    3
+   ],
+   [
+    "energy stored in the arrangement of",
+    3
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "in the universe come from something had to start the",
+    2
+   ],
+   [
+    "the universe come from something had to start the chain",
+    2
+   ],
+   [
+    "the same energy that has been flowing through the universe",
+    2
+   ],
+   [
+    "same energy that has been flowing through the universe since",
+    2
+   ]
+  ]
+ },
+ "o2eIwICmo7w": {
+  "channel": "Calm Space",
+  "classification": "Recent-Strong",
+  "title": "What Would Actually Happen If You Traveled One Light Year?",
+  "duration_s": 7673,
+  "n_words": 15433,
+  "first_5_sentences": [
+   "Tonight, we're going to explore something that sounds like a simple number, but turns into one of the most brutal journeys a human being could attempt.",
+   "One lightyear.",
+   "You'd assume the hard part is speed.",
+   "Building an engine fast enough to get there.",
+   "It isn't."
+  ],
+  "cta_count": 2,
+  "cta_hits": [
+   [
+    47.1,
+    "Before we get started, if you love exploring the depths of space as much as we do, take a second to like the video or subscribe."
+   ],
+   [
+    7657.3,
+    "If this kind of deep and honest examination of what the universe actually requires is what brings you here, a like or subscribe helps this channel keep going."
+   ]
+  ],
+  "first_cta_s": 47.1,
+  "last_cta_s": 7657.3,
+  "sleep_mention_count": 3,
+  "sleep_hits": [
+   [
+    0.6,
+    "Tonight, we're going to explore something that sounds like a simple number, but turns into one of the most brutal journeys a human being could attempt."
+   ],
+   [
+    35.0,
+    "By the end of tonight, you're going to understand exactly what one lightyear actually demands and why the distance itself is only the beginning of the problem."
+   ],
+   [
+    7672.2,
+    "Good night."
+   ]
+  ],
+  "n_questions": 6,
+  "question_median_gap_s": 365.4,
+  "questions_first_10min": 2,
+  "questions_per_hour": 2.8,
+  "attention_reset_sentences": 104,
+  "reset_pct": 8.6,
+  "you_count": 235,
+  "we_count": 96,
+  "I_count": 0,
+  "you_per_1000w": 15.2,
+  "analogy_markers": 10,
+  "analogy_per_hour": 4.7,
+  "jargon_terms": 33,
+  "jargon_per_1000w": 2.1,
+  "repeated_6grams": [
+   [
+    "at 10% of light speed the",
+    5
+   ],
+   [
+    "fraction of the speed of light",
+    4
+   ],
+   [
+    "one lightyear from the sun the",
+    3
+   ],
+   [
+    "the outer edge of the ought",
+    3
+   ],
+   [
+    "outer edge of the ought cloud",
+    3
+   ],
+   [
+    "are still more than three light",
+    3
+   ],
+   [
+    "still more than three light years",
+    3
+   ],
+   [
+    "more than three light years away",
+    3
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "beyond neptune lies the kyper belt a ring of icy",
+    2
+   ],
+   [
+    "neptune lies the kyper belt a ring of icy objects",
+    2
+   ],
+   [
+    "lies the kyper belt a ring of icy objects extending",
+    2
+   ],
+   [
+    "the kyper belt a ring of icy objects extending from",
+    2
+   ]
+  ]
+ },
+ "tvB659d_oik": {
+  "channel": "Sleep On Physics",
+  "classification": "Breakout-Modern",
+  "title": "Where Does Light Get Its Speed From?",
+  "duration_s": 7434,
+  "n_words": 17723,
+  "first_5_sentences": [
+   "A candle flame in your kitchen produces light.",
+   "A distant quazar burning at the edge of the observable universe produces light.",
+   "A gammaray burst from a collapsing star unleashing more energy in seconds than the sun will release in its entire lifetime produces light.",
+   "Every one of these photons, the calm ones, the violent ones, the ones so faint they can barely be measured, and the ones so energetic they could shatter atomic nuclei, travels at exactly the same speed through empty space.",
+   "Not approximately the same speed, exactly."
+  ],
+  "cta_count": 3,
+  "cta_hits": [
+   [
+    59.3,
+    "Before we go any further, if you find this kind of deep exploration fascinating, a quick like or subscribe really helps the channel grow."
+   ],
+   [
+    73.8,
+    "Also, we're now live on Spotify."
+   ],
+   [
+    73.8,
+    "The links in the description if you'd like to listen to us wherever you are."
+   ]
+  ],
+  "first_cta_s": 59.3,
+  "last_cta_s": 73.8,
+  "sleep_mention_count": 0,
+  "sleep_hits": [],
+  "n_questions": 15,
+  "question_median_gap_s": 342.9,
+  "questions_first_10min": 1,
+  "questions_per_hour": 7.3,
+  "attention_reset_sentences": 255,
+  "reset_pct": 21.3,
+  "you_count": 93,
+  "we_count": 113,
+  "I_count": 1,
+  "you_per_1000w": 5.2,
+  "analogy_markers": 33,
+  "analogy_per_hour": 16.0,
+  "jargon_terms": 387,
+  "jargon_per_1000w": 21.8,
+  "repeated_6grams": [
+   [
+    "the speed of light in vacuum",
+    9
+   ],
+   [
+    "is the same for every observer",
+    7
+   ],
+   [
+    "every observer no matter how they",
+    5
+   ],
+   [
+    "no matter how they are moving",
+    5
+   ],
+   [
+    "by the structure of the field",
+    4
+   ],
+   [
+    "speed is the same for every",
+    4
+   ],
+   [
+    "speed of light in vacuum is",
+    4
+   ],
+   [
+    "observer no matter how they are",
+    4
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "comes from the structure of the field and the field",
+    3
+   ],
+   [
+    "at exactly the same speed through empty space not approximately",
+    2
+   ],
+   [
+    "exactly the same speed through empty space not approximately the",
+    2
+   ],
+   [
+    "the same speed through empty space not approximately the same",
+    2
+   ]
+  ]
+ },
+ "xXuMfbr0V9o": {
+  "channel": "Cosmo Explains",
+  "classification": "Recent-Strong",
+  "title": "Everything About Radio Frequency Explained Slowly (For Sleep)",
+  "duration_s": 7960,
+  "n_words": 17325,
+  "first_5_sentences": [
+   "Right now, all around you, passing through the walls of this room, through the blanket you're lying under, through you, there are thousands of invisible waves carrying music, conversations, weather data, text messages, GPS coordinates, the time signal from an atomic clock in Colorado, and probably a few hundred Wi-Fi packets that make up someone's late night Netflix stream.",
+   "You can't feel any of it.",
+   "Not a single one.",
+   "They're sliding through your body right now the way light passes through glass.",
+   "And you will never, not once in your entire life, directly sense them with any organ you were born with."
+  ],
+  "cta_count": 0,
+  "cta_hits": [],
+  "first_cta_s": null,
+  "last_cta_s": null,
+  "sleep_mention_count": 3,
+  "sleep_hits": [
+   [
+    7480.4,
+    "Every single piece of that system traces back to something we've talked about tonight."
+   ],
+   [
+    7704.0,
+    "And here's one last thing to carry with you as you drift off."
+   ],
+   [
+    7873.0,
+    "And that's a nice thought to fall asleep to, isn't it?"
+   ]
+  ],
+  "n_questions": 16,
+  "question_median_gap_s": 333.2,
+  "questions_first_10min": 4,
+  "questions_per_hour": 7.2,
+  "attention_reset_sentences": 153,
+  "reset_pct": 13.2,
+  "you_count": 223,
+  "we_count": 51,
+  "I_count": 7,
+  "you_per_1000w": 12.9,
+  "analogy_markers": 17,
+  "analogy_per_hour": 7.7,
+  "jargon_terms": 34,
+  "jargon_per_1000w": 2.0,
+  "repeated_6grams": [
+   [
+    "and this is where the story",
+    3
+   ],
+   [
+    "where the story gets complicated because",
+    3
+   ],
+   [
+    "is one of those things that",
+    3
+   ]
+  ],
+  "repeated_10grams": []
+ },
+ "xg8ieJQIB70": {
+  "channel": "Sleepy Science Channel",
+  "classification": "Breakout",
+  "title": "100 Facts About the Milky Way Galaxy \u2014 Fall Asleep to Astronomy",
+  "duration_s": 7200,
+  "n_words": 11950,
+  "first_5_sentences": [
+   "Hello there and welcome to the Sleepy Science Channel.",
+   "I'm so glad you found your way here.",
+   "Maybe you had a long day or maybe you're the kind of person who likes falling asleep to deep thoughts and cosmic mysteries rather than counting sheep.",
+   "Either way, tonight's journey is for you.",
+   "You've got nothing to do but rest."
+  ],
+  "cta_count": 1,
+  "cta_hits": [
+   [
+    87.2,
+    "And just before we begin, if these calm, curious explorations help you unwind or give you a quiet way to end your day, consider liking and subscribing to the channel."
+   ]
+  ],
+  "first_cta_s": 87.2,
+  "last_cta_s": 87.2,
+  "sleep_mention_count": 7,
+  "sleep_hits": [
+   [
+    5.8,
+    "Maybe you had a long day or maybe you're the kind of person who likes falling asleep to deep thoughts and cosmic mysteries rather than counting sheep."
+   ],
+   [
+    15.7,
+    "Either way, tonight's journey is for you."
+   ],
+   [
+    32.6,
+    "Because tonight, we aren't simply stargazing."
+   ],
+   [
+    79.6,
+    "Some of what you hear tonight may surprise you or at the very least spark some curiosity as you drift off to sleep."
+   ]
+  ],
+  "n_questions": 1,
+  "question_median_gap_s": null,
+  "questions_first_10min": 0,
+  "questions_per_hour": 0.5,
+  "attention_reset_sentences": 98,
+  "reset_pct": 11.2,
+  "you_count": 52,
+  "we_count": 132,
+  "I_count": 2,
+  "you_per_1000w": 4.4,
+  "analogy_markers": 32,
+  "analogy_per_hour": 16.0,
+  "jargon_terms": 13,
+  "jargon_per_1000w": 1.1,
+  "repeated_6grams": [
+   [
+    "super massive black hole at the",
+    5
+   ],
+   [
+    "the milky way is not a",
+    5
+   ],
+   [
+    "the super massive black hole at",
+    4
+   ],
+   [
+    "[music] heat [music] heat [music] heat",
+    4
+   ],
+   [
+    "heat [music] heat heat [music] heat",
+    4
+   ],
+   [
+    "[music] heat heat [music] heat heat",
+    4
+   ],
+   [
+    "heat heat [music] heat heat [music]",
+    4
+   ],
+   [
+    "massive black hole at the center",
+    3
+   ]
+  ],
+  "repeated_10grams": [
+   [
+    "heat [music] heat heat [music] heat heat [music] heat heat",
+    3
+   ],
+   [
+    "[music] heat heat [music] heat heat [music] heat heat [music]",
+    3
+   ],
+   [
+    "the galaxy is still growing although the milky way is",
+    2
+   ],
+   [
+    "galaxy is still growing although the milky way is ancient",
+    2
+   ]
+  ]
+ }
+}
